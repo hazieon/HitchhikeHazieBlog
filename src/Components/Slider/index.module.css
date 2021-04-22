@@ -1,0 +1,51 @@
+.sliderImage {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+#firstImage {
+  background-position: center;
+  background-image: url("../../images/DSC_0804\ 5.png");
+}
+
+#secondImage {
+  background-position: bottom;
+  background-image: url("../../images/DSC_0302\ 2.jpg");
+}
+
+#thirdImage {
+  background-position: center;
+  background-image: url("../../images/DSC_0815\ 2.png");
+}
+
+#fourthImage {
+  background-position: center;
+  background-image: url("../../images/DSC_0971.JPG");
+}
+#fifthImage {
+  background-position: center;
+  background-image: url("../../images/DSC_1006.JPG");
+}
+#sixthImage {
+  background-position: top;
+  background-image: url("../../images/DSC_0897_24808\ 2.JPG");
+}
+#seventhImage {
+  background-position: center;
+  background-image: url("../../images/IMGP7245.JPG");
+}
+#eigthImage {
+  background-position: center;
+  background-image: url("../../images/CSC_0070.JPG");
+}
+#ninethImage {
+  background-position: top;
+  background-image: url("../../images/DSC_0110.JPG");
+}
+#tenthImage {
+  background-position: center;
+  background-image: url("../../images/DSC_0494.JPG");
+}

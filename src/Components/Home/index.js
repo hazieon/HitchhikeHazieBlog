@@ -10,7 +10,7 @@ function Homepage() {
         <div className={styles.heroImage}>
             <div className={styles.heroText}>
                <h1>Hitchhike Hazie</h1>
-               <h2>Taking the scenic route.</h2>
+               <h2>Take the scenic route.</h2>
                <button className={styles.heroButton}>  
                  <Link className={styles.link} 
                      to="/sell">About Hazie</Link>

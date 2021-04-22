@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState} from "react";
 import Home from "./Components/Home"
+import CustomSlider from "./Components/Slider"
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,6 +35,7 @@ function App() {
           </Route>
           <Route path="/">
           <Home/>
+          <CustomSlider/>
           </Route>
         </Switch>
       </div>
