@@ -1,5 +1,5 @@
 .panelBox {
-  background-color: rgba(233, 227, 227, 0.973);
+  background-color: var(--panel-mid-shade);
   display: grid;
   grid-template-columns: auto auto;
   margin: auto;
@@ -19,10 +19,12 @@
 .panelImage {
   border-radius: 100px;
   height: 30vh;
+  box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
 .panelBoxLeft {
   margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 .panelBoxRight {
@@ -31,6 +33,10 @@
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-weight: bold;
 }
 
 .panelBoxButton {
@@ -57,4 +63,19 @@ a {
 .panelBoxLogo {
   height: 25px;
   margin-left: 8px;
+}
+
+@media screen and (max-width: 680px) {
+  .panelBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+  }
+  .panelBoxRight {
+    max-width: 90vw;
+  }
+  .panelBoxLeft {
+    text-align: center;
+  }
 }

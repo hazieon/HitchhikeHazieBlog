@@ -93,12 +93,15 @@ button {
 
 #explainImageOne {
   background-image: url("../../images/boseong.jfif");
+  box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageTwo {
   background-image: url("../../images/moongirl.jpg");
+  box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageThree {
   background-image: url("../../images/received_2396607630564628.jpeg");
+  box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
 #explainImageOne:hover {

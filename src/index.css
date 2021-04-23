@@ -2,18 +2,19 @@
   --background-shade: #bca0ff;
   --secondary-shade: rgba(227, 203, 255, 0.972);
   --panel-shade: #e2c3ff;
-  --panel-mid-shade: #e6d6ff;
+  --panel-mid-shade: #e6dafa;
   --deep-shade: #18612b;
   --mid-shade: #4aac64;
 
   --light-shade: #bca0ff;
   --deep-purple: #3c10b6;
-  --purple: #5808f7;
+  --purple: #4808f7;
   --red: #d32c42;
   --blue: #29c7d6;
   --green: #95d32c;
   --light-green: #93ea15;
 }
+/*#5808f7*/
 
 body {
   margin: 0;

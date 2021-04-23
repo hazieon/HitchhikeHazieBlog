@@ -11,6 +11,7 @@
 .textBoxImage {
   border-radius: 10px;
   height: 35vh;
+  box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
 .imageBox {
@@ -20,6 +21,7 @@
 .textContainer {
   max-width: 40vw;
   margin-left: 3rem;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -35,7 +37,7 @@ a {
   display: flex;
   margin: auto;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: var(--panel-mid-shade);
   margin-bottom: 1rem;
 }
 
@@ -51,4 +53,22 @@ a {
 .textBoxLogo {
   height: 25px;
   margin-left: 8px;
+}
+
+@media screen and (max-width: 780px) {
+  .textBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    margin-top: 6rem;
+  }
+  .textContainer {
+    max-width: 90vw;
+    margin-bottom: 3rem;
+  }
+  .imageBox {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 }
