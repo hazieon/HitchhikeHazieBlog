@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 
-function Panel({ image, alt, title, link, text, buttonText, logo }) {
+function Panel({ image, alt, title, link, text, textTwo, buttonText, logo }) {
   return (
     <>
       <div className={styles.panelBox}>
@@ -9,8 +9,9 @@ function Panel({ image, alt, title, link, text, buttonText, logo }) {
           <img className={styles.panelImage} src={image} alt={alt} />
         </div>
         <div className={styles.panelBoxRight}>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
           <p>{text}</p>
+          <p>{textTwo}</p>
           <a href={link}>
             <button className={styles.panelBoxButton}>
               {buttonText}

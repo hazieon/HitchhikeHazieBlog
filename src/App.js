@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import Home from "./Components/Home";
 import CustomSlider from "./Components/Slider";
+import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import logo from "./images/earth-hz.png";
@@ -27,7 +28,9 @@ function App() {
           </nav>
 
           <Switch>
-            <Route path="/about"></Route>
+            <Route path="/about">
+              <About />
+            </Route>
             <Route path="/">
               <Home />
               <CustomSlider />

@@ -49,3 +49,9 @@
   background-position: center;
   background-image: url("../../images/DSC_0494.JPG");
 }
+
+.sliderTitle {
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 6rem;
+}

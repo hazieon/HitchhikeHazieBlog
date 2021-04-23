@@ -14,7 +14,7 @@ function CustomSlider() {
   };
   return (
     <div>
-      {/* <span>CustomSlider</span> */}
+      <h2 className={styles.sliderTitle}>Gallery</h2>
       <Slider {...settings}>
         <div className={styles.sliderImage} id={styles.firstImage}></div>
         <div className={styles.sliderImage} id={styles.secondImage}></div>

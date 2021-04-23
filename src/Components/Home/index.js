@@ -15,16 +15,14 @@ function Homepage() {
         <div className={styles.heroText}>
           <h1>Hitchhike Hazie</h1>
           <h2>Take the scenic route.</h2>
-          <button className={styles.heroButton}>
-            <Link className={styles.link} to="/sell">
-              About Hazie
-            </Link>
-          </button>
+          <Link className={styles.link} to="/about">
+            <button className={styles.heroButton}>About Hazie</button>
+          </Link>
         </div>
       </div>
 
       <div className={styles.explainSection}>
-        <h1 className={styles.explainTitle}>My Interests</h1>
+        <h1 className={styles.explainTitle}>Interests</h1>
         <div className={styles.explainBox}>
           <div>
             <h3>Travel & Adventure</h3>
