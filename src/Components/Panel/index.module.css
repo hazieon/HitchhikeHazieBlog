@@ -1,0 +1,59 @@
+.panelBox {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  margin-bottom: 6rem;
+  max-width: 75vw;
+  padding: 35px 20px;
+  border-radius: 15px;
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.5s ease;
+}
+
+.panelBox:hover {
+  box-shadow: 0px 3px 1px 1px var(--purple);
+}
+
+.panelImage {
+  border-radius: 100px;
+  height: 30vh;
+}
+
+.panelBoxLeft {
+  margin-left: 3rem;
+}
+
+.panelBoxRight {
+  max-width: 40vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.panelBoxButton {
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 10px 16px 10px;
+  text-decoration: none;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+}
+
+.panelBoxButton:hover {
+  box-shadow: 0px 3px 1px 1px var(--purple);
+}
+
+.panelBoxButton:active {
+  box-shadow: 0px 0px 1px 1px whitesmoke;
+  transition: 0s;
+}
+
+.panelBoxLogo {
+  height: 25px;
+  margin-left: 8px;
+}

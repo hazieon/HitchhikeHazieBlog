@@ -1,9 +1,12 @@
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
+import Panel from "../Panel";
+import githubImage from "../../images/hazie r3.png";
+import githubLogo from "../../images/githublogo.png";
 
-import travelImg from "../../images/boseong.jfif";
-import skillsImg from "../../images/moongirl.jpg";
-import lifestyleImg from "../../images/received_2396607630564628.jpeg";
+// import travelImg from "../../images/boseong.jfif";
+// import skillsImg from "../../images/moongirl.jpg";
+// import lifestyleImg from "../../images/received_2396607630564628.jpeg";
 
 function Homepage() {
   return (
@@ -46,6 +49,16 @@ function Homepage() {
           </div>
         </div>
       </div>
+
+      <Panel
+        image={githubImage}
+        alt="Github profile"
+        title="Coding Projects"
+        text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+        logo={githubLogo}
+        link="https://github.com/hazieon"
+        buttonText="See More on GitHub"
+      />
     </div>
   );
 }
