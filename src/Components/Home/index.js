@@ -21,24 +21,24 @@ function Homepage() {
       </div>
 
       <div className={styles.explainSection}>
-        <h2 className={styles.explainTitle}>My Interests</h2>
+        <h1 className={styles.explainTitle}>My Interests</h1>
         <div className={styles.explainBox}>
           <div>
-            <h4>Travel & Adventure</h4>
+            <h3>Travel & Adventure</h3>
             <div
               className={styles.sliderImage}
               id={styles.explainImageOne}
             ></div>
           </div>
           <div>
-            <h4>Skills & Creativity</h4>
+            <h3>Skills & Creativity</h3>
             <div
               className={styles.sliderImage}
               id={styles.explainImageTwo}
             ></div>
           </div>
           <div>
-            <h4>Lifestyle</h4>
+            <h3>Lifestyle</h3>
             <div
               className={styles.sliderImage}
               id={styles.explainImageThree}
