@@ -72,3 +72,62 @@ button {
   margin-left: 8%;
   margin-top: 6rem;
 }
+
+.sliderImage {
+  height: 35vh;
+  width: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.explainSection {
+  margin-bottom: 5rem;
+}
+
+#explainImageOne {
+  background-image: url("../../images/boseong.jfif");
+}
+#explainImageTwo {
+  background-image: url("../../images/moongirl.jpg");
+}
+#explainImageThree {
+  background-image: url("../../images/received_2396607630564628.jpeg");
+}
+
+#explainImageOne:hover {
+  background-image: url("../../images/DSC_0007.JPG");
+  transform: scale(110%);
+}
+
+#explainImageTwo:hover {
+  background-image: url("../../images/IMG_20190430_232427.jpg");
+  transform: scale(110%);
+}
+
+#explainImageThree:hover {
+  background-image: url("../../images/DSC_0666\ 2.jpg");
+  transform: scale(110%);
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* @media screen and (max-width: 780px) {
+  .explainSection {
+    display: grid;
+    grid-template-rows: auto auto auto;
+  }
+} */

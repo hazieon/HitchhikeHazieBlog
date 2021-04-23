@@ -20,34 +20,30 @@ function Homepage() {
         </div>
       </div>
 
-      <h2 className={styles.explainTitle}>My Interests</h2>
-      <div className={styles.explainBox}>
-        <div>
-          <h4>Travel & Adventure</h4>
-          <img
-            className={styles.explainImage}
-            id={styles.explainImageOne}
-            src={travelImg}
-            alt="hitchhiking with backpack"
-          ></img>
-        </div>
-        <div>
-          <h4>Skills & Creativity</h4>
-          <img
-            className={styles.explainImage}
-            id={styles.explainImageTwo}
-            src={skillsImg}
-            alt="self published book"
-          ></img>
-        </div>
-        <div>
-          <h4>Lifestyle</h4>
-          <img
-            className={styles.explainImage}
-            id={styles.explainImageThree}
-            src={lifestyleImg}
-            alt="freedom life"
-          ></img>
+      <div className={styles.explainSection}>
+        <h2 className={styles.explainTitle}>My Interests</h2>
+        <div className={styles.explainBox}>
+          <div>
+            <h4>Travel & Adventure</h4>
+            <div
+              className={styles.sliderImage}
+              id={styles.explainImageOne}
+            ></div>
+          </div>
+          <div>
+            <h4>Skills & Creativity</h4>
+            <div
+              className={styles.sliderImage}
+              id={styles.explainImageTwo}
+            ></div>
+          </div>
+          <div>
+            <h4>Lifestyle</h4>
+            <div
+              className={styles.sliderImage}
+              id={styles.explainImageThree}
+            ></div>
+          </div>
         </div>
       </div>
     </div>
@@ -55,3 +51,10 @@ function Homepage() {
 }
 
 export default Homepage;
+
+/* <img
+            className={styles.explainImage}
+            id={styles.explainImageOne}
+            src={travelImg}
+            alt="hitchhiking with backpack"
+          ></img> */
