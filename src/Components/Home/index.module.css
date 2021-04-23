@@ -52,3 +52,23 @@ button {
   text-decoration: none;
   color: black;
 }
+
+.explainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explainImage {
+  margin: 1rem;
+  max-height: 30vh;
+  max-width: 25vw;
+  padding: 0px 10px;
+  display: inline;
+}
+
+.explainTitle {
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 6rem;
+}

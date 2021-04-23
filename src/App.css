@@ -5,7 +5,7 @@ body {
 .nav-bar {
   overflow: hidden;
   background-color: var(--purple);
-  position: static;
+  position: sticky;
   align-items: center;
   z-index: 4;
   width: 100%;
@@ -13,7 +13,7 @@ body {
 }
 
 /* Navbar links */
-.home-link{
+.home-link {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -31,15 +31,13 @@ body {
   margin-right: 1rem;
 }
 
-
-.logo{
+.logo {
   height: 7vh;
 }
 
-.logo-box{
+.logo-box {
   position: relative;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
