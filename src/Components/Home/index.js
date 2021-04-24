@@ -26,10 +26,12 @@ function Homepage() {
         <div className={styles.explainBox}>
           <div>
             <h3>Travel & Adventure</h3>
-            <div
-              className={styles.sliderImage}
-              id={styles.explainImageOne}
-            ></div>
+            <Link to="/travel">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageOne}
+              ></div>
+            </Link>
           </div>
           <div>
             <h3>Skills & Creativity</h3>

@@ -8,6 +8,7 @@ import Creativity from "./Components/Creativity";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import logo from "./images/earth-hz.png";
+import TravelPage from "./Components/TravelPage";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
               </Route>
               <Route path="/creativity">
                 <Creativity />
+              </Route>
+              <Route path="/travel">
+                <TravelPage />
               </Route>
               <Route path="/">
                 <Home />
