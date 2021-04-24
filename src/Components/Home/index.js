@@ -33,10 +33,12 @@ function Homepage() {
           </div>
           <div>
             <h3>Skills & Creativity</h3>
-            <div
-              className={styles.sliderImage}
-              id={styles.explainImageTwo}
-            ></div>
+            <Link to="/creativity">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageTwo}
+              ></div>
+            </Link>
           </div>
           <div>
             <h3>Lifestyle</h3>

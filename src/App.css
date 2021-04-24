@@ -31,6 +31,27 @@ body {
   margin-right: 1rem;
 }
 
+#creative {
+  background-color: white;
+  box-shadow: -5px 5px 0px 0px var(--red);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 14px 20px 13px;
+  border-radius: 8px;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+#creative:hover {
+  box-shadow: 0px 5px 0px 0px var(--red);
+}
+
+#creative:active {
+  box-shadow: none;
+}
+
 .logo {
   height: 7vh;
 }
@@ -43,10 +64,6 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

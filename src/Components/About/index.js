@@ -7,6 +7,7 @@ import hazieImage from "../../images/DSC_0817 4.jpg";
 import moongirlImage from "../../images/moongirl.jpg";
 import hazieImageTwo from "../../images/19366298_10155263329136070_3045937438815596369_n.jpg";
 import Text from "../Text";
+import Slider from "../Slider";
 
 function About() {
   return (
@@ -61,6 +62,7 @@ function About() {
           logoTwo={githubLogo}
         />
       </div>
+      <Slider />
     </>
   );
 }
