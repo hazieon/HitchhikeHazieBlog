@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import MyGallery from "../Gallery";
 
 function TravelPage() {
   return (
@@ -13,6 +14,7 @@ function TravelPage() {
         </div>
         <h1>Travel & Adventure</h1>
         <h3>Here is the story of how I came to travel:</h3>
+        <MyGallery />
       </div>
     </>
   );

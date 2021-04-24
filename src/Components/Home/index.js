@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import Panel from "../Panel";
+import MyTypist from "../Typist";
 import githubImage from "../../images/hazie r3.png";
 import githubLogo from "../../images/githublogo.png";
 
@@ -20,7 +21,7 @@ function Homepage() {
           </Link>
         </div>
       </div>
-
+      <MyTypist text="Welcome" />
       <div className={styles.explainSection}>
         <h1 className={styles.explainTitle}>Interests</h1>
         <div className={styles.explainBox}>
