@@ -1,42 +1,37 @@
-import "photoswipe/dist/photoswipe.css";
-import "photoswipe/dist/default-skin/default-skin.css";
+import React from "react";
 import styles from "./index.module.css";
+import image1 from "../../images/DSC_0187.JPG";
+import image5 from "../../images/IMGP7293.JPG";
+import image3 from "../../images/sapporo.jpg";
+import image7 from "../../images/received_1047722578675891.jpeg";
+import image2 from "../../images/Miyazaki day1_1079.jpg";
+import image6 from "../../images/DSC_1481.JPG";
+import image4 from "../../images/DSC_1267 2.jpg";
+import image8 from "../../images/takao.jpg";
 
-import { Gallery, Item } from "react-photoswipe-gallery";
+const photos = [image1, image2, image3, image4, image5, image6, image7, image8];
 
-const MyGallery = () => (
-  <Gallery>
-    <Item
-      original="https://placekitten.com/1024/768?image=1"
-      thumbnail="https://placekitten.com/80/60?image=1"
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img
-          ref={ref}
-          alt=""
-          onClick={open}
-          src="https://placekitten.com/80/60?image=1"
-        />
-      )}
-    </Item>
-    <Item
-      original="https://placekitten.com/1024/768?image=2"
-      thumbnail="https://placekitten.com/80/60?image=2"
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img
-          ref={ref}
-          alt=""
-          onClick={open}
-          src="https://placekitten.com/80/60?image=2"
-        />
-      )}
-    </Item>
-  </Gallery>
-);
+function MyGallery() {
+  function displayPhoto(index) {
+    const selectedPhoto = photos[index];
+    console.log(selectedPhoto);
+  }
+  return (
+    <>
+      <div className={styles.galleryBox}>
+        {photos.map((photo, index) => {
+          return (
+            <img
+              src={photo}
+              alt="gallery"
+              className={styles.thumbnail}
+              onClick={() => displayPhoto(index)}
+            />
+          );
+        })}
+      </div>
+    </>
+  );
+}
 
 export default MyGallery;

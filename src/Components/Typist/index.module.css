@@ -1,6 +1,10 @@
 .TypistBox {
+  margin: auto;
+  text-align: center;
   display: block;
   height: 10vh;
+  max-width: 100vh;
+  word-break: keep-all;
 }
 
 /* .TypistTitle {
@@ -10,8 +14,7 @@
 
 .TypistText {
   font-weight: bold;
-  font-size: 2.6em;
-
+  font-size: 2.5em;
   background-color: #666666;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -25,3 +28,23 @@
   font-size: 2em;
   text-shadow: 8px 8px #c3aafd9f;
 } */
+
+@media screen and (max-width: 780px) {
+  .TypistText {
+    font-size: 2em;
+  }
+  .TypistBox {
+    max-width: 76vh;
+    word-break: keep-all;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .TypistText {
+    font-size: 3em;
+  }
+  .TypistBox {
+    max-width: 120vh;
+    word-break: keep-all;
+  }
+}
