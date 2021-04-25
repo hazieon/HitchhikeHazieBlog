@@ -12,15 +12,23 @@ function MyTypist() {
   }, [count]);
 
   return (
-    <div>
-      <h1>Welcome</h1>
+    <div className={styles.TypistBox}>
+      {/* <h1 className={styles.TypistTitle}>Welcome</h1> */}
       {count ? (
         <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
-          <span> こんにちは！冒険好きヘイジーです</span>
+          <span className={styles.TypistText}>
+            Welcome to Hazie's travel & lifestyle site!
+          </span>
+          <Typist.Backspace count={44} delay={1800} />
+          <span className={styles.TypistText}>
+            こんにちは！冒険好きヘイジーです
+          </span>
           <Typist.Backspace count={25} delay={1800} />
-          <span> 안녕하세요! 모험을 좋아한 헤이지예요 .</span>
+          <span className={styles.TypistText}>
+            안녕하세요! 모험을 좋아한 헤이지예요.
+          </span>
           <Typist.Backspace count={22} delay={1800} />
-          <span> 你好! Willkommen! नमस्ते </span>
+          <span className={styles.TypistText}> 你好! Willkommen! नमस्ते </span>
           <Typist.Backspace count={24} delay={800} />
           <span> </span>
         </Typist>
