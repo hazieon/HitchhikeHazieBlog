@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import image1 from "../../images/DSC_0187.JPG";
 import image5 from "../../images/IMGP7293.JPG";
@@ -12,13 +12,33 @@ import image8 from "../../images/takao.jpg";
 const photos = [image1, image2, image3, image4, image5, image6, image7, image8];
 
 function MyGallery() {
+  const [fullImage, setFullImage] = useState(null);
+
   function displayPhoto(index) {
     const selectedPhoto = photos[index];
+    setFullImage(selectedPhoto);
     console.log(selectedPhoto);
   }
+
+  function clearDisplayPhoto() {
+    setFullImage(null);
+  }
+
   return (
     <>
       <div className={styles.galleryBox}>
+        {fullImage && (
+          <div className={styles.fullSizeBox}>
+            <span className={styles.fullSizeExit}>
+              <button onClick={clearDisplayPhoto}>x</button>
+            </span>
+            <img
+              src={fullImage}
+              alt="selected travelpic full size"
+              className={styles.fullSize}
+            />
+          </div>
+        )}
         {photos.map((photo, index) => {
           return (
             <img

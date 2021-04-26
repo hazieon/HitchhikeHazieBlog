@@ -21,7 +21,7 @@ function MyTypist() {
           </span>
           <Typist.Backspace count={44} delay={1800} />
           <span className={styles.TypistText}>
-            こんにちは！冒険好きヘイジーです。
+            こんにちは！冒険好きのヘイジーです。
           </span>
           <Typist.Backspace count={25} delay={1800} />
           <span className={styles.TypistText}>
