@@ -48,3 +48,27 @@ button {
   font-weight: bold;
   text-decoration: none;
 }
+
+.titleBox {
+  margin-bottom: 3rem;
+  line-height: 1.3em;
+}
+
+.memoryImage {
+  width: 76vw;
+  height: auto;
+  box-shadow: -4px 4px 0px 0px var(--purple);
+  border-radius: 5px;
+}
+
+.memoryImageBox {
+  margin: auto;
+  margin-bottom: 5rem;
+  width: 80vw;
+}
+
+.subheading {
+  text-align: left;
+  /* margin-left: 4rem; */
+  margin-left: 8%;
+}

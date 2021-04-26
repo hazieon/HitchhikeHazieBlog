@@ -1,7 +1,28 @@
 import React from "react";
 import styles from "./index.module.css";
-// import MyGallery from "../Gallery";
-import BasicRows from "../Gallery";
+import MyGallery from "../Gallery";
+import studyAbroad from "../../images/DSC_0410.JPG";
+// import { japanPhotosArray } from "../../japanPhotos";
+
+import image1 from "../../images/DSC_0187.JPG";
+import image5 from "../../images/IMGP7293.JPG";
+import image3 from "../../images/sapporo.jpg";
+import image7 from "../../images/received_1047722578675891.jpeg";
+import image2 from "../../images/Miyazaki day1_1079.jpg";
+import image6 from "../../images/DSC_1481.JPG";
+import image4 from "../../images/DSC_1267 2.jpg";
+import image8 from "../../images/takao.jpg";
+
+const japanPhotosArray = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+];
 
 function TravelPage() {
   return (
@@ -13,10 +34,20 @@ function TravelPage() {
             <h1>Adventure</h1> */}
           </div>
         </div>
-        <h1>Travel & Adventure</h1>
-        <h3>Here is the story of how I came to travel:</h3>
-
-        <BasicRows />
+        <div className={styles.titleBox}>
+          <h1>Travel & Adventure</h1>
+          <h3>Here is the story of my travels:</h3>
+        </div>
+        <h2 className={styles.subheading}>Study abroad in Japan</h2>
+        <div className={styles.memoryImageBox}>
+          <img
+            className={styles.memoryImage}
+            src={studyAbroad}
+            alt="first time in Japan"
+          />
+        </div>
+        <h2 className={styles.subheading}>Study Abroad Memories:</h2>
+        <MyGallery photosArray={japanPhotosArray} />
       </div>
     </>
   );
