@@ -39,6 +39,10 @@ function TravelPage() {
           <h3>Here is the story of my travels:</h3>
         </div>
         <h2 className={styles.subheading}>Study abroad in Japan</h2>
+        <h4 className={styles.subheading}>
+          One year in Tokyo & hitchhiking Japan opened my eyes to the 'travel
+          life'
+        </h4>
         <div className={styles.memoryImageBox}>
           <img
             className={styles.memoryImage}
@@ -46,7 +50,21 @@ function TravelPage() {
             alt="first time in Japan"
           />
         </div>
-        <h2 className={styles.subheading}>Study Abroad Memories:</h2>
+        <h2 className={styles.subheading}>Japan year Memories:</h2>
+        <MyGallery photosArray={japanPhotosArray} />
+
+        <h2 className={styles.subheading}>Hitchhike trip in Europe</h2>
+        <h4 className={styles.subheading}>
+          We spent 2 months exploring 10 countries in Europe -
+        </h4>
+        <div className={styles.memoryImageBox}>
+          <img
+            className={styles.memoryImage}
+            src={studyAbroad}
+            alt="exploring Europe"
+          />
+        </div>
+        <h2 className={styles.subheading}>Moments from the Euro trip:</h2>
         <MyGallery photosArray={japanPhotosArray} />
       </div>
     </>
