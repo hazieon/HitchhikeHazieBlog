@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Project from "../Project";
 import Moongirl from "../../images/front cover thumb.png";
 import DragonHearts from "../../images/Cover design layout THUMB.png";
-
+import { Link } from "react-router-dom";
 const projectsArray = [
   {
     image: Moongirl,
@@ -33,6 +33,16 @@ function Creativity() {
   const [projects, setProjects] = useState(projectsArray);
   return (
     <div className={styles.projectsBox}>
+      <div className={styles.heroImage}>
+        <div className={styles.heroText}>
+          {/*
+          <h1>Creative Projects</h1>
+          <h2>Take the scenic route.</h2>
+          <Link className={styles.link} to="/about">
+            <button className={styles.heroButton}>About Hazie</button>
+          </Link> */}
+        </div>
+      </div>
       <div className={styles.titleBox}>
         <h1>Creative Projects </h1>
         <h4 className={styles.subheading}>
@@ -45,16 +55,18 @@ function Creativity() {
       </div>
       {projects.map((project, index) => {
         return (
-          <Project
-            image={project.image}
-            alt={project.alt}
-            title={project.title}
-            link={project.link}
-            text={project.text}
-            textTwo={project.textTwo}
-            buttonText={project.buttonText}
-            logo={project.logo}
-          />
+          <>
+            <Project
+              image={project.image}
+              alt={project.alt}
+              title={project.title}
+              link={project.link}
+              text={project.text}
+              textTwo={project.textTwo}
+              buttonText={project.buttonText}
+              logo={project.logo}
+            />
+          </>
         );
       })}
     </div>

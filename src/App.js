@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import CustomSlider from "./Components/Slider";
 import About from "./Components/About";
 import Creativity from "./Components/Creativity";
+import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import logo from "./images/earth-hz.png";
@@ -50,6 +51,9 @@ function App() {
               </Route>
               <Route path="/travel">
                 <TravelPage />
+              </Route>
+              <Route path="/lifestyle">
+                <Lifestyle />
               </Route>
               <Route path="/">
                 <Home />

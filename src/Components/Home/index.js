@@ -45,10 +45,12 @@ function Homepage() {
           </div>
           <div>
             <h3>Lifestyle</h3>
-            <div
-              className={styles.sliderImage}
-              id={styles.explainImageThree}
-            ></div>
+            <Link to="/lifestyle">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageThree}
+              ></div>
+            </Link>
           </div>
         </div>
       </div>
