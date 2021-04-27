@@ -33,7 +33,7 @@ body {
 }
 
 #creative {
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: -5px 5px 0px 0px var(--red);
   transition: 0.2s ease-in;
   touch-action: manipulation;
@@ -43,10 +43,12 @@ body {
   font-family: "Montserrat", sans-serif;
   border: none;
   cursor: pointer;
+  color: black;
 }
 
 #creative:hover {
   box-shadow: 0px 5px 0px 0px var(--red);
+  background-color: white;
 }
 
 #creative:active {
@@ -55,13 +57,27 @@ body {
 
 .logo {
   height: 7vh;
+  user-select: none;
 }
 
 .logo-box {
   position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+img {
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  user-select: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -74,4 +90,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */

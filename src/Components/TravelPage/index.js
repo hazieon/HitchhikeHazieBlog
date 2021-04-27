@@ -22,13 +22,13 @@ function TravelPage() {
       <div className={styles.travelBox}>
         <div className={styles.heroImage}>
           <div className={styles.heroText}>
-            {/* <h1>Travel & </h1>
-            <h1>Adventure</h1> */}
+            <h1>Travel & </h1>
+            <h1>Adventure</h1>
           </div>
         </div>
         <div className={styles.titleBox}>
-          <h1>Travel & Adventure</h1>
-          <h3>Here is the story of my travels:</h3>
+          <h1>Travel Timeline</h1>
+          {/* <h3>Here is the story of my travels:</h3> */}
         </div>
         <h1 className={styles.subheading}>Study abroad in Japan</h1>
         <h4 className={styles.subheading}>
@@ -111,9 +111,7 @@ function TravelPage() {
       <h2 className={styles.subheading}>India snapshots -</h2>
       <MyGallery photosArray={indiaPhotosArray} />
 
-      <h1 className={styles.subheading}>
-        Campervan trip in Cotswolds & Schwarzwald
-      </h1>
+      <h1 className={styles.subheading}>Vanlife in Cotswolds & Schwarzwald</h1>
       <h4 className={styles.subheading}>
         The pandemic restricted a lot of things, but we managed a few trips when
         regulations were eased.
@@ -125,7 +123,7 @@ function TravelPage() {
           alt="vanlife in Europe & UK"
         />
       </div>
-      <h2 className={styles.subheading}>Vanlife pictures -</h2>
+      <h2 className={styles.subheading}>Campervan trip pictures -</h2>
       <MyGallery photosArray={vanlifePhotosArray} />
     </>
   );

@@ -27,9 +27,16 @@ function App() {
               <li className="pages" id="cart">
                 <Link to="/checkout">🛒</Link>
               </li>
-              <li className="pages" id="creative">
-                <Link to="/creativity">Creativity</Link>
-              </li>
+              <Link to="/creativity">
+                <li className="pages" id="creative">
+                  Creativity
+                </li>
+              </Link>
+              <Link to="/travel">
+                <li className="pages" id="creative">
+                  Travel
+                </li>
+              </Link>
             </ul>
           </nav>
 

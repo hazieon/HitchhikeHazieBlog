@@ -25,6 +25,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  user-select: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

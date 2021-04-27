@@ -33,6 +33,16 @@ function Creativity() {
   const [projects, setProjects] = useState(projectsArray);
   return (
     <div className={styles.projectsBox}>
+      <div className={styles.titleBox}>
+        <h1>Creative Projects </h1>
+        <h4 className={styles.subheading}>
+          Even when I'm on the move, I enjoy bringing ideas to life!
+        </h4>
+        <h4 className={styles.subheading}>
+          Here are a few of my recent picturebooks, manga comics, photobooks or
+          whatever else I've been working on.
+        </h4>
+      </div>
       {projects.map((project, index) => {
         return (
           <Project
