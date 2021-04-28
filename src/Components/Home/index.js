@@ -44,7 +44,7 @@ function Homepage() {
             </Link>
           </div>
           <div>
-            <h3>Lifestyle</h3>
+            <h3>Alternative Lifestyle</h3>
             <Link to="/lifestyle">
               <div
                 className={styles.sliderImage}

@@ -27,7 +27,7 @@ function TravelPage() {
           </div>
         </div>
         <div className={styles.titleBox}>
-          <h1>Travel Timeline</h1>
+          <h1>My Travel Timeline</h1>
           {/* <h3>Here is the story of my travels:</h3> */}
         </div>
         <h1 className={styles.subheading}>Study abroad in Japan</h1>
