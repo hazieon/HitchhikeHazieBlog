@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
+import List from "../List";
+import lifestyleImage from "../../images/IMGP6773.JPG";
 import { Link } from "react-router-dom";
 function Lifestyle() {
   return (
@@ -15,6 +17,24 @@ function Lifestyle() {
             </Link> */}
           </div>
         </div>
+        <List
+          image={lifestyleImage}
+          listOne={[
+            "Alternative travel",
+            "Hitchhiking",
+            "Couchsurfing",
+            "Off the beaten track",
+            "Abandoned buildings",
+            "Low budget",
+          ]}
+          listTwo={[
+            "Vanlife",
+            "Tiny house living",
+            "Sustainability",
+            "Vegetarian",
+            "Yoga & taekwondo",
+          ]}
+        />
       </div>
     </>
   );
