@@ -19,11 +19,17 @@
 
 .listList {
   list-style: none;
+  user-select: none;
 }
 
 .listItem {
   font-weight: bold;
   margin: 0.7em;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.listItem:hover {
+  transform: scale(1.25);
 }
 
 @media screen and (max-width: 560px) {

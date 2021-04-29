@@ -44,3 +44,37 @@
   box-shadow: 0px 0px 1px 1px whitesmoke;
   transition: 0s;
 }
+
+.textBox {
+  margin: auto;
+  max-width: 70vw;
+  text-align: left;
+  line-height: 1.5em;
+  user-select: none;
+}
+
+.textBox p:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
+}
+
+.memoryImage {
+  margin: auto;
+  width: 50vw;
+  height: auto;
+  box-shadow: -4px 4px 0px 0px var(--purple);
+  border-radius: 5px;
+}
+
+.memoryImageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.title {
+  text-align: center;
+  line-height: 1.8em;
+}

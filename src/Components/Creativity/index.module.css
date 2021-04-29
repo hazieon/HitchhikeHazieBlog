@@ -1,6 +1,9 @@
 .titleBox {
-  margin: auto;
+  margin-bottom: 3rem;
+  line-height: 1.3em;
+  font-size: 1.6em;
 }
+
 .subheading {
   text-align: left;
   /* margin-left: 4rem; */
