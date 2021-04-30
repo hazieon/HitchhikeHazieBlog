@@ -4,6 +4,8 @@ import cover from "../../images/front cover.png";
 import logo from "../../images/amazon.png";
 // import MyTypist from "../Typist";
 import Typist from "react-typist";
+import MyGallery from "../Gallery";
+import { moongirlPhotosArray } from "../../moongirlPhotos";
 
 function Moongirl() {
   return (
@@ -93,6 +95,8 @@ function Moongirl() {
           and publish a picture book by myself!
         </p>
       </div>
+      <h2 className={styles.subheading}>Moongirl creative process - </h2>
+      <MyGallery photosArray={moongirlPhotosArray} />
     </div>
   );
 }
