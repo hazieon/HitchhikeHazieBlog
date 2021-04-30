@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
-import { Link } from "react-router-dom";
+import cover from "../../images/front cover.png";
+import logo from "../../images/amazon.png";
 // import MyTypist from "../Typist";
 import Typist from "react-typist";
 
@@ -8,13 +9,7 @@ function Moongirl() {
   return (
     <div className={styles.moongirlContainer}>
       <div className={styles.heroImage}>
-        <div className={styles.heroText}>
-          {/* <h1>Hitchhike Hazie</h1>
-          <h2>Take the scenic route.</h2>
-          <Link className={styles.link} to="/about">
-            <button className={styles.heroButton}>About Hazie</button>
-          </Link> */}
-        </div>
+        <div className={styles.heroText}></div>
       </div>
       {/* <MyTypist
         textOne="I am the girl who sits on the moon."
@@ -45,8 +40,59 @@ function Moongirl() {
         <span> </span> */}
         </Typist>
       </div>
-      <h2>The Lonely Moongirl</h2>
-      <h4>Illustrated poem storybook</h4>
+
+      <div className={styles.memoryImageBox}>
+        <img className={styles.memoryImage} src={cover} alt="front cover" />
+      </div>
+
+      <h1>The Lonely Moongirl</h1>
+      <h3>An illustrated poem storybook</h3>
+      <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
+        <button className={styles.projectBoxButton}>
+          Available Now
+          <img
+            className={styles.projectBoxLogo}
+            src={logo ? logo : ""}
+            alt=""
+          />
+        </button>
+      </a>
+      <div className={styles.textBox}>
+        <h2>Blurb</h2>
+        <p>Moongirl faces a dilemma the size of the universe: </p>
+        <p> She is terribly lonely...</p>
+        <p>
+          Burnt by the sun's harsh rays, she falls into a dark despair. Can
+          Starboy help her to shine again? Finally, Moongirl discovers hope in
+          the last place she expects to find it.
+        </p>
+        <p>
+          Follow Moongirl in this enchanting tale as she struggles to find her
+          place in the universe.
+        </p>
+      </div>
+      <div className={styles.textBox}>
+        <h2>How it was made</h2>
+        <p>
+          Whilst living in India, I used my freetime to bring creative projects
+          to life.
+        </p>
+        <p>
+          Teaching English part time, I had plenty of time to brainstorm, sketch
+          and build my ideas. I wrote the first few drafts of the poem and
+          showed my friends and some students.
+        </p>
+        <p>
+          The illustrations were drawn and coloured on my tablet-laptop, taking
+          about two days per page. I got a lot of inspiration and encouragement
+          from my students in India!
+        </p>
+        <p>
+          Once the book was finished, I self-published it through Amazon's KDP
+          programme. It was a big learning curve and rewarding process to create
+          and publish a picture book by myself!
+        </p>
+      </div>
     </div>
   );
 }

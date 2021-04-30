@@ -9,7 +9,7 @@ const projectsArray = [
     image: Moongirl,
     alt: "The Lonely Moongirl cover",
     title: "The Lonely Moongirl",
-    link: "https://www.instagram.com/the_lonelymoongirl/",
+    link: "/moongirl",
     text:
       "An illustrated poem picturebook. I drew the artworks digitally and wrote the poem whilst living in India.",
     textTwo: "",
@@ -20,7 +20,7 @@ const projectsArray = [
     image: DragonHearts,
     alt: "Dragon Hearts cover",
     title: "Dragon Hearts manga",
-    link: "https://www.instagram.com/the_lonelymoongirl/",
+    link: "/moongirl",
     text:
       "A fantasy adventure comic set in Tokyo, Japan. I drew this one-shot manga whilst living in India, loosely based on my experiences in Japan.",
     textTwo: "",

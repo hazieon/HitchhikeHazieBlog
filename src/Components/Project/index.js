@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
-
+import { Link } from "react-router-dom";
 function Project({
   image,
   alt,
@@ -14,14 +14,16 @@ function Project({
   return (
     <div className={styles.projectContainer}>
       <div className={styles.projectBox}>
-        <div className={styles.projectImageBox}>
-          <img className={styles.projectImage} src={image} alt={alt} />
-        </div>
+        <Link to={link}>
+          <div className={styles.projectImageBox}>
+            <img className={styles.projectImage} src={image} alt={alt} />
+          </div>
+        </Link>
         <div className={styles.projectTextBox}>
           <h2>{title}</h2>
           <p>{text}</p>
           <p>{textTwo}</p>
-          <a href={link}>
+          <Link to={link}>
             <button className={styles.projectBoxButton}>
               {buttonText}
               <img
@@ -30,7 +32,7 @@ function Project({
                 alt=""
               />
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
