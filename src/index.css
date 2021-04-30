@@ -8,13 +8,14 @@
 
   --light-shade: #bca0ff;
   --deep-purple: #3c10b6;
-  --purple: #4808f7;
-  --red: #d32c42;
+  --purple: #3c10b6;
+  --red: #b92a3d;
   --blue: #29c7d6;
   --green: #95d32c;
   --light-green: #93ea15;
 }
-/*#5808f7*/
+/*#4808f7*/
+/* #d32c42 */
 
 body {
   margin: 0;
@@ -25,18 +26,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  user-select: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  user-select: none;
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

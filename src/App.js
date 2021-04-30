@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import logo from "./images/earth-hz.png";
 import TravelPage from "./Components/TravelPage";
+import Moongirl from "./Components/MoongirlPage";
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
               </Route>
               <Route path="/lifestyle">
                 <Lifestyle />
+              </Route>
+              <Route path="/moongirl">
+                <Moongirl />
               </Route>
               <Route path="/">
                 <Home />

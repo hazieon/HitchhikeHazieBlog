@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import Typist from "react-typist";
 
-function MyTypist() {
+function MyTypist({ textOne, textTwo, textThree, textFour }) {
   const [count, setCount] = useState(1);
 
   useEffect(() => {
@@ -16,19 +16,13 @@ function MyTypist() {
       {/* <h1 className={styles.TypistTitle}>Welcome</h1> */}
       {count ? (
         <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
-          <span className={styles.TypistText}>
-            Welcome to Hazie's travel & lifestyle site!
-          </span>
+          <span className={styles.TypistText}>{textOne}</span>
           <Typist.Backspace count={44} delay={1800} />
-          <span className={styles.TypistText}>
-            こんにちは！冒険好きのヘイジーです。
-          </span>
+          <span className={styles.TypistText}>{textTwo}</span>
           <Typist.Backspace count={25} delay={1800} />
-          <span className={styles.TypistText}>
-            안녕하세요! 모험을 좋아한 헤이지예요.
-          </span>
+          <span className={styles.TypistText}>{textThree}</span>
           <Typist.Backspace count={22} delay={1800} />
-          <span className={styles.TypistText}> 你好! Willkommen! नमस्ते </span>
+          <span className={styles.TypistText}> {textFour}</span>
           <Typist.Backspace count={24} delay={800} />
           <span> </span>
         </Typist>
