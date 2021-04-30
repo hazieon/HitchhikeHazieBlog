@@ -10,6 +10,7 @@
   border-radius: 12px;
   box-shadow: -5px 5px 0px 0px var(--purple);
   transition: 0.5s ease;
+  user-select: none;
 }
 
 .panelBox:hover {
@@ -33,10 +34,12 @@
 
 a {
   text-decoration: none;
+  user-select: none;
 }
 
 p {
   font-weight: bold;
+  user-select: none;
 }
 
 .panelBoxButton {
@@ -72,6 +75,7 @@ p {
     flex-direction: column;
     text-align: left;
     margin: auto;
+    margin-top: 3rem;
   }
   .panelBoxRight {
     max-width: 90vw;

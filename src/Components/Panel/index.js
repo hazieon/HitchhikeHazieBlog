@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 
 function Panel({ image, alt, title, link, text, textTwo, buttonText, logo }) {
   return (
-    <>
+    <div className={styles.panelContainer}>
       <div className={styles.panelBox}>
         <div className={styles.panelBoxLeft}>
           <img className={styles.panelImage} src={image} alt={alt} />
@@ -20,7 +20,7 @@ function Panel({ image, alt, title, link, text, textTwo, buttonText, logo }) {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

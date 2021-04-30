@@ -10,12 +10,13 @@
 
 .textBoxImage {
   border-radius: 10px;
-  height: 35vh;
+  max-height: 35vh;
+  max-width: 60vw;
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
 .imageBox {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .textContainer {
@@ -69,6 +70,7 @@ a {
   }
   .imageBox {
     text-align: center;
+    margin: auto;
     margin-bottom: 1rem;
   }
 }

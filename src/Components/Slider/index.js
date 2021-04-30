@@ -13,7 +13,7 @@ function CustomSlider() {
     arrowsBlock: false,
   };
   return (
-    <div>
+    <div className={styles.sliderBox}>
       <h2 className={styles.sliderTitle}>Gallery</h2>
       <Slider {...settings}>
         <div className={styles.sliderImage} id={styles.firstImage}></div>

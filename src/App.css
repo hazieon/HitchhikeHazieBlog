@@ -77,6 +77,16 @@ h6 {
   user-select: none;
 }
 
+@media screen and (max-width: 780px) {
+  #creative {
+    box-shadow: -5px 5px 0px 0px var(--red);
+    transition: 0.2s ease-in;
+    touch-action: manipulation;
+    padding: 8px 12px 8px;
+    border-radius: 6px;
+  }
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

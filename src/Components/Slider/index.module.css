@@ -55,3 +55,12 @@
   margin-left: 8%;
   margin-top: 6rem;
 }
+
+@media screen and (max-width: 800px) {
+  .sliderImage {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}

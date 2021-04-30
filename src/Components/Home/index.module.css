@@ -139,5 +139,7 @@ button {
 @media screen and (max-width: 1120px) {
   .explainBox {
     flex-direction: column;
+    margin: auto;
+    margin-left: 2rem;
   }
 }
