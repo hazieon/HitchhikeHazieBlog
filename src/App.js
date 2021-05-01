@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import ScrollToTop from "./Components/ScrollToTop";
 import Home from "./Components/Home";
+import CustomisedMenus from "./Components/Menu";
 import CustomSlider from "./Components/Slider";
 import About from "./Components/About";
 import Creativity from "./Components/Creativity";
@@ -28,8 +29,11 @@ function App() {
                   </div>
                 </Link>
               </li>
-              <li className="pages" id="cart">
+              {/* <li className="pages" id="cart">
                 <Link to="/checkout">🛒</Link>
+              </li> */}
+              <li className="pages" id="creative">
+                <CustomisedMenus />
               </li>
               <Link to="/creativity">
                 <li className="pages" id="creative">

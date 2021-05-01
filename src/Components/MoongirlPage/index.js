@@ -122,7 +122,6 @@ function Moongirl() {
           and publish a picture book by myself!
         </p>
         <p>
-          {" "}
           I also made a Moongirl dressup with vanilla JavaScript. Try out the
           game and read a preview of the book from the button links above!
         </p>
