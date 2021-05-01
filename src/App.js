@@ -7,10 +7,10 @@ import About from "./Components/About";
 import Creativity from "./Components/Creativity";
 import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import logo from "./images/earth-hz.png";
 import TravelPage from "./Components/TravelPage";
 import Moongirl from "./Components/MoongirlPage";
+import Book from "./Components/MoongirlBookPage";
 
 function App() {
   return (
@@ -58,6 +58,9 @@ function App() {
               </Route>
               <Route path="/moongirl">
                 <Moongirl />
+              </Route>
+              <Route path="/moongirlBook">
+                <Book />
               </Route>
               <Route path="/">
                 <Home />

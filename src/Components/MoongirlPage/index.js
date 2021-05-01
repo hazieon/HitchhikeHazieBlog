@@ -6,6 +6,7 @@ import logo from "../../images/amazon.png";
 import Typist from "react-typist";
 import MyGallery from "../Gallery";
 import { moongirlPhotosArray } from "../../moongirlPhotos";
+import { Link } from "react-router-dom";
 
 function Moongirl() {
   return (
@@ -49,16 +50,23 @@ function Moongirl() {
 
       <h1>The Lonely Moongirl</h1>
       <h3>An illustrated poem storybook</h3>
-      <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
-        <button className={styles.projectBoxButton}>
-          Available Now
-          <img
-            className={styles.projectBoxLogo}
-            src={logo ? logo : ""}
-            alt=""
-          />
-        </button>
-      </a>
+      <div className={styles.projectBoxButtonContainer}>
+        <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
+          <button className={styles.projectBoxButton}>
+            Available on
+            <img
+              className={styles.projectBoxLogo}
+              src={logo ? logo : ""}
+              alt="Amazon"
+            />
+          </button>
+        </a>
+      </div>
+      <Link to="/moongirlBook">
+        <div className={styles.projectBoxButtonContainer}>
+          <button className={styles.projectBoxButton}>READ NOW ➡</button>
+        </div>
+      </Link>
       <div className={styles.textBox}>
         <h2>Blurb</h2>
         <p>Moongirl faces a dilemma the size of the universe: </p>
