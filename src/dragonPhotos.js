@@ -6,6 +6,7 @@ import image5 from "./images/CIMG1807.JPG";
 import image6 from "./images/practice2.jpg";
 import image7 from "./images/dragonmoon.jpg";
 import image8 from "./images/comic.jpg";
+import image9 from "./images/dragonProgress.png";
 
 // import image4 from "./images/IMGP7207.JPG";
 
@@ -18,6 +19,7 @@ const dragonPhotosArray = [
   image6,
   image7,
   image8,
+  image9,
 ];
 
 export { dragonPhotosArray };

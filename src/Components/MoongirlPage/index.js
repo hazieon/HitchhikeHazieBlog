@@ -20,6 +20,15 @@ function Moongirl() {
         textThree="Soften the darkness & glow through the night"
         textFour="Turn golden sunrays into silver moonlight..."
       /> */}
+
+      <div className={styles.redirectButton}>
+        <Link to="/creativity">
+          <button className={styles.redirectButton} id={styles.pageButton}>
+            ← Back
+          </button>
+        </Link>
+      </div>
+
       <div className={styles.TypistBox}>
         <Typist avgTypingDelay={115}>
           <span className={styles.TypistText}>
@@ -69,6 +78,14 @@ function Moongirl() {
         </Link>
       </div>
 
+      <div className={styles.projectBoxButtonContainer}>
+        <a href="https://moongirl-dressup.netlify.app/">
+          <button className={styles.projectBoxButton}>
+            Play the dressup game ➡
+          </button>
+        </a>
+      </div>
+
       <div className={styles.textBox}>
         <h2>Blurb</h2>
         <p>Moongirl faces a dilemma the size of the universe: </p>
@@ -103,6 +120,11 @@ function Moongirl() {
           Once the book was finished, I self-published it through Amazon's KDP
           programme. It was a big learning curve and rewarding process to create
           and publish a picture book by myself!
+        </p>
+        <p>
+          {" "}
+          I also made a Moongirl dressup with vanilla JavaScript. Try out the
+          game and read a preview of the book from the button links above!
         </p>
       </div>
       <h2 className={styles.subheading}>Moongirl creative process - </h2>

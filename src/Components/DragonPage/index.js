@@ -14,6 +14,14 @@ function Dragon() {
         </div>
       </div>
 
+      <div className={styles.redirectButton}>
+        <Link to="/creativity">
+          <button className={styles.redirectButton} id={styles.pageButton}>
+            ← Back
+          </button>
+        </Link>
+      </div>
+
       <h1>Dragon Hearts</h1>
       <h3>The fantasy manga comic</h3>
 
