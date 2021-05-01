@@ -9,6 +9,7 @@ import image5 from "../../images/book5.png";
 import image6 from "../../images/book6.png";
 import image7 from "../../images/book7.png";
 import image8 from "../../images/book8.png";
+import { Link } from "react-router-dom";
 
 const pages = [image1, image2, image3, image4, image5, image6, image7, image8];
 
@@ -28,6 +29,14 @@ function Book() {
 
   return (
     <div className={styles.bookContainer}>
+      <div className={styles.redirectButton}>
+        <Link to="/moongirl">
+          <button className={styles.redirectButton} id={styles.pageButton}>
+            ← Back
+          </button>
+        </Link>
+      </div>
+
       <div className={styles.bookBox}>
         <img
           className={styles.bookPage}
@@ -55,7 +64,7 @@ function Book() {
       </div>
       <div className={styles.buttonBox}>
         <button id={styles.pageButton}>
-          Read Full story on
+          Find the full tale on
           <img className={styles.logo} src={logo} alt="Amazon" />
         </button>
       </div>

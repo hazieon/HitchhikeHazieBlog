@@ -49,7 +49,7 @@ function Moongirl() {
       </div>
 
       <h1>The Lonely Moongirl</h1>
-      <h3>An illustrated poem storybook</h3>
+      <h3>The illustrated poem storybook</h3>
       <div className={styles.projectBoxButtonContainer}>
         <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
           <button className={styles.projectBoxButton}>
@@ -62,11 +62,13 @@ function Moongirl() {
           </button>
         </a>
       </div>
-      <Link to="/moongirlBook">
-        <div className={styles.projectBoxButtonContainer}>
-          <button className={styles.projectBoxButton}>READ NOW ➡</button>
-        </div>
-      </Link>
+
+      <div className={styles.projectBoxButtonContainer}>
+        <Link to="/moongirlBook">
+          <button className={styles.projectBoxButton}>Read a preview ➡</button>
+        </Link>
+      </div>
+
       <div className={styles.textBox}>
         <h2>Blurb</h2>
         <p>Moongirl faces a dilemma the size of the universe: </p>
@@ -105,6 +107,25 @@ function Moongirl() {
       </div>
       <h2 className={styles.subheading}>Moongirl creative process - </h2>
       <MyGallery photosArray={moongirlPhotosArray} />
+
+      <div className={styles.projectBoxButtonContainer}>
+        <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
+          <button className={styles.projectBoxButton}>
+            Available on
+            <img
+              className={styles.projectBoxLogo}
+              src={logo ? logo : ""}
+              alt="Amazon"
+            />
+          </button>
+        </a>
+      </div>
+
+      <div className={styles.projectBoxButtonContainer}>
+        <Link to="/moongirlBook">
+          <button className={styles.projectBoxButton}>PREVIEW NOW ➡</button>
+        </Link>
+      </div>
     </div>
   );
 }

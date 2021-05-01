@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
     url("../../images/ebook\ cover\ image.png");
 
-  height: 85vh;
+  height: 90vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position-y: 80%;
@@ -129,7 +129,7 @@ button {
   padding: 14px 20px 13px;
   background-color: rgb(235, 230, 247);
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
