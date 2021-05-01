@@ -11,6 +11,7 @@ import logo from "./images/earth-hz.png";
 import TravelPage from "./Components/TravelPage";
 import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
+import Dragon from "./Components/DragonPage";
 
 function App() {
   return (
@@ -61,6 +62,9 @@ function App() {
               </Route>
               <Route path="/moongirlBook">
                 <Book />
+              </Route>
+              <Route path="/dragon">
+                <Dragon />
               </Route>
               <Route path="/">
                 <Home />

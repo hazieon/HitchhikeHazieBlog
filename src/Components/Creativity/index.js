@@ -20,7 +20,7 @@ const projectsArray = [
     image: DragonHearts,
     alt: "Dragon Hearts cover",
     title: "Dragon Hearts manga",
-    link: "/moongirl",
+    link: "/dragon",
     text:
       "A fantasy adventure comic set in Tokyo, Japan. I drew this one-shot manga whilst living in India, loosely based on my experiences in Japan.",
     textTwo: "",
