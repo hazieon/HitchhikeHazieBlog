@@ -74,24 +74,24 @@ export default function CustomisedMenus() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <StyledMenuItem>
-          <Link to="/about">About me</Link>
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <Link to="/travel">Travel & Adventure</Link>
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <Link to="/creativity">Creativity & Skills</Link>
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <Link to="/lifestyle">Alternative Lifestyle</Link>
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <Link to="/moongirl">The Lonely Moongirl</Link>
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <Link to="/dragon">Dragon Hearts Comic</Link>
-        </StyledMenuItem>
+        <Link to="/about">
+          <StyledMenuItem>About me</StyledMenuItem>
+        </Link>
+        <Link to="/travel">
+          <StyledMenuItem>Travel & Adventure</StyledMenuItem>
+        </Link>
+        <Link to="/creativity">
+          <StyledMenuItem>Creativity & Skills</StyledMenuItem>
+        </Link>
+        <Link to="/lifestyle">
+          <StyledMenuItem>Alternative Lifestyle</StyledMenuItem>
+        </Link>
+        <Link to="/moongirl">
+          <StyledMenuItem>The Lonely Moongirl</StyledMenuItem>
+        </Link>
+        <Link to="/dragon">
+          <StyledMenuItem>Dragon Hearts Comic</StyledMenuItem>
+        </Link>
       </StyledMenu>
     </div>
   );
