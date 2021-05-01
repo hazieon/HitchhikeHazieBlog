@@ -63,10 +63,12 @@ function Book() {
         </button>
       </div>
       <div className={styles.buttonBox}>
-        <button id={styles.pageButton}>
-          Find the full tale on
-          <img className={styles.logo} src={logo} alt="Amazon" />
-        </button>
+        <a href="https://www.amazon.co.uk/Lonely-Moongirl-Hazie/dp/1699887489">
+          <button id={styles.pageButton}>
+            Find the full tale on
+            <img className={styles.logo} src={logo} alt="Amazon" />
+          </button>
+        </a>
       </div>
     </div>
   );

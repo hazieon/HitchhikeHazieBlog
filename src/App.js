@@ -12,6 +12,7 @@ import TravelPage from "./Components/TravelPage";
 import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
+import Comic from "./Components/DragonBookPage";
 
 function App() {
   return (
@@ -65,6 +66,9 @@ function App() {
               </Route>
               <Route path="/dragon">
                 <Dragon />
+              </Route>
+              <Route path="/dragonBook">
+                <Comic />
               </Route>
               <Route path="/">
                 <Home />

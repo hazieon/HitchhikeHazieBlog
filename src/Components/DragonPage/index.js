@@ -1,8 +1,10 @@
 import React from "react";
+import MyGallery from "../Gallery";
 import styles from "./index.module.css";
 import logo from "../../images/amazon.png";
 import { Link } from "react-router-dom";
 import cover from "../../images/Cover design layout.png";
+import { dragonPhotosArray } from "../../dragonPhotos";
 function Dragon() {
   return (
     <div className={styles.dragonContainer}>
@@ -32,7 +34,7 @@ function Dragon() {
         </a>
       </div>
       <div className={styles.projectBoxButtonContainer}>
-        <Link to="/moongirlBook">
+        <Link to="/dragonBook">
           <button className={styles.projectBoxButton}>Read a preview ➡</button>
         </Link>
       </div>
@@ -84,6 +86,9 @@ function Dragon() {
           book by myself!
         </p>
       </div>
+
+      <MyGallery photosArray={dragonPhotosArray} />
+
       <div className={styles.projectBoxButtonContainer}>
         <a href="https://www.amazon.co.uk/Dragon-Hearts-miss-Hazie/dp/1707672458">
           <button className={styles.projectBoxButton}>
@@ -96,8 +101,9 @@ function Dragon() {
           </button>
         </a>
       </div>
+
       <div className={styles.projectBoxButtonContainer}>
-        <Link to="/moongirlBook">
+        <Link to="/dragonBook">
           <button className={styles.projectBoxButton}>Read a preview ➡</button>
         </Link>
       </div>
