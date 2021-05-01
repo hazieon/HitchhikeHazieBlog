@@ -31,7 +31,7 @@ function Homepage() {
         <h1 className={styles.explainTitle}>Interests</h1>
         <div className={styles.explainBox}>
           <div>
-            <h3>Travel & Adventure</h3>
+            <h2>Travel & Adventure</h2>
             <Link to="/travel">
               <div
                 className={styles.sliderImage}
@@ -40,7 +40,7 @@ function Homepage() {
             </Link>
           </div>
           <div>
-            <h3>Skills & Creativity</h3>
+            <h2>Skills & Creativity</h2>
             <Link to="/creativity">
               <div
                 className={styles.sliderImage}
@@ -49,7 +49,7 @@ function Homepage() {
             </Link>
           </div>
           <div>
-            <h3>Alternative Lifestyle</h3>
+            <h2>Alternative Lifestyle</h2>
             <Link to="/lifestyle">
               <div
                 className={styles.sliderImage}

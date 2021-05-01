@@ -16,7 +16,8 @@
 }
 
 .projectImage {
-  height: 40vh;
+  max-height: 40vh;
+
   border-radius: 20px;
   box-shadow: -4px 4px 0px 0px var(--purple);
   transition: 0.5s ease;
@@ -50,7 +51,7 @@
   transition: 0s;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 880px) {
   .projectContainer {
     display: flex;
     flex-direction: column;
@@ -58,7 +59,8 @@
 
   .projectImage {
     margin: auto;
-    height: 35vh;
+    max-height: 35vh;
+    max-width: 60vw;
     border-radius: 15px;
   }
 

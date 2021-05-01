@@ -68,11 +68,3 @@ function About() {
 }
 
 export default About;
-
-// I studied Psychology at university and spent one year studying abroad in Japan. This exchange year awakened my calling to adventure, so since graduating I have been living and exploring different countries. I travel on a very low budget and enjoy most meeting new people and learning the local language.
-
-//           Everyday can be an adventure! I love hitchhiking and couchsurfing. I've also spent time volunteering, as an au pair, and teaching English to children and adults.
-
-//           I have endless imagination and have created picturebooks, photobooks and a manga comic in my free time whilst traveling. More works are in the making! Feel free to check out my projects The Lonely Moongirl and Dragon Hearts.
-
-//           During the recent pandemic, whilst static, I took the opportunity to learn to code. I jumped into the world of tech which allows me to bring my creativity, logic and wild lifestyle all together! My projects are viewable on GitHub, but here are a few highlights:
