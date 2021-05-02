@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import CustomisedMenus from "./Components/Menu";
 import CustomSlider from "./Components/Slider";
 import About from "./Components/About";
+import Contact from "./Components/ContactPage";
 import Creativity from "./Components/Creativity";
 import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -40,6 +41,7 @@ function App() {
                   Creativity
                 </li>
               </Link>
+
               <Link to="/travel">
                 <li className="pages" id="creative">
                   Travel
@@ -52,6 +54,9 @@ function App() {
             <Switch>
               <Route path="/about">
                 <About />
+              </Route>
+              <Route path="/contact">
+                <Contact />
               </Route>
               <Route path="/creativity">
                 <Creativity />
