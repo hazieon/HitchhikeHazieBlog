@@ -26,6 +26,10 @@ function Homepage() {
         textTwo="こんにちは！冒険好きのヘイジーです。"
         textThree="안녕하세요! 모험 좋아하는 헤이지에요."
         textFour="你好! Willkommen! नमस्ते"
+        countOne={44}
+        countTwo={25}
+        countThree={22}
+        countFour={24}
       />
       <div className={styles.explainSection}>
         <h1 className={styles.explainTitle}>Interests</h1>

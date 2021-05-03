@@ -2,7 +2,16 @@ import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import Typist from "react-typist";
 
-function MyTypist({ textOne, textTwo, textThree, textFour }) {
+function MyTypist({
+  textOne,
+  textTwo,
+  textThree,
+  textFour,
+  countOne,
+  countTwo,
+  countThree,
+  countFour,
+}) {
   const [count, setCount] = useState(1);
 
   useEffect(() => {
@@ -17,13 +26,13 @@ function MyTypist({ textOne, textTwo, textThree, textFour }) {
       {count ? (
         <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
           <span className={styles.TypistText}>{textOne}</span>
-          <Typist.Backspace count={44} delay={1800} />
+          <Typist.Backspace count={countOne} delay={1800} />
           <span className={styles.TypistText}>{textTwo}</span>
-          <Typist.Backspace count={25} delay={1800} />
+          <Typist.Backspace count={countTwo} delay={1800} />
           <span className={styles.TypistText}>{textThree}</span>
-          <Typist.Backspace count={22} delay={1800} />
+          <Typist.Backspace count={countThree} delay={1800} />
           <span className={styles.TypistText}> {textFour}</span>
-          <Typist.Backspace count={24} delay={800} />
+          <Typist.Backspace count={countFour} delay={800} />
           <span> </span>
         </Typist>
       ) : (
