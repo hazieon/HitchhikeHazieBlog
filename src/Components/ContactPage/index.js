@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
+import Panel from "../Panel";
 import MyTypist from "../Typist";
+import githubImage from "../../images/hazie r3.png";
+import githubLogo from "../../images/githublogo.png";
 import YoutubeEmbed from "../Youtube";
 
 function Contact() {
@@ -29,15 +32,13 @@ function Contact() {
         />
       </div>
 
-      {/* <div className={styles.socialMediaBox}>
-        <div className={styles.socialMediaItem} id={styles.itemOne}></div>
-        <div className={styles.socialMediaItem} id={styles.itemTwo}></div>
-        <div className={styles.socialMediaItem} id={styles.itemThree}></div>
-        <div className={styles.socialMediaItem} id={styles.itemFour}></div>
-      </div> */}
+      <YoutubeEmbed embedId="lFUbDr-JaJY" />
 
       <div className={styles.explainSection}>
         <h1 className={styles.explainTitle}>Contact Info</h1>
+        <div className={styles.contactDetailsBox}>
+          <h2> ✉　WysteriaHazie@gmail.com</h2>
+        </div>
         <div className={styles.explainBox}>
           <div>
             <h2>Instagram</h2>
@@ -78,7 +79,15 @@ function Contact() {
         </div>
       </div>
 
-      <YoutubeEmbed embedId="lFUbDr-JaJY" />
+      <Panel
+        image={githubImage}
+        alt="Github profile"
+        title="Coding Projects"
+        text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+        logo={githubLogo}
+        link="https://github.com/hazieon"
+        buttonText="See More on GitHub"
+      />
     </div>
   );
 }

@@ -32,7 +32,7 @@
   transition: 0.2s ease-in;
   touch-action: manipulation;
   padding: 14px 20px 13px;
-  background-color: whitesmoke;
+  background-color: var(--white);
 }
 
 .heroButton:hover {
@@ -41,7 +41,7 @@
 }
 
 .heroButton:active {
-  box-shadow: 0px 0px 1px 1px whitesmoke;
+  box-shadow: 0px 0px 1px 1px var(--white);
   transition: 0s;
 }
 
@@ -93,6 +93,22 @@ button {
   background-image: url("../../images/book5.png");
 }
 
+.contactDetailsBox {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: -4px 4px 0px 0px var(--purple);
+  width: max-content;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.2px 12px;
+  transition: 0.4s ease-in-out;
+}
+.contactDetailsBox:hover {
+  transform: scale(103%);
+  cursor: pointer;
+}
+
 .explainSection {
   margin-bottom: 4rem;
 }
@@ -124,7 +140,7 @@ button {
   position: relative;
   margin-bottom: 4rem;
   margin-right: 2rem;
-  transition: 0.65s ease-in-out;
+  transition: 0.7s ease-in-out;
   border-radius: 3px;
 }
 
@@ -152,26 +168,30 @@ button {
 #explainImageOne:hover {
   background-image: url("../../images/DSC_0654.JPG");
   background-position: 60%;
-  transform: scale(110%);
+  transform: scale(105%);
 }
 
 #explainImageTwo:hover {
   background-image: url("../../images/youtube5.jpg");
   background-position: 56%;
-  transform: scale(110%);
+  transform: scale(105%);
 }
 
 #explainImageThree:hover {
-  transform: scale(110%);
+  transform: scale(105%);
 }
 #explainImageFour:hover {
-  transform: scale(110%);
+  transform: scale(105%);
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1000px) {
   .explainBox {
     flex-direction: column;
     margin: auto;
     margin-left: 2rem;
+  }
+  .sliderImage {
+    height: 36vh;
+    width: 42vh;
   }
 }
