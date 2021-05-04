@@ -33,7 +33,7 @@ body {
 }
 
 #creative {
-  background-color: whitesmoke;
+  background-color: var(--white);
   box-shadow: -5px 5px 0px 0px var(--red);
   transition: 0.2s ease-in;
   touch-action: manipulation;
