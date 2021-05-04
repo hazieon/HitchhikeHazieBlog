@@ -28,14 +28,57 @@ function Contact() {
           countFour={25}
         />
       </div>
-      <YoutubeEmbed embedId="lFUbDr-JaJY" />
 
-      <div className={styles.socialMediaBox}>
-        <div className={styles.socialMediaItem}></div>
-        <div className={styles.socialMediaItem}></div>
-        <div className={styles.socialMediaItem}></div>
-        <div className={styles.socialMediaItem}></div>
+      {/* <div className={styles.socialMediaBox}>
+        <div className={styles.socialMediaItem} id={styles.itemOne}></div>
+        <div className={styles.socialMediaItem} id={styles.itemTwo}></div>
+        <div className={styles.socialMediaItem} id={styles.itemThree}></div>
+        <div className={styles.socialMediaItem} id={styles.itemFour}></div>
+      </div> */}
+
+      <div className={styles.explainSection}>
+        <h1 className={styles.explainTitle}>Contact Info</h1>
+        <div className={styles.explainBox}>
+          <div>
+            <h2>Instagram</h2>
+            <a href="https://www.instagram.com/hitchhikehazie/">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageOne}
+              ></div>
+            </a>
+          </div>
+          <div>
+            <h2>YouTube</h2>
+            <a href="https://www.youtube.com/channel/UCu-6BiXjdeVrP6unPB-VVyQ">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageTwo}
+              ></div>
+            </a>
+          </div>
+          <div>
+            <h2>LinkedIn</h2>
+            <a href="https://www.linkedin.com/in/haziea/">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageThree}
+              ></div>
+            </a>
+          </div>
+          <div>
+            <h2>GitHub</h2>
+            <a href="https://github.com/hazieon">
+              <div
+                className={styles.sliderImage}
+                id={styles.explainImageFour}
+              ></div>
+            </a>
+          </div>
+        </div>
       </div>
+
+      <YoutubeEmbed embedId="lFUbDr-JaJY" />
     </div>
   );
 }
