@@ -15,6 +15,7 @@ import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
 import Comic from "./Components/DragonBookPage";
+import CodeProjects from "./Components/codeProjects";
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
             <Switch>
               <Route path="/about">
                 <About />
+              </Route>
+              <Route path="/codeprojects">
+                <CodeProjects />
               </Route>
               <Route path="/contact">
                 <Contact />
