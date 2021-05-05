@@ -36,6 +36,10 @@ function Text({
                   />
                 </button>
               </a>
+            </>
+          )}
+          {buttonTwoText && (
+            <>
               <a href={linkTwo}>
                 <button className={styles.textBoxButton}>
                   {buttonTwoText}

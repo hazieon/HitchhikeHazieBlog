@@ -69,6 +69,7 @@ function Homepage() {
         alt="Github profile"
         title="Coding Projects"
         text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+        textTwo="Check out my recent projects on GitHub or on the Code Projects page on this site!"
         logo={githubLogo}
         link="https://github.com/hazieon"
         buttonText="See More on GitHub"

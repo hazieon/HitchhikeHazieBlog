@@ -92,6 +92,9 @@ export default function CustomisedMenus() {
         <Link to="/dragon">
           <StyledMenuItem>Dragon Hearts Comic</StyledMenuItem>
         </Link>
+        <Link to="/codeprojects">
+          <StyledMenuItem>Code Projects</StyledMenuItem>
+        </Link>
         <Link to="/contact">
           <StyledMenuItem>Contact</StyledMenuItem>
         </Link>

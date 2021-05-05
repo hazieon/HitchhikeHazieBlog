@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./index.module.css";
 
-function Panel({ image, alt, title, link, text, textTwo, buttonText, logo }) {
+function Panel({
+  image,
+  alt,
+  title,
+  link,
+  text,
+  textTwo,
+  buttonText,
+  logo = "",
+}) {
   return (
     <div className={styles.panelContainer}>
       <div className={styles.panelBox}>
@@ -15,7 +24,7 @@ function Panel({ image, alt, title, link, text, textTwo, buttonText, logo }) {
           <a href={link}>
             <button className={styles.panelBoxButton}>
               {buttonText}
-              <img className={styles.panelBoxLogo} src={logo} alt="logo" />
+              <img className={styles.panelBoxLogo} src={logo} alt="" />
             </button>
           </a>
         </div>
