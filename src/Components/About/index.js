@@ -24,6 +24,8 @@ function About() {
           logo={githubLogo}
           link="https://github.com/hazieon"
           buttonText="See More on GitHub"
+          linkTwologoTwo="https://hitchhikehazie.netlify.app/codeprojects"
+          buttonTwoText="View Code Projects Page"
         />
 
         <Text
@@ -40,8 +42,8 @@ function About() {
           subheading="Creativity & Projects 🎨"
           textOne=" I have endless imagination and have created picturebooks, photobooks and a manga comic in my free time whilst traveling. More works are in the making! "
           textTwo="Feel free to check out my projects The Lonely Moongirl and Dragon Hearts."
-          linkOne="https://www.instagram.com/the_lonelymoongirl/"
-          linkTwo="https://www.instagram.com/the_lonelymoongirl/"
+          linkOne="https://hitchhikehazie.netlify.app/moongirl"
+          linkTwo="https://hitchhikehazie.netlify.app/dragon"
           buttonOneText="Moongirl"
           buttonTwoText="Dragon Hearts"
           logoOne={githubLogo}

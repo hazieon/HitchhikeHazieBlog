@@ -6,10 +6,13 @@ function Panel({
   alt,
   title,
   link,
+  linkTwo,
   text,
   textTwo,
   buttonText,
+  buttonTwoText,
   logo = "",
+  logoTwo = "",
 }) {
   return (
     <div className={styles.panelContainer}>
@@ -27,6 +30,19 @@ function Panel({
               <img className={styles.panelBoxLogo} src={logo} alt="" />
             </button>
           </a>
+          {buttonTwoText && (
+            <>
+              <a href={linkTwo}>
+                <button
+                  className={styles.panelBoxButton}
+                  id={styles.panelSecondButton}
+                >
+                  {buttonTwoText}
+                  <img className={styles.panelBoxLogo} src={logoTwo} alt="" />
+                </button>
+              </a>
+            </>
+          )}
         </div>
       </div>
     </div>

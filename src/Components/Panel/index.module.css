@@ -7,10 +7,11 @@
   margin-top: 6rem;
   max-width: 75vw;
   padding: 40px 20px;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: -5px 5px 0px 0px var(--purple);
   transition: 0.5s ease;
   user-select: none;
+  text-align: left;
 }
 
 .panelBox:hover {
@@ -67,6 +68,10 @@ p {
 .panelBoxLogo {
   height: 25px;
   margin-left: 8px;
+}
+
+#panelSecondButton {
+  margin-top: 0.7rem;
 }
 
 @media screen and (max-width: 680px) {

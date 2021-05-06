@@ -17,13 +17,14 @@ function CodeProjects() {
       <div className={styles.codeProjectsBox}>
         <h1>Recent Code Projects</h1>
         <Panel
-          image={githubImage}
-          alt="Github profile"
-          title="Coding Projects"
-          text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+          image={hazieProject}
+          alt="Hitchhike Hazie"
+          title="This website: Hitchhike Hazie!"
+          text="My travel lifestyle creativity hub! I hope to build up this site to be a visual record of my journey to share with others and network with more people!"
+          textTwo="Several years ago, I made a WordPress site, but had bigger ideas for my site. So I created this site from scratch using React, with a bit of material UI. All the photos and artworks are my own :) Thanks for stopping by!"
           logo={githubLogo}
-          link="https://github.com/hazieon"
-          buttonText="See More on GitHub"
+          link="https://github.com/hazieon/HitchhikeHazieBlog"
+          buttonText="View on GitHub!"
         />
         <Text
           image={vancationProject}
@@ -90,14 +91,13 @@ function CodeProjects() {
         />
 
         <Panel
-          image={hazieProject}
-          alt="Hitchhike Hazie"
-          title="This website: Hitchhike Hazie!"
-          text="My travel lifestyle creativity hub! I hope to build up this site to be a visual record of my journey to share with others and network with more people!"
-          textTwo="Several years ago, I made a WordPress site, but had bigger ideas for my site. So I created this site from scratch using React, with a bit of material UI. All the photos and artworks are my own :) Thanks for stopping by!"
+          image={githubImage}
+          alt="Github profile"
+          title="Coding Projects"
+          text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
           logo={githubLogo}
-          link="https://github.com/hazieon/HitchhikeHazieBlog"
-          buttonText="View on GitHub!"
+          link="https://github.com/hazieon"
+          buttonText="See More on GitHub"
         />
       </div>
     </div>

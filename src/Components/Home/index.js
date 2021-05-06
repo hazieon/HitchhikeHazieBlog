@@ -72,7 +72,9 @@ function Homepage() {
         textTwo="Check out my recent projects on GitHub or on the Code Projects page on this site!"
         logo={githubLogo}
         link="https://github.com/hazieon"
-        buttonText="See More on GitHub"
+        buttonText="View on GitHub"
+        linkTwologoTwo="https://hitchhikehazie.netlify.app/codeprojects"
+        buttonTwoText="View Code Projects Page"
       />
     </div>
   );
