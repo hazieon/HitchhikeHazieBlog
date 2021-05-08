@@ -5,10 +5,6 @@ import MyTypist from "../Typist";
 import githubImage from "../../images/hazie r3.png";
 import githubLogo from "../../images/githublogo.png";
 
-// import travelImg from "../../images/boseong.jfif";
-// import skillsImg from "../../images/moongirl.jpg";
-// import lifestyleImg from "../../images/received_2396607630564628.jpeg";
-
 function Homepage() {
   return (
     <div className="Homepage">
@@ -81,10 +77,3 @@ function Homepage() {
 }
 
 export default Homepage;
-
-/* <img
-            className={styles.explainImage}
-            id={styles.explainImageOne}
-            src={travelImg}
-            alt="hitchhiking with backpack"
-          ></img> */

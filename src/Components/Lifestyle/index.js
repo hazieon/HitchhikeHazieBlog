@@ -17,11 +17,6 @@ function Lifestyle() {
         <div className={styles.heroImage}>
           <div className={styles.heroText}>
             <h1>Alternative Lifestyle</h1>
-            {/* 
-            <h2>Take the scenic route.</h2>
-            <Link className={styles.link} to="/about">
-              <button className={styles.heroButton}>About Hazie</button>
-            </Link> */}
           </div>
         </div>
         <List

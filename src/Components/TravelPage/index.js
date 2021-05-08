@@ -28,7 +28,6 @@ function TravelPage() {
         </div>
         <div className={styles.titleBox}>
           <h1>My Travel Timeline</h1>
-          {/* <h3>Here is the story of my travels:</h3> */}
         </div>
         <h1 className={styles.subheading}>Study abroad in Japan</h1>
         <h4 className={styles.subheading}>
@@ -130,8 +129,3 @@ function TravelPage() {
 }
 
 export default TravelPage;
-
-/* <h2>Take the scenic route.</h2> */
-/* <Link className={styles.link} to="/about">
-            <button className={styles.heroButton}>About Hazie</button>
-          </Link> */

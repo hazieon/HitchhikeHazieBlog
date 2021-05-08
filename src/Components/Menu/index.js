@@ -1,15 +1,9 @@
 import React from "react";
 import styles from "./index.module.css";
 import { withStyles } from "@material-ui/core/styles";
-// import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
-// import ListItemIcon from "@material-ui/core/ListItemIcon";
-// import ListItemText from "@material-ui/core/ListItemText";
-// import InboxIcon from "@material-ui/icons/MoveToInbox";
-// import DraftsIcon from "@material-ui/icons/Drafts";
-// import SendIcon from "@material-ui/icons/Send";
 
 const StyledMenu = withStyles({
   paper: {
@@ -61,7 +55,6 @@ export default function CustomisedMenus() {
         aria-controls="customized-menu"
         aria-haspopup="true"
         variant="contained"
-        // color="seconary"
         className={styles.menuButton}
         onClick={handleClick}
       >

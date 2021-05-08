@@ -60,39 +60,6 @@ button {
   color: black;
 }
 
-.socialMediaBox {
-  display: flex;
-  flex-direction: row;
-  height: fit-content;
-  border: 2px solid lime;
-  max-width: 100vw;
-}
-.socialMediaItem {
-  height: 20vh;
-  width: 35vw;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  border: 4px solid blue;
-}
-
-#itemOne {
-  background-image: url("../../images/DSC_0008.JPG");
-
-  border: 2px solid red;
-}
-#itemTwo {
-  background-image: url("../../images/book5.png");
-  border: 2px solid red;
-}
-
-#itemThree {
-  background-image: url("../../images/book5.png");
-}
-
-#itemFour {
-  background-image: url("../../images/book5.png");
-}
-
 .contactDetailsBox {
   background-color: var(--white);
   border-radius: 12px;
@@ -112,6 +79,7 @@ button {
 .explainSection {
   margin-bottom: 4rem;
 }
+
 .explainBox {
   display: flex;
   justify-content: center;

@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Project from "../Project";
 import Moongirl from "../../images/front cover thumb.png";
 import DragonHearts from "../../images/Cover design layout THUMB.png";
-import { Link } from "react-router-dom";
+
 const projectsArray = [
   {
     image: Moongirl,
@@ -34,14 +34,7 @@ function Creativity() {
   return (
     <div className={styles.projectsBox}>
       <div className={styles.heroImage}>
-        <div className={styles.heroText}>
-          {/*
-          <h1>Creative Projects</h1>
-          <h2>Take the scenic route.</h2>
-          <Link className={styles.link} to="/about">
-            <button className={styles.heroButton}>About Hazie</button>
-          </Link> */}
-        </div>
+        <div className={styles.heroText}></div>
       </div>
       <div className={styles.titleBox}>
         <h1>Creative Projects </h1>

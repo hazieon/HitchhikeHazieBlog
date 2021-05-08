@@ -105,15 +105,3 @@ function CodeProjects() {
 }
 
 export default CodeProjects;
-
-/* <Text
-          image={githubImage}
-          alt="Purely plantain "
-          subheading="Plantain Chips eCommerce "
-          textOne="WeLovePurely is a custom Shopify eCommerce site for plantain chips, created for a client."
-          textTwo="In a team, we customised and created sections and features in Liquid, Shopify's template language. "
-          logoOne={githubLogo}
-          logoTwo={githubLogo}
-          linkOne="https://welovepurely.com/"
-          buttonOneText="View on GitHub"
-        /> */

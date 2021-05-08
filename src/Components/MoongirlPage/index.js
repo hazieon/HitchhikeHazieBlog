@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./index.module.css";
 import cover from "../../images/front cover.png";
 import logo from "../../images/amazon.png";
-// import MyTypist from "../Typist";
 import Typist from "react-typist";
 import MyGallery from "../Gallery";
 import { moongirlPhotosArray } from "../../moongirlPhotos";
@@ -14,12 +13,6 @@ function Moongirl() {
       <div className={styles.heroImage}>
         <div className={styles.heroText}></div>
       </div>
-      {/* <MyTypist
-        textOne="I am the girl who sits on the moon."
-        textTwo="I rise at dusk and set by the noon."
-        textThree="Soften the darkness & glow through the night"
-        textFour="Turn golden sunrays into silver moonlight..."
-      /> */}
 
       <div className={styles.redirectButton}>
         <Link to="/creativity">
@@ -47,9 +40,6 @@ function Moongirl() {
             Turn golden sunrays into silver moonlight...
           </span>
           <br />
-
-          {/* <Typist.Backspace count={44} delay={800} />
-        <span> </span> */}
         </Typist>
       </div>
 
@@ -152,5 +142,3 @@ function Moongirl() {
 }
 
 export default Moongirl;
-
-//onTypingDone={() => setCount(0)}
