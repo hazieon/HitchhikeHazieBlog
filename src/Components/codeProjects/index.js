@@ -5,7 +5,7 @@ import Text from "../Text";
 import githubImage from "../../images/hazie r3.png";
 import githubLogo from "../../images/githublogo.png";
 import moongirlProject from "../../images/moongirlgame.jpg";
-import hazieProject from "../../images/boseong.jfif";
+import hazieProject from "../../images/boseong.jpg";
 import purelyProject from "../../images/product image FROM INSTA.jpg";
 import polyhedraProject from "../../images/polyhedra.jpg";
 import nandokuProject from "../../images/nandoku.jpg";

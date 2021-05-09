@@ -2,8 +2,8 @@ import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import Panel from "../Panel";
 import MyTypist from "../Typist";
-import githubImage from "../../images/hazie r3.png";
-import githubLogo from "../../images/githublogo.png";
+// import githubImage from "https://i.ibb.co/xhgh4TL/hazie-r3.png";
+// import githubLogo from "../../images/githublogo.png";
 
 function Homepage() {
   return (
@@ -61,12 +61,12 @@ function Homepage() {
       </div>
 
       <Panel
-        image={githubImage}
+        image={"https://i.ibb.co/xhgh4TL/hazie-r3.png"}
         alt="Github profile"
         title="Coding Projects"
         text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
         textTwo="Check out my recent projects on GitHub or on the Code Projects page on this site!"
-        logo={githubLogo}
+        logo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
         link="https://github.com/hazieon"
         buttonText="View on GitHub"
         linkTwologoTwo="https://hitchhikehazie.netlify.app/codeprojects"

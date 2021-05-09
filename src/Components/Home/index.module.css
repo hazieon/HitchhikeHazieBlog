@@ -1,7 +1,7 @@
 .heroImage {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("../../images/DSC_1123.JPG");
+    url("https://i.ibb.co/q5sQc5X/DSC-1123.jpg");
 
   height: 75vh;
 
@@ -98,30 +98,30 @@ button {
 }
 
 #explainImageOne {
-  background-image: url("../../images/boseong.jfif");
+  background-image: url("https://i.ibb.co/vhqx7nd/boseong.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageTwo {
-  background-image: url("../../images/moongirl.jpg");
+  background-image: url("https://i.ibb.co/KVBY0nB/moongirl.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageThree {
-  background-image: url("../../images/received_2396607630564628.jpeg");
+  background-image: url("https://i.ibb.co/DQrcZxD/received-2396607630564628.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
 #explainImageOne:hover {
-  background-image: url("../../images/DSC_0007.JPG");
+  background-image: url("https://i.ibb.co/M7LPcCr/DSC-0007.jpg");
   transform: scale(110%);
 }
 
 #explainImageTwo:hover {
-  background-image: url("../../images/taekwondo2.jpg");
+  background-image: url("https://i.ibb.co/KNJ5pv8/taekwondo2.jpg");
   transform: scale(110%);
 }
 
 #explainImageThree:hover {
-  background-image: url("../../images/DSC_0666\ 2.jpg");
+  background-image: url("https://i.ibb.co/25VPrTV/DSC-0666-2.jpg");
   transform: scale(110%);
 }
 
