@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./index.module.css";
 import MyGallery from "../Gallery";
 import Text from "../Text";
-import studyAbroad from "../../images/DSC_0410.JPG";
-import europeTrip from "../../images/DSC_1006.JPG";
-import koreaYear from "../../images/DSC_0291 2.jpg";
-import indiaTrip from "../../images/DSC_0611.JPG";
-import austria from "../../images/DSC_0897_24808 2.JPG";
-import vanlife from "../../images/DSC_0666 2.jpg";
-import revistJapan from "../../images/CSC_0133.JPG";
+// import studyAbroad from "../../images/DSC_0410.JPG";
+// import europeTrip from "../../images/DSC_1006.JPG";
+// import koreaYear from "../../images/DSC_0291 2.jpg";
+// import indiaTrip from "../../images/DSC_0611.JPG";
+// import austria from "../../images/DSC_0897_24808 2.JPG";
+// import vanlife from "../../images/DSC_0666 2.jpg";
+// import revistJapan from "../../images/CSC_0133.JPG";
 import { japanPhotosArray } from "../../japanPhotos";
 import { europePhotosArray } from "../../europePhotos";
 import { koreaPhotosArray } from "../../koreaPhotos";
@@ -37,7 +37,7 @@ function TravelPage() {
         <div className={styles.memoryImageBox}>
           <img
             className={styles.memoryImage}
-            src={studyAbroad}
+            src={"https://i.ibb.co/ssqgGRV/DSC-0410.jpg"}
             alt="first time in Japan"
           />
         </div>
@@ -51,7 +51,7 @@ function TravelPage() {
         <div className={styles.memoryImageBox}>
           <img
             className={styles.memoryImage}
-            src={europeTrip}
+            src={"https://i.ibb.co/xFVx9Gw/DSC-1006.jpg"}
             alt="exploring Europe"
           />
         </div>
@@ -60,7 +60,7 @@ function TravelPage() {
       </div>
 
       <Text
-        image={austria}
+        image={"https://i.ibb.co/dW2wzqC/DSC-0897-24808-2.jpg"}
         alt="mountains with snow"
         subheading="Au pair in Austria"
         textOne="After exploring Europe, I stayed 2 more months in Austria with a family teaching English to their children."
@@ -74,7 +74,7 @@ function TravelPage() {
       <div className={styles.memoryImageBox}>
         <img
           className={styles.memoryImage}
-          src={koreaYear}
+          src={"https://i.ibb.co/3kr3HJb/DSC-0291-2.jpg"}
           alt="living in Korea"
         />
       </div>
@@ -89,7 +89,7 @@ function TravelPage() {
       <div className={styles.memoryImageBox}>
         <img
           className={styles.memoryImage}
-          src={revistJapan}
+          src={"https://i.ibb.co/T2mzxKc/CSC-0133.jpg"}
           alt="Japan fox mask"
         />
       </div>
@@ -103,7 +103,7 @@ function TravelPage() {
       <div className={styles.memoryImageBox}>
         <img
           className={styles.memoryImage}
-          src={indiaTrip}
+          src={"https://i.ibb.co/Pwr5z1W/DSC-0611.jpg"}
           alt="living in India"
         />
       </div>
@@ -118,7 +118,7 @@ function TravelPage() {
       <div className={styles.memoryImageBox}>
         <img
           className={styles.memoryImage}
-          src={vanlife}
+          src={"https://i.ibb.co/25VPrTV/DSC-0666-2.jpg"}
           alt="vanlife in Europe & UK"
         />
       </div>

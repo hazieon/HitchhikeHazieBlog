@@ -1,7 +1,7 @@
 .heroImage {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("../../images/back\ cover\ layout.png");
+    url("https://i.ibb.co/7J1kV8x/dragonmoon.jpg");
 
   height: 90vh;
 

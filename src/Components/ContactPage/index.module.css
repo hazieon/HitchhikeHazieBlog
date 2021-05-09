@@ -1,7 +1,7 @@
 .heroImage {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("../../images/19366298_10155263329136070_3045937438815596369_n.jpg");
+    url("https://i.ibb.co/kHFPjXQ/19366298-10155263329136070-3045937438815596369-n.jpg");
 
   height: 75vh;
 
@@ -113,34 +113,34 @@ button {
 }
 
 #explainImageOne {
-  background-image: url("../../images/DSC_0896.JPG");
+  background-image: url("https://i.ibb.co/mbpgjp5/DSC-0896.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
   background-position: 80%;
 }
 #explainImageTwo {
-  background-image: url("../../images/youtube4.jpg");
+  background-image: url("https://i.ibb.co/ZzYs2hv/youtube4.jpg");
   background-position: 38%;
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageThree {
-  background-image: url("../../images/DSC_0817\ 4.jpg");
+  background-image: url("https://i.ibb.co/kc9CFSC/DSC-0817-4.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
   background-position: right;
 }
 #explainImageFour {
-  background-image: url("../../images/hazie\ r2.png");
+  background-image: url("https://i.ibb.co/F3LF9h0/hazie-r2.png");
   box-shadow: -4px 4px 0px 0px var(--purple);
   background-position: right;
 }
 
 #explainImageOne:hover {
-  background-image: url("../../images/DSC_0654.JPG");
+  background-image: url("https://i.ibb.co/vP8jv7q/DSC-0654.jpg");
   background-position: 60%;
   transform: scale(105%);
 }
 
 #explainImageTwo:hover {
-  background-image: url("../../images/youtube5.jpg");
+  background-image: url("https://i.ibb.co/n0Fc46w/youtube5.jpg");
   background-position: 56%;
   transform: scale(105%);
 }

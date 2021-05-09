@@ -9,13 +9,13 @@ import Contact from "./Components/ContactPage";
 import Creativity from "./Components/Creativity";
 import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import logo from "./images/earth-hz.png";
 import TravelPage from "./Components/TravelPage";
 import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
 import Comic from "./Components/DragonBookPage";
 import CodeProjects from "./Components/codeProjects";
+const logo = "https://i.ibb.co/4g38T9G/earth-hz.png";
 
 function App() {
   return (

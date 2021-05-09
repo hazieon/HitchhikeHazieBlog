@@ -1,27 +1,29 @@
 import React, { useState } from "react";
-import logo from "../../images/amazon.png";
+// import logo from "../../images/amazon.png";
 import styles from "./index.module.css";
-import image1 from "../../images/chapter one cover1.png";
-import image2 from "../../images/DH page 1.png";
-import image3 from "../../images/DH page 2 2.png";
-import image4 from "../../images/DH page 3.png";
-import image5 from "../../images/DH page 4.png";
-import image6 from "../../images/DH page 5.png";
-import image7 from "../../images/DH page 6.png";
-import image8 from "../../images/DH page 7.png";
-import image9 from "../../images/DH page 8.png";
+// import image1 from "../../images/chapter one cover1.png";
+// import image2 from "../../images/DH page 1.png";
+// import image3 from "../../images/DH page 2 2.png";
+// import image4 from "../../images/DH page 3.png";
+// import image5 from "../../images/DH page 4.png";
+// import image6 from "../../images/DH page 5.png";
+// import image7 from "../../images/DH page 6.png";
+// import image8 from "../../images/DH page 7.png";
+// import image9 from "../../images/DH page 8.png";
 import { Link } from "react-router-dom";
 
+const logo = "https://i.ibb.co/5rx9mqv/amazon.png";
+
 const pages = [
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
+  "https://i.ibb.co/jrgs7rx/chapter-one-cover1.png",
+  "https://i.ibb.co/7rVy9xW/DH-page-1.png",
+  "https://i.ibb.co/xGkQKv5/DH-page-2-2.png",
+  "https://i.ibb.co/9tLMV5v/DH-page-3.png",
+  "https://i.ibb.co/p1P26xx/DH-page-4.png",
+  "https://i.ibb.co/9hz0cBm/DH-page-5.png",
+  "https://i.ibb.co/rxB80D1/DH-page-6.png",
+  "https://i.ibb.co/bbdFynr/DH-page-7.png",
+  "https://i.ibb.co/J231YgM/DH-page-8.png",
 ];
 
 function Comic() {

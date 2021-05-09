@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Project from "../Project";
-import Moongirl from "../../images/front cover thumb.png";
-import DragonHearts from "../../images/Cover design layout THUMB.png";
+// import Moongirl from "../../images/front cover thumb.png";
+// import DragonHearts from "../../images/Cover design layout THUMB.png";
 
 const projectsArray = [
   {

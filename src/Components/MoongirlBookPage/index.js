@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "../../images/amazon.png";
 import styles from "./index.module.css";
+// import logo from "../../images/amazon.png";
 // import image1 from "../../images/book.png";
 // import image2 from "../../images/book2.png";
 // import image3 from "../../images/book3.png";
@@ -10,6 +10,8 @@ import styles from "./index.module.css";
 // import image7 from "../../images/book7.png";
 // import image8 from "../../images/book8.png";
 import { Link } from "react-router-dom";
+
+const logo = "https://i.ibb.co/5rx9mqv/amazon.png";
 
 const pages = [
   "https://i.ibb.co/TgCcbzw/book.png",

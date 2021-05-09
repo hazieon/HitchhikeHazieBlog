@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
-import githubImage from "../../images/hazie r3.png";
+// import githubImage from "../../images/hazie r3.png";
 // import githubLogo from "../../images/githublogo.png";
 // import hazieImage from "../../images/DSC_0817 4.jpg";
-import moongirlImage from "../../images/moongirl.jpg";
+// import moongirlImage from "../../images/moongirl.jpg";
 // import hazieImageTwo from "../../images/19366298_10155263329136070_3045937438815596369_n.jpg";
 import Text from "../Text";
 import Slider from "../Slider";

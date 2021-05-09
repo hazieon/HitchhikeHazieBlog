@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./index.module.css";
-import cover from "../../images/front cover.png";
-import logo from "../../images/amazon.png";
+// import cover from "../../images/front cover.png";
+// import logo from "../../images/amazon.png";
 import Typist from "react-typist";
 import MyGallery from "../Gallery";
 import { moongirlPhotosArray } from "../../moongirlPhotos";
 import { Link } from "react-router-dom";
+
+const logo = "https://i.ibb.co/5rx9mqv/amazon.png";
 
 function Moongirl() {
   return (

@@ -3,9 +3,9 @@ import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import Panel from "../Panel";
 import MyTypist from "../Typist";
-import githubImage from "../../images/hazie r3.png";
-import githubLogo from "../../images/githublogo.png";
+// import githubImage from "../../images/hazie r3.png";
 import YoutubeEmbed from "../Youtube";
+const githubLogo = "https://i.ibb.co/qpQ5gPJ/githublogo.png";
 
 function Contact() {
   return (
@@ -80,7 +80,7 @@ function Contact() {
       </div>
 
       <Panel
-        image={githubImage}
+        image={"https://i.ibb.co/xhgh4TL/hazie-r3.png"}
         alt="Github profile"
         title="Coding Projects"
         text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."

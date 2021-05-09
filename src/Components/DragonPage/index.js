@@ -1,10 +1,13 @@
 import React from "react";
 import MyGallery from "../Gallery";
 import styles from "./index.module.css";
-import logo from "../../images/amazon.png";
+// import logo from "../../images/amazon.png";
 import { Link } from "react-router-dom";
-import cover from "../../images/Cover design layout.png";
+// import cover from "../../images/Cover design layout.png";
 import { dragonPhotosArray } from "../../dragonPhotos";
+
+const logo = "https://i.ibb.co/5rx9mqv/amazon.png";
+
 function Dragon() {
   return (
     <div className={styles.dragonContainer}>
@@ -26,7 +29,11 @@ function Dragon() {
       <h3>The fantasy manga comic</h3>
 
       <div className={styles.memoryImageBox}>
-        <img className={styles.memoryImage} src={cover} alt="front cover" />
+        <img
+          className={styles.memoryImage}
+          src={"https://i.ibb.co/YB734zy/Cover-design-layout.png"}
+          alt="front cover"
+        />
       </div>
 
       <div className={styles.projectBoxButtonContainer}>

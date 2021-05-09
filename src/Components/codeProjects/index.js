@@ -2,14 +2,16 @@ import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
 import Text from "../Text";
-import githubImage from "../../images/hazie r3.png";
-import githubLogo from "../../images/githublogo.png";
-import moongirlProject from "../../images/moongirlgame.jpg";
-import hazieProject from "../../images/boseong.jpg";
-import purelyProject from "../../images/product image FROM INSTA.jpg";
-import polyhedraProject from "../../images/polyhedra.jpg";
-import nandokuProject from "../../images/nandoku.jpg";
-import vancationProject from "../../images/vancation.jpg";
+
+// import moongirlProject from "../../images/moongirlgame.jpg";
+// import hazieProject from "../../images/boseong.jpg";
+// import purelyProject from "../../images/product image FROM INSTA.jpg";
+// import polyhedraProject from "../../images/polyhedra.jpg";
+// import nandokuProject from "../../images/nandoku.jpg";
+// import vancationProject from "../../images/vancation.jpg";
+
+const githubImage = "https://i.ibb.co/xhgh4TL/hazie-r3.png";
+const githubLogo = "https://i.ibb.co/qpQ5gPJ/githublogo.png";
 
 function CodeProjects() {
   return (
@@ -17,7 +19,7 @@ function CodeProjects() {
       <div className={styles.codeProjectsBox}>
         <h1>Recent Code Projects</h1>
         <Panel
-          image={hazieProject}
+          image={"https://i.ibb.co/vhqx7nd/boseong.jpg"}
           alt="Hitchhike Hazie"
           title="This website: Hitchhike Hazie!"
           text="My travel lifestyle creativity hub! I hope to build up this site to be a visual record of my journey to share with others and network with more people!"
@@ -27,7 +29,7 @@ function CodeProjects() {
           buttonText="View on GitHub!"
         />
         <Text
-          image={vancationProject}
+          image={"https://i.ibb.co/hMsccL8/vancation.jpg"}
           alt="Vancation App"
           subheading="🚛 Vancation"
           textOne="Vancation is an app for people travelling by campervan to pin good parking spots to a map! 🚛 "
@@ -40,7 +42,7 @@ function CodeProjects() {
           buttonTwoText="Try the Vancation site!"
         />
         <Text
-          image={nandokuProject}
+          image={"https://i.ibb.co/CmTtY3v/nandoku.jpg"}
           alt="Nandoku App"
           subheading="難読漢字 Nandoku Kanji"
           textOne="Difficult Japanese kanji reading quiz challenge with various categories! 
@@ -54,7 +56,7 @@ function CodeProjects() {
           buttonTwoText="Try the Nandoku quiz!"
         />
         <Panel
-          image={purelyProject}
+          image={"https://i.ibb.co/dpw4zHG/product-image-FROM-INSTA.jpg"}
           alt="Purely plantain"
           title="Plantain Chips eCommerce"
           text="WeLovePurely is a custom Shopify eCommerce site for flavoured plantain chips, created for a client!"
@@ -64,7 +66,7 @@ function CodeProjects() {
           buttonText="View the Site!"
         />
         <Text
-          image={polyhedraProject}
+          image={"https://i.ibb.co/85KVJ6s/polyhedra.jpg"}
           alt="Polyhedron Dice"
           subheading="Polyhedron Dice Machine"
           textOne="A mulitple dice roller tool for table top games. Roll anything from a d4 to a d120!"
@@ -77,7 +79,7 @@ function CodeProjects() {
           buttonTwoText="Try the Dice Roller!"
         />
         <Text
-          image={moongirlProject}
+          image={"https://i.ibb.co/GMD1C1z/moongirlgame.jpg"}
           alt="Moongirl game"
           subheading="Moongirl Dressup Game"
           textOne="The Lonely Moongirl dressup game! Choose an outfit and hairstyle for the Moongirl, a character from a picturebook I enjoyed making."

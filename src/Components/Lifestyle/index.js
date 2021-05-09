@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./index.module.css";
 import List from "../List";
-import lifestyleImage from "../../images/IMGP6773.JPG";
+// import lifestyleImage from "../../images/IMGP6773.JPG";
+// import image1 from "../../images/DSC_1297 2.jpg";
+// import image2 from "../../images/trio.jpg";
+// import image3 from "../../images/DSC_0250.JPG";
+// import image4 from "../../images/taekwondo3.jpg";
+// import image5 from "../../images/IMGP7293.JPG";
 
-import image1 from "../../images/DSC_1297 2.jpg";
-import image2 from "../../images/trio.jpg";
-import image3 from "../../images/DSC_0250.JPG";
-import image4 from "../../images/taekwondo3.jpg";
-import image5 from "../../images/IMGP7293.JPG";
-
-import { Link } from "react-router-dom";
 function Lifestyle() {
   return (
     <>
@@ -20,7 +18,7 @@ function Lifestyle() {
           </div>
         </div>
         <List
-          image={lifestyleImage}
+          image={"https://i.ibb.co/4VkKMjm/IMGP6773.jpg"}
           listOne={[
             "Alternative travel",
             "Hitchhiking",
@@ -58,8 +56,8 @@ function Lifestyle() {
           <div className={styles.memoryImageBox}>
             <img
               className={styles.memoryImage}
-              src={image1}
-              alt="first time in Japan"
+              src={"https://i.ibb.co/Z2FBDVp/DSC-1297-2.jpg"}
+              alt="first time travelling around Japan solo"
             />
           </div>
           <p>
@@ -91,8 +89,8 @@ function Lifestyle() {
           <div className={styles.memoryImageBox}>
             <img
               className={styles.memoryImage}
-              src={image2}
-              alt="first time in Japan"
+              src={"https://i.ibb.co/JH8HZtZ/trio.jpg"}
+              alt="hitchhiking to Nagoya"
             />
           </div>
           <p>
@@ -115,8 +113,8 @@ function Lifestyle() {
           <div className={styles.memoryImageBox}>
             <img
               className={styles.memoryImage}
-              src={image3}
-              alt="first time in Japan"
+              src={"https://i.ibb.co/bdvMhSH/DSC-0250.jpg"}
+              alt="Forested island in Japan"
             />
           </div>
           <p>
@@ -136,8 +134,8 @@ function Lifestyle() {
           <div className={styles.memoryImageBox}>
             <img
               className={styles.memoryImage}
-              src={image4}
-              alt="first time in Japan"
+              src={"https://i.ibb.co/ZmLDj2d/taekwondo3.jpg"}
+              alt="Black belt test in Korea"
             />
           </div>
           <p>
@@ -163,8 +161,8 @@ function Lifestyle() {
           <div className={styles.memoryImageBox}>
             <img
               className={styles.memoryImage}
-              src={image5}
-              alt="first time in Japan"
+              src={"https://i.ibb.co/FnY03wp/IMGP7293.jpg"}
+              alt="Finally seeing Sakura island!"
             />
           </div>
         </div>
