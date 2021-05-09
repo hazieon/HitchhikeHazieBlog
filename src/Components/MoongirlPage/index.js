@@ -44,7 +44,11 @@ function Moongirl() {
       </div>
 
       <div className={styles.memoryImageBox}>
-        <img className={styles.memoryImage} src={cover} alt="front cover" />
+        <img
+          className={styles.memoryImage}
+          src={"https://i.ibb.co/bBL2pw9/front-cover.png"}
+          alt="front cover"
+        />
       </div>
 
       <h1>The Lonely Moongirl</h1>

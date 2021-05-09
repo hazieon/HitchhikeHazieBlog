@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
 import githubImage from "../../images/hazie r3.png";
-import githubLogo from "../../images/githublogo.png";
-import hazieImage from "../../images/DSC_0817 4.jpg";
+// import githubLogo from "../../images/githublogo.png";
+// import hazieImage from "../../images/DSC_0817 4.jpg";
 import moongirlImage from "../../images/moongirl.jpg";
-import hazieImageTwo from "../../images/19366298_10155263329136070_3045937438815596369_n.jpg";
+// import hazieImageTwo from "../../images/19366298_10155263329136070_3045937438815596369_n.jpg";
 import Text from "../Text";
 import Slider from "../Slider";
 
@@ -14,14 +14,14 @@ function About() {
     <>
       <div className={styles.About}>
         <Panel
-          image={hazieImage}
+          image={"https://i.ibb.co/kc9CFSC/DSC-0817-4.jpg"}
           alt="Hazie the vampire"
           title="Hey, I'm Hazie!"
           text={
             "Since studying abroad in Japan, I haven't stopped exploring! I lived in Japan, South Korea, Austria & India. I also spent some months hitchhiking around Europe."
           }
           textTwo="In my free time, I like creating picturebooks, photobooks and recently I am learning to code! Check out my projects and more around this site. Thanks so much for visiting! :)"
-          logo={githubLogo}
+          logo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
           link="https://github.com/hazieon"
           buttonText="See More on GitHub"
           linkTwologoTwo="https://hitchhikehazie.netlify.app/codeprojects"
@@ -29,7 +29,9 @@ function About() {
         />
 
         <Text
-          image={hazieImageTwo}
+          image={
+            "https://i.ibb.co/kHFPjXQ/19366298-10155263329136070-3045937438815596369-n.jpg"
+          }
           alt="it's me"
           subheading="Background 🌎"
           textOne="I studied Psychology at university and spent one year studying abroad in Japan. This exchange year awakened my calling to adventure, so since graduating I have been living and exploring different countries. I travel on a very low budget and enjoy most meeting new people and learning the local language. I can speak Japanese, Korean and I'm learning traditional Chinese!"
@@ -37,7 +39,7 @@ function About() {
         />
 
         <Text
-          image={moongirlImage}
+          image={"https://i.ibb.co/KVBY0nB/moongirl.jpg"}
           alt="Creative projects"
           subheading="Creativity & Projects 🎨"
           textOne=" I have endless imagination and have created picturebooks, photobooks and a manga comic in my free time whilst traveling. More works are in the making! "
@@ -46,12 +48,12 @@ function About() {
           linkTwo="https://hitchhikehazie.netlify.app/dragon"
           buttonOneText="Moongirl"
           buttonTwoText="Dragon Hearts"
-          logoOne={githubLogo}
-          logoTwo={githubLogo}
+          logoOne={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
+          logoTwo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
         />
 
         <Text
-          image={githubImage}
+          image={"https://i.ibb.co/xhgh4TL/hazie-r3.png"}
           alt="Coding section"
           subheading="Coding Skills 💻"
           textOne="During the recent pandemic, whilst static, I took the opportunity to learn to code. Currently I am comfortable with JavaScript, React.js, Node.js, HTML5, CSS6, SQL and always learning more."
@@ -60,8 +62,8 @@ function About() {
           linkTwo="https://vancation.netlify.app"
           buttonOneText="Nandoku Kanji"
           buttonTwoText="Vancation"
-          logoOne={githubLogo}
-          logoTwo={githubLogo}
+          logoOne={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
+          logoTwo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
         />
       </div>
       <Slider />

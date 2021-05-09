@@ -6,7 +6,7 @@ import DragonHearts from "../../images/Cover design layout THUMB.png";
 
 const projectsArray = [
   {
-    image: Moongirl,
+    image: "https://i.ibb.co/bBL2pw9/front-cover.png",
     alt: "The Lonely Moongirl cover",
     title: "The Lonely Moongirl",
     link: "/moongirl",
@@ -17,7 +17,7 @@ const projectsArray = [
     logo: "",
   },
   {
-    image: DragonHearts,
+    image: "https://i.ibb.co/YB734zy/Cover-design-layout.png",
     alt: "Dragon Hearts cover",
     title: "Dragon Hearts manga",
     link: "/dragon",

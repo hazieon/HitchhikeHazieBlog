@@ -1,17 +1,26 @@
 import React, { useState } from "react";
 import logo from "../../images/amazon.png";
 import styles from "./index.module.css";
-import image1 from "../../images/book.png";
-import image2 from "../../images/book2.png";
-import image3 from "../../images/book3.png";
-import image4 from "../../images/book4.png";
-import image5 from "../../images/book5.png";
-import image6 from "../../images/book6.png";
-import image7 from "../../images/book7.png";
-import image8 from "../../images/book8.png";
+// import image1 from "../../images/book.png";
+// import image2 from "../../images/book2.png";
+// import image3 from "../../images/book3.png";
+// import image4 from "../../images/book4.png";
+// import image5 from "../../images/book5.png";
+// import image6 from "../../images/book6.png";
+// import image7 from "../../images/book7.png";
+// import image8 from "../../images/book8.png";
 import { Link } from "react-router-dom";
 
-const pages = [image1, image2, image3, image4, image5, image6, image7, image8];
+const pages = [
+  "https://i.ibb.co/TgCcbzw/book.png",
+  "https://i.ibb.co/5k2gjMP/book2.png",
+  "https://i.ibb.co/pb6CLWn/book3.png",
+  "https://i.ibb.co/h1swy7g/book4.png",
+  "https://i.ibb.co/JKxzzyh/book5.png",
+  "https://i.ibb.co/ZVTgJmw/book6.png",
+  "https://i.ibb.co/fQFZg4p/book7.png",
+  "https://i.ibb.co/FxrYJtp/book8.png",
+];
 
 function Book() {
   const [pageNum, setPageNum] = useState(0);
