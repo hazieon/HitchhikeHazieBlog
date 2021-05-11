@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
 import Text from "../Text";
-
 // import moongirlProject from "../../images/moongirlgame.jpg";
 // import hazieProject from "../../images/boseong.jpg";
 // import purelyProject from "../../images/product image FROM INSTA.jpg";
@@ -18,16 +17,18 @@ function CodeProjects() {
     <div className={styles.codeProjectsContainer}>
       <div className={styles.codeProjectsBox}>
         <h1>Recent Code Projects</h1>
+
         <Panel
-          image={"https://i.ibb.co/vhqx7nd/boseong.jpg"}
-          alt="Hitchhike Hazie"
-          title="This website: Hitchhike Hazie!"
-          text="My travel lifestyle creativity hub! I hope to build up this site to be a visual record of my journey to share with others and network with more people!"
-          textTwo="Several years ago, I made a WordPress site, but had bigger ideas for my site. So I created this site from scratch using React, with a bit of material UI. All the photos and artworks are my own :) Thanks for stopping by!"
+          image={githubImage}
+          alt="Github profile"
+          title="Coding Projects"
+          text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+          textTwo="See some of my recent projects on this page and try them out!"
           logo={githubLogo}
-          link="https://github.com/hazieon/HitchhikeHazieBlog"
-          buttonText="View on GitHub!"
+          link="https://github.com/hazieon"
+          buttonText="See More on GitHub"
         />
+
         <Text
           image={"https://i.ibb.co/hMsccL8/vancation.jpg"}
           alt="Vancation App"
@@ -93,13 +94,14 @@ function CodeProjects() {
         />
 
         <Panel
-          image={githubImage}
-          alt="Github profile"
-          title="Coding Projects"
-          text="I'm always creating something new or updating projects. Full of ideas and constantly developing my skills to bring these to life."
+          image={"https://i.ibb.co/vhqx7nd/boseong.jpg"}
+          alt="Hitchhike Hazie"
+          title="This website: Hitchhike Hazie!"
+          text="My travel lifestyle creativity hub! I hope to build up this site to be a visual record of my journey to share with others and network with more people!"
+          textTwo="Several years ago, I made a WordPress site, but had bigger ideas for my site. So I created this site from scratch using React, with a bit of material UI. All the photos and artworks are my own :) Thanks for stopping by!"
           logo={githubLogo}
-          link="https://github.com/hazieon"
-          buttonText="See More on GitHub"
+          link="https://github.com/hazieon/HitchhikeHazieBlog"
+          buttonText="View on GitHub!"
         />
       </div>
     </div>
