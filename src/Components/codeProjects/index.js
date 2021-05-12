@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
 import Text from "../Text";
+import Comments from "../Comments";
 // import moongirlProject from "../../images/moongirlgame.jpg";
 // import hazieProject from "../../images/boseong.jpg";
 // import purelyProject from "../../images/product image FROM INSTA.jpg";
@@ -103,6 +104,8 @@ function CodeProjects() {
           link="https://github.com/hazieon/HitchhikeHazieBlog"
           buttonText="View on GitHub!"
         />
+        {/* 
+        <Comments /> */}
       </div>
     </div>
   );
