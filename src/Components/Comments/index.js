@@ -36,7 +36,7 @@ function Comments({ comments, postNewComment, removeComment }) {
                   removeComment(comment.uuid);
                 }}
               >
-                x
+                Delete ✂
               </p>
               <div className={styles.commentsDetails}>
                 <h3 className={styles.commentsName}>
