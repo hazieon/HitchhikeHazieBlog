@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 
 function NewComment() {
@@ -6,8 +6,28 @@ function NewComment() {
   const [email, setEmail] = useState("unspecified@gmail.com");
   const [comment, setComment] = useState("Hello hello hello");
   const [country, setCountry] = useState("Earth");
+  const [commentObj, setCommentObj] = useState();
+
+  useEffect(() => {
+    let commentObject = {
+      name: name,
+      email: email,
+      country: country,
+      comment: comment,
+    };
+    setCommentObj(commentObject);
+  }, [name, country, email, comment]);
+
+  function postComment() {
+    //check each object value is filled and not default
+    //email valid
+    //if invalid, alert
+    //if all valid, post to db eeeeek
+  }
+
   return (
     <div className={styles.newCommentContainer}>
+      <h3>Post a Comment:</h3>
       <div className={styles.infoBox}>
         <input
           className={styles.nameBox}
@@ -43,6 +63,15 @@ function NewComment() {
         type="text"
         placeholder="Type a message..."
       ></input>
+      <button
+        className={styles.postButton}
+        onClick={() => {
+          console.log(name, email, country, comment);
+          console.log(commentObj);
+        }}
+      >
+        Post
+      </button>
     </div>
   );
 }

@@ -1,12 +1,13 @@
 .newCommentContainer {
-  border: 1px solid slategrey;
+  background-color: rgb(235, 230, 247);
+  box-shadow: -5px 5px 0px 0px var(--purple);
   width: 55vw;
+  height: auto;
   /* width: fit-content; */
   margin: auto;
   margin-bottom: 1.25rem;
-  padding: 10px 20px 10px;
+  padding: 14px 28px 34px;
   border-radius: 7px;
-  padding: 12px 12px 12px;
 }
 
 .infoBox {
@@ -18,16 +19,19 @@
 .nameBox {
   padding: 3px 1px 3px;
   margin: 0.5rem;
+  border-radius: 5px;
 }
 
 .emailBox {
   padding: 3px 1px 3px;
   margin: 0.5rem;
+  border-radius: 5px;
 }
 
 .countryBox {
   padding: 3px 1px 3px;
   margin: 0.5rem;
+  border-radius: 5px;
 }
 
 .commentBox {
@@ -36,6 +40,35 @@
   height: fit-content;
   min-height: 10vh;
   min-width: 40vw;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 2px;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.postButton {
+  background-color: var(--white);
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 8px 15px 10px;
+}
+
+.postButton:hover {
+  box-shadow: 0px 3px 1px 1px var(--purple);
+  background-color: white;
+}
+
+.postButton:active {
+  box-shadow: 0px 0px 1px 1px var(--white);
+  transition: 0s;
 }
 
 @media screen and (max-width: 980px) {
