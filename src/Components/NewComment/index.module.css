@@ -1,0 +1,45 @@
+.newCommentContainer {
+  border: 1px solid slategrey;
+  width: 55vw;
+  /* width: fit-content; */
+  margin: auto;
+  margin-bottom: 1.25rem;
+  padding: 10px 20px 10px;
+  border-radius: 7px;
+  padding: 12px 12px 12px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px 5px;
+}
+
+.nameBox {
+  padding: 3px 1px 3px;
+  margin: 0.5rem;
+}
+
+.emailBox {
+  padding: 3px 1px 3px;
+  margin: 0.5rem;
+}
+
+.countryBox {
+  padding: 3px 1px 3px;
+  margin: 0.5rem;
+}
+
+.commentBox {
+  padding: 1px 1px 3px;
+  margin: 0.5rem;
+  height: fit-content;
+  min-height: 10vh;
+  min-width: 40vw;
+}
+
+@media screen and (max-width: 980px) {
+  .infoBox {
+    flex-direction: column;
+  }
+}

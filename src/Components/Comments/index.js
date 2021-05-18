@@ -1,4 +1,5 @@
 import React from "react";
+import NewComment from "../NewComment";
 import styles from "./index.module.css";
 var dateFormat = require("dateformat");
 var now = new Date();
@@ -22,6 +23,7 @@ function Comments({ comments, postNewComment, removeComment }) {
 
   return (
     <div className={styles.commentsContainer}>
+      <NewComment />
       <h1>Message Board</h1>
       <div className={styles.comments}>
         {comments.map((comment) => {
@@ -58,6 +60,6 @@ function Comments({ comments, postNewComment, removeComment }) {
     </div>
   );
 }
-dateFormat("Jun 9 2007", "fullDate");
+// dateFormat("Jun 9 2007", "fullDate");
 
 export default Comments;
