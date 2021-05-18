@@ -79,7 +79,7 @@ function Contact() {
         </div>
       </div>
 
-      <Panel
+      {/* <Panel
         image={"https://i.ibb.co/xhgh4TL/hazie-r3.png"}
         alt="Github profile"
         title="Coding Projects"
@@ -87,7 +87,7 @@ function Contact() {
         logo={githubLogo}
         link="https://github.com/hazieon"
         buttonText="See More on GitHub"
-      />
+      /> */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ScrollToTop from "./Components/ScrollToTop";
 import Home from "./Components/Home";
 import CustomisedMenus from "./Components/Menu";
@@ -15,9 +15,40 @@ import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
 import Comic from "./Components/DragonBookPage";
 import CodeProjects from "./Components/codeProjects";
+import Comments from "./Components/Comments";
+require("dotenv").config();
+
 const logo = "https://i.ibb.co/4g38T9G/earth-hz.png";
+const url = process.env.REACT_APP_URL;
 
 function App() {
+  const [presetData, setPresetData] = useState([]);
+
+  async function fetchPresets() {
+    let res = await fetch(url);
+    const data = await res.json();
+    setPresetData(data.data);
+  }
+
+  useEffect(() => {
+    fetchPresets();
+  }, []);
+
+  async function postNewComment(newComment) {
+    console.log("posting new vancation");
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(newComment),
+    });
+  }
+
+  async function removeComment(id) {
+    const res = await fetch(`${url}${id}`, {
+      method: "DELETE",
+    });
+  }
+
   return (
     <div className="App">
       <Router>
@@ -61,6 +92,11 @@ function App() {
               </Route>
               <Route path="/contact">
                 <Contact />
+                <Comments
+                  comments={presetData}
+                  postNewComment={postNewComment}
+                  removeComment={removeComment}
+                />
               </Route>
               <Route path="/creativity">
                 <Creativity />
