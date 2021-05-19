@@ -35,12 +35,26 @@ function App() {
   }, []);
 
   async function postNewComment(newComment) {
-    console.log("posting new vancation");
+    console.log("posting new comment");
     const res = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newComment),
     });
+    // if (
+    //   newComment.name &&
+    //   newComment.email &&
+    //   newComment.country &&
+    //   newComment.comment
+    // ) {
+    //   const res = await fetch(url, {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/json" },
+    //     body: JSON.stringify(newComment),
+    //   });
+    // } else {
+    //   console.log("error with comment");
+    // }
   }
 
   async function removeComment(id) {

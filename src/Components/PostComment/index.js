@@ -40,13 +40,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Form = ({ handleClose }) => {
+const Form = ({ handleClose, postNewComment }) => {
   const [comment, setComment] = useState({});
   const classes = useStyles();
   const { handleSubmit, control } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
+    postNewComment(data);
   };
 
   return (
@@ -102,7 +103,7 @@ const Form = ({ handleClose }) => {
           rules={{ required: "Please add your email." }}
         />
         <Controller
-          name="password"
+          name="comment"
           control={control}
           defaultValue=""
           render={({ field: { onChange, value }, fieldState: { error } }) => (

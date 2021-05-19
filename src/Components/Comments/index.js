@@ -25,7 +25,7 @@ function Comments({ comments, postNewComment, removeComment }) {
   return (
     <div className={styles.commentsContainer}>
       {/* <NewComment /> */}
-      <Form />
+      <Form postNewComment={postNewComment} />
       <h1>Message Board</h1>
       <div className={styles.comments}>
         {comments.map((comment) => {
