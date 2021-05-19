@@ -2,11 +2,11 @@
   border: 2px solid black;
   background-color: var(--white);
   width: fit-content;
+  max-width: 70vw;
   margin: auto;
   margin-bottom: 1.25rem;
   padding: 10px 20px 10px;
   border-radius: 7px;
-
   font-weight: bold;
 }
 

@@ -4,8 +4,9 @@ import styles from "./index.module.css";
 function NewComment() {
   const [name, setName] = useState("Anonymous");
   const [email, setEmail] = useState("unspecified@gmail.com");
-  const [comment, setComment] = useState("Hello hello hello");
   const [country, setCountry] = useState("Earth");
+  const [comment, setComment] = useState("Hello hello hello");
+
   const [commentObj, setCommentObj] = useState();
 
   useEffect(() => {
@@ -19,6 +20,19 @@ function NewComment() {
   }, [name, country, email, comment]);
 
   function postComment() {
+    if (
+      commentObj.name !== "anonymous" &&
+      commentObj.email !== "unspecified@gmail.com" &&
+      commentObj.email.includes("@") &&
+      commentObj.country !== "Earth" &&
+      commentObj.comment !== "Hello hello hello" &&
+      commentObj.comment.length > 40
+    ) {
+      console.log("pass");
+    } else {
+      console.log("issue with comment");
+    }
+
     //check each object value is filled and not default
     //email valid
     //if invalid, alert
@@ -40,7 +54,11 @@ function NewComment() {
         <input
           className={styles.emailBox}
           onInput={(e) => {
-            setEmail(e.target.value);
+            if (e.target.value.includes("@")) {
+              setEmail(e.target.value);
+            } else {
+              console.log("email invalid");
+            }
           }}
           type="text"
           placeholder="email"
@@ -67,7 +85,7 @@ function NewComment() {
         className={styles.postButton}
         onClick={() => {
           console.log(name, email, country, comment);
-          console.log(commentObj);
+          postComment();
         }}
       >
         Post

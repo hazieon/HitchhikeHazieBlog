@@ -1,5 +1,6 @@
 import React from "react";
 import NewComment from "../NewComment";
+import Form from "../PostComment";
 import styles from "./index.module.css";
 var dateFormat = require("dateformat");
 var now = new Date();
@@ -23,7 +24,8 @@ function Comments({ comments, postNewComment, removeComment }) {
 
   return (
     <div className={styles.commentsContainer}>
-      <NewComment />
+      {/* <NewComment /> */}
+      <Form />
       <h1>Message Board</h1>
       <div className={styles.comments}>
         {comments.map((comment) => {

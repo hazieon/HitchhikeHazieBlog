@@ -1,0 +1,11 @@
+.newCommentContainer {
+  background-color: rgb(235, 230, 247);
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  width: 55vw;
+  height: auto;
+  /* width: fit-content; */
+  margin: auto;
+  margin-bottom: 1.25rem;
+  padding: 14px 28px 34px;
+  border-radius: 7px;
+}
