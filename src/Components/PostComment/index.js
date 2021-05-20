@@ -4,6 +4,9 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { useForm, Controller } from "react-hook-form";
 import styles from "./index.module.css";
+const { v4: uuidv4 } = require("uuid");
+var dateFormat = require("dateformat");
+// var now = new Date();
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,8 +49,23 @@ const Form = ({ handleClose, postNewComment }) => {
   const { handleSubmit, control } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-    postNewComment(data);
+    let newData = {
+      ...data,
+      uuid: uuidv4(),
+      date: dateFormat(new Date(), "d mmmm, yyyy"),
+    };
+    console.log(newData);
+    if (
+      newData.name &&
+      newData.country &&
+      newData.email &&
+      newData.uuid &&
+      newData.date &&
+      newData.comment
+    ) {
+      console.log("valid");
+      postNewComment(newData);
+    }
   };
 
   return (
