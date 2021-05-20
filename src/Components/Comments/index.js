@@ -34,10 +34,11 @@ function Comments({ comments, postNewComment, removeComment }) {
               <p
                 className={styles.delete}
                 onClick={() => {
+                  removeComment(comment.uuid);
                   alert(
                     `deleting comment from ${comment.name}. Please refresh`
                   );
-                  removeComment(comment.uuid);
+                  window.location.reload();
                 }}
               >
                 Delete ✂

@@ -35,10 +35,10 @@ function Contact() {
       <YoutubeEmbed embedId="lFUbDr-JaJY" />
 
       <div className={styles.explainSection}>
-        <h1 className={styles.explainTitle}>Contact Info</h1>
+        {/* <h1 className={styles.explainTitle}>Contact Info</h1>
         <div className={styles.contactDetailsBox}>
-          <h2> ✉　WysteriaHazie@gmail.com</h2>
-        </div>
+          <h2> ✉　HitchhikeHazie@gmail.com</h2>
+        </div> */}
         <div className={styles.explainBox}>
           <div>
             <h2>Instagram</h2>

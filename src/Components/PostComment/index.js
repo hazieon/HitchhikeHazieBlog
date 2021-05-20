@@ -66,87 +66,92 @@ const Form = ({ handleClose, postNewComment }) => {
       console.log("valid");
       postNewComment(newData);
     }
+    alert("Thanks for posting a comment! :)");
+    window.location.reload();
   };
 
   return (
-    <div className={styles.newCommentContainer}>
-      <form className={classes.root} onSubmit={handleSubmit(onSubmit)}>
-        <Controller
-          name="name"
-          control={control}
-          defaultValue=""
-          render={({ field: { onChange, value }, fieldState: { error } }) => (
-            <TextField
-              label="Name"
-              variant="filled"
-              value={value}
-              onChange={onChange}
-              error={!!error}
-              helperText={error ? error.message : null}
-            />
-          )}
-          rules={{ required: "Please add your name." }}
-        />
-        <Controller
-          name="country"
-          control={control}
-          defaultValue=""
-          render={({ field: { onChange, value }, fieldState: { error } }) => (
-            <TextField
-              label="Country"
-              variant="filled"
-              value={value}
-              onChange={onChange}
-              error={!!error}
-              helperText={error ? error.message : null}
-            />
-          )}
-          rules={{ required: "Please add your country." }}
-        />
-        <Controller
-          name="email"
-          control={control}
-          defaultValue=""
-          render={({ field: { onChange, value }, fieldState: { error } }) => (
-            <TextField
-              label="Email"
-              variant="filled"
-              value={value}
-              onChange={onChange}
-              error={!!error}
-              helperText={error ? error.message : null}
-              type="email"
-            />
-          )}
-          rules={{ required: "Please add your email." }}
-        />
-        <Controller
-          name="comment"
-          control={control}
-          defaultValue=""
-          render={({ field: { onChange, value }, fieldState: { error } }) => (
-            <TextField
-              label="Message"
-              variant="filled"
-              value={value}
-              onChange={onChange}
-              error={!!error}
-              helperText={error ? error.message : null}
-              type="name"
-            />
-          )}
-          rules={{ required: "Please add a comment." }}
-        />
-        <div>
-          <Button variant="contained" onClick={handleClose}>
-            Cancel
-          </Button>
-          <Button type="submit" variant="contained" color="primary">
-            Post
-          </Button>
-        </div>
-      </form>
-    </div>
+    <>
+      <h1>Leave a Message:</h1>
+      <div className={styles.newCommentContainer}>
+        <form className={classes.root} onSubmit={handleSubmit(onSubmit)}>
+          <Controller
+            name="name"
+            control={control}
+            defaultValue=""
+            render={({ field: { onChange, value }, fieldState: { error } }) => (
+              <TextField
+                label="Name"
+                variant="filled"
+                value={value}
+                onChange={onChange}
+                error={!!error}
+                helperText={error ? error.message : null}
+              />
+            )}
+            rules={{ required: "Please add your name." }}
+          />
+          <Controller
+            name="country"
+            control={control}
+            defaultValue=""
+            render={({ field: { onChange, value }, fieldState: { error } }) => (
+              <TextField
+                label="Country"
+                variant="filled"
+                value={value}
+                onChange={onChange}
+                error={!!error}
+                helperText={error ? error.message : null}
+              />
+            )}
+            rules={{ required: "Please add your country." }}
+          />
+          <Controller
+            name="email"
+            control={control}
+            defaultValue=""
+            render={({ field: { onChange, value }, fieldState: { error } }) => (
+              <TextField
+                label="Email"
+                variant="filled"
+                value={value}
+                onChange={onChange}
+                error={!!error}
+                helperText={error ? error.message : null}
+                type="email"
+              />
+            )}
+            rules={{ required: "Please add your email." }}
+          />
+          <Controller
+            name="comment"
+            control={control}
+            defaultValue=""
+            render={({ field: { onChange, value }, fieldState: { error } }) => (
+              <TextField
+                label="Message"
+                variant="filled"
+                value={value}
+                onChange={onChange}
+                error={!!error}
+                helperText={error ? error.message : null}
+                type="name"
+              />
+            )}
+            rules={{ required: "Please add a comment." }}
+          />
+          <div>
+            <Button variant="contained" onClick={handleClose}>
+              Cancel
+            </Button>
+            <Button type="submit" variant="contained" color="primary">
+              Post
+            </Button>
+          </div>
+        </form>
+      </div>
+    </>
   );
 };
 
