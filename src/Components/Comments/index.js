@@ -1,5 +1,5 @@
 import React from "react";
-import NewComment from "../NewComment";
+// import NewComment from "../NewComment";
 import Form from "../PostComment";
 import styles from "./index.module.css";
 var dateFormat = require("dateformat");
