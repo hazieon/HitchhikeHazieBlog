@@ -10,7 +10,7 @@ import Creativity from "./Components/Creativity";
 import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TravelPage from "./Components/TravelPage";
-
+import BlogPage from "./Components/BlogPage";
 import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
@@ -120,6 +120,9 @@ function App() {
               </Route>
               <Route path="/lifestyle">
                 <Lifestyle />
+              </Route>
+              <Route path="/blogpage">
+                <BlogPage />
               </Route>
               <Route path="/moongirl">
                 <Moongirl />

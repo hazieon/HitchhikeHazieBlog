@@ -70,6 +70,9 @@ export default function CustomisedMenus() {
         <Link to="/about">
           <StyledMenuItem>About me</StyledMenuItem>
         </Link>
+        <Link to="/blogpage">
+          <StyledMenuItem>Blog</StyledMenuItem>
+        </Link>
         <Link to="/travel">
           <StyledMenuItem>Travel & Adventure</StyledMenuItem>
         </Link>
