@@ -11,6 +11,7 @@ import { blogPosts } from "../blogPosts";
 function BlogPage() {
   return (
     <div className={styles.blogPageContainer}>
+      <h1> PAGE UNDER CONSTRUCTION</h1>
       <div className={styles.blogPageBox}>
         {blogPosts.map((post, index) => {
           return (
