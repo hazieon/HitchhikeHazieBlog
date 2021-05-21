@@ -15,13 +15,15 @@ function BlogPage() {
       <div className={styles.blogPageBox}>
         {blogPosts.map((post, index) => {
           return (
-            <BlogCard
-              image={post.thumbnail}
-              title={post.title}
-              summary={post.summary}
-              topic={post.topics}
-              subtitle={post.subtitle}
-            />
+            <div className={styles.blogPageCard}>
+              <BlogCard
+                image={post.thumbnail}
+                title={post.title}
+                summary={post.summary}
+                topics={post.topics}
+                subtitle={post.subtitle}
+              />
+            </div>
           );
         })}
       </div>
