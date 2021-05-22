@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./index.module.css";
+import { Link } from "react-router-dom";
 //"https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
 function BlogCard({
+  id,
   image,
   title,
   summary,
@@ -9,6 +11,7 @@ function BlogCard({
   topics,
   textArr,
   imagesArr,
+  handleArticleSelection,
 }) {
   return (
     <div className={styles.box}>
@@ -21,7 +24,11 @@ function BlogCard({
           {/* <h3>{subtitle}hi</h3> */}
           <p>{topics[0] + ", " + topics[1]}</p>
           <h5>{summary}</h5>
-          <button>Click</button>
+          <div onClick={() => handleArticleSelection(id)}>
+            <Link to="/blogarticle">
+              <button>Take a Look</button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

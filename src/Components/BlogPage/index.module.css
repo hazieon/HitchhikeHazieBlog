@@ -1,6 +1,7 @@
 .blogPageBox {
   background-color: var(--panel-mid-shade);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
@@ -16,6 +17,7 @@
   background-color: var(--white);
   cursor: pointer;
   transition: 0.5s ease;
+  flex-basis: 25%;
 }
 
 .blogPageCard:hover {

@@ -11,6 +11,7 @@ import Lifestyle from "./Components/Lifestyle";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TravelPage from "./Components/TravelPage";
 import BlogPage from "./Components/BlogPage";
+import BlogArticle from "./Components/BlogArticle";
 import Moongirl from "./Components/MoongirlPage";
 import Book from "./Components/MoongirlBookPage";
 import Dragon from "./Components/DragonPage";
@@ -23,6 +24,7 @@ const url = process.env.REACT_APP_URL;
 
 function App() {
   const [presetData, setPresetData] = useState([]);
+  const [articleId, setArticleId] = useState(1);
 
   async function fetchPresets() {
     let res = await fetch(url);
@@ -41,21 +43,25 @@ function App() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newComment),
     });
-    // if (
-    //   newComment.name &&
-    //   newComment.email &&
-    //   newComment.country &&
-    //   newComment.comment
-    // ) {
-    //   const res = await fetch(url, {
-    //     method: "POST",
-    //     headers: { "Content-Type": "application/json" },
-    //     body: JSON.stringify(newComment),
-    //   });
-    // } else {
-    //   console.log("error with comment");
-    // }
   }
+
+  async function handleArticleSelection(id) {
+    setArticleId(id);
+  }
+  // if (
+  //   newComment.name &&
+  //   newComment.email &&
+  //   newComment.country &&
+  //   newComment.comment
+  // ) {
+  //   const res = await fetch(url, {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/json" },
+  //     body: JSON.stringify(newComment),
+  //   });
+  // } else {
+  //   console.log("error with comment");
+  // }
 
   async function removeComment(id) {
     const res = await fetch(`${url}${id}`, {
@@ -122,7 +128,10 @@ function App() {
                 <Lifestyle />
               </Route>
               <Route path="/blogpage">
-                <BlogPage />
+                <BlogPage handleArticleSelection={handleArticleSelection} />
+              </Route>
+              <Route path="/blogarticle">
+                <BlogArticle id={articleId} />
               </Route>
               <Route path="/moongirl">
                 <Moongirl />
