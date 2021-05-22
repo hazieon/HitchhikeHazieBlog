@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import BlogCard from "../BlogCard";
 import { blogPosts } from "../blogPosts";
@@ -8,20 +8,29 @@ import { blogPosts } from "../blogPosts";
 // summary,
 // subtitle,
 
-function BlogPage() {
+function BlogPage({ handleArticleSelection }) {
+  const [selectedBlog, setSelectedBlog] = useState(0);
   return (
     <div className={styles.blogPageContainer}>
-      <h1> PAGE UNDER CONSTRUCTION</h1>
+      <h1>PAGE UNDER CONSTRUCTION </h1>
+      <h1> Adventure Tales {selectedBlog}</h1>
       <div className={styles.blogPageBox}>
         {blogPosts.map((post, index) => {
           return (
-            <div className={styles.blogPageCard}>
+            <div
+              className={styles.blogPageCard}
+              onClick={() => {
+                setSelectedBlog(post.id);
+              }}
+            >
               <BlogCard
-                image={post.thumbnail}
-                title={post.title}
-                summary={post.summary}
-                topics={post.topics}
-                subtitle={post.subtitle}
+                id={post.id}
+                image={post.data.thumbnail}
+                title={post.data.title}
+                summary={post.data.summary}
+                topics={post.data.topics}
+                subtitle={post.data.subtitle}
+                handleArticleSelection={handleArticleSelection}
               />
             </div>
           );
