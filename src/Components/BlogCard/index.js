@@ -24,11 +24,13 @@ function BlogCard({
           {/* <h3>{subtitle}hi</h3> */}
           <p>{topics[0] + ", " + topics[1]}</p>
           <h5>{summary}</h5>
-          {/* <div onClick={() => handleArticleSelection(id)}>
+          <div>
             <Link to="/blogarticle">
-              <button>Take a Look</button>
+              <button onClick={(id) => handleArticleSelection(id)}>
+                Take a Look
+              </button>
             </Link>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
