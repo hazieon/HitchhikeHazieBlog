@@ -2,6 +2,12 @@ import React from "react";
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 //"https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+import { UseBlogContext } from "../blogContext";
+// function ArticleControl() {
+//   return (//     <div>
+//       <button onClick={AddArticleId}>Take a Look!</button>   </div> );}
+// export default ArticleControl;
+
 function BlogCard({
   id,
   image,
@@ -13,8 +19,10 @@ function BlogCard({
   imagesArr,
   handleArticleSelection,
 }) {
+  const [articleId, AddArticleId] = UseBlogContext();
   return (
     <div className={styles.box}>
+      <h1>{articleId}</h1>
       <div className={styles.card}>
         <div className={styles.imageBox}>
           <img className={styles.image} src={image} alt="" />
@@ -26,9 +34,10 @@ function BlogCard({
           <h5>{summary}</h5>
           <div>
             <Link to="/blogarticle">
-              <button onClick={(id) => handleArticleSelection(id)}>
+              <button onClick={AddArticleId}>Take a Look!</button>
+              {/* <button onClick={(id) => handleArticleSelection(id)}>
                 Take a Look
-              </button>
+              </button> */}
             </Link>
           </div>
         </div>
