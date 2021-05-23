@@ -1,10 +1,10 @@
 .container {
   background-color: var(--panel-mid-shade);
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
   max-width: 90%;
   height: 90%;
   margin: auto;

@@ -24,7 +24,7 @@ const url = process.env.REACT_APP_URL;
 
 function App() {
   const [presetData, setPresetData] = useState([]);
-  const [articleId, setArticleId] = useState(1);
+  // const [articleId, setArticleId] = useState(1);
 
   async function fetchPresets() {
     let res = await fetch(url);
@@ -45,9 +45,9 @@ function App() {
     });
   }
 
-  async function handleArticleSelection(id) {
-    setArticleId(id);
-  }
+  // async function handleArticleSelection(id) {
+  //   setArticleId(id);
+  // }
 
   // if (
   //   newComment.name &&
@@ -129,12 +129,11 @@ function App() {
                 <Lifestyle />
               </Route>
               <Route path="/blogpage">
-                <BlogPage handleArticleSelection={handleArticleSelection} />
+                <BlogPage />
               </Route>
-              <Route
-                path="/blogarticle"
-                render={() => <BlogArticle articleId={articleId} />}
-              ></Route>
+              <Route path="/blogarticle">
+                <BlogArticle />
+              </Route>
               <Route path="/moongirl">
                 <Moongirl />
               </Route>

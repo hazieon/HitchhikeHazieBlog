@@ -1,12 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 //"https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
 import { UseBlogContext } from "../blogContext";
-// function ArticleControl() {
-//   return (//     <div>
-//       <button onClick={AddArticleId}>Take a Look!</button>   </div> );}
-// export default ArticleControl;
+import { blogPosts } from "../blogPosts";
 
 function BlogCard({
   id,
@@ -20,6 +17,7 @@ function BlogCard({
   handleArticleSelection,
 }) {
   const [articleId, AddArticleId] = UseBlogContext();
+
   return (
     <div className={styles.box}>
       <h1>{articleId}</h1>
@@ -29,15 +27,12 @@ function BlogCard({
         </div>
         <div className={styles.contentsBox}>
           <h2 className={styles.title}>{title}</h2>
-          {/* <h3>{subtitle}hi</h3> */}
+
           <p>{topics[0] + ", " + topics[1]}</p>
           <h5>{summary}</h5>
           <div>
             <Link to="/blogarticle">
-              <button onClick={AddArticleId}>Take a Look!</button>
-              {/* <button onClick={(id) => handleArticleSelection(id)}>
-                Take a Look
-              </button> */}
+              <button onClick={() => AddArticleId(id)}>Take a Look!</button>
             </Link>
           </div>
         </div>
