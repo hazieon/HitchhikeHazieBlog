@@ -29,7 +29,8 @@ function BlogArticle({ articleid }) {
 
   return (
     <div className={styles.container}>
-      <h1>id={articleid}</h1>
+      <h2>UNDER CONSTRUCTION</h2>
+      {/* <h1>id={articleid}</h1> */}
     </div>
   );
 }
