@@ -3,12 +3,7 @@ import styles from "./index.module.css";
 import BlogCard from "../BlogCard";
 import { blogPosts } from "../blogPosts";
 
-// img,
-// title,
-// summary,
-// subtitle,
-
-function BlogPage({ handleArticleSelection }) {
+function BlogPage() {
   const [selectedBlog, setSelectedBlog] = useState(0);
   return (
     <div className={styles.blogPageContainer}>
@@ -21,7 +16,6 @@ function BlogPage({ handleArticleSelection }) {
               className={styles.blogPageCard}
               onClick={() => {
                 setSelectedBlog(post.id);
-                // handleArticleSelection(post.id);
               }}
             >
               <BlogCard
@@ -31,7 +25,6 @@ function BlogPage({ handleArticleSelection }) {
                 summary={post.data.summary}
                 topics={post.data.topics}
                 subtitle={post.data.subtitle}
-                handleArticleSelection={handleArticleSelection}
               />
             </div>
           );
