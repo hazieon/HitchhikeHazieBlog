@@ -10,3 +10,52 @@
   margin: auto;
   margin-top: 4rem;
 }
+
+.contentBox {
+  max-width: 80%;
+  margin: auto;
+}
+
+.redirectButtonBox {
+  margin-top: 1rem;
+  position: relative;
+}
+.redirectButton {
+  position: absolute;
+  left: 10%;
+  top: 101%;
+  min-width: max-content;
+  padding: 7px 13px 9px;
+}
+
+.backButton {
+  margin: 2rem;
+  min-width: max-content;
+  padding: 7px 13px 9px;
+}
+
+#pageButton {
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 8px 15px 10px;
+  background-color: rgb(235, 230, 247);
+}
+
+#pageButton:hover {
+  box-shadow: 0px 3px 1px 1px var(--purple);
+  background-color: white;
+}
+
+#pageButton:active {
+  box-shadow: 0px 0px 1px 1px var(--white);
+  transition: 0s;
+}
+
+.blogImage {
+  margin: 2rem;
+}
+
+.blogBody {
+  text-align: left;
+}

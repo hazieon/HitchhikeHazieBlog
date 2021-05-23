@@ -20,7 +20,6 @@ function BlogCard({
 
   return (
     <div className={styles.box}>
-      <h1>{articleId}</h1>
       <div className={styles.card}>
         <div className={styles.imageBox}>
           <img className={styles.image} src={image} alt="" />
@@ -28,11 +27,13 @@ function BlogCard({
         <div className={styles.contentsBox}>
           <h2 className={styles.title}>{title}</h2>
 
-          <p>{topics[0] + ", " + topics[1]}</p>
+          <p>Topics: {topics[0] + ", " + topics[1]}</p>
           <h5>{summary}</h5>
           <div>
             <Link to="/blogarticle">
-              <button onClick={() => AddArticleId(id)}>Take a Look!</button>
+              <button id={styles.pageButton} onClick={() => AddArticleId(id)}>
+                Take a Look!
+              </button>
             </Link>
           </div>
         </div>
