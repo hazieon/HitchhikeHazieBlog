@@ -21,6 +21,7 @@ function BlogPage({ handleArticleSelection }) {
               className={styles.blogPageCard}
               onClick={() => {
                 setSelectedBlog(post.id);
+                // handleArticleSelection(post.id);
               }}
             >
               <BlogCard

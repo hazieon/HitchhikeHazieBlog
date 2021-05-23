@@ -48,6 +48,7 @@ function App() {
   async function handleArticleSelection(id) {
     setArticleId(id);
   }
+
   // if (
   //   newComment.name &&
   //   newComment.email &&
@@ -130,9 +131,10 @@ function App() {
               <Route path="/blogpage">
                 <BlogPage handleArticleSelection={handleArticleSelection} />
               </Route>
-              <Route path="/blogarticle">
-                <BlogArticle id={articleId} />
-              </Route>
+              <Route
+                path="/blogarticle"
+                render={() => <BlogArticle articleId={articleId} />}
+              ></Route>
               <Route path="/moongirl">
                 <Moongirl />
               </Route>
