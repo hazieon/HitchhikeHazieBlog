@@ -28,7 +28,13 @@
 .title {
   text-align: center;
 }
-
+.summary {
+  text-align: left;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 85%;
+  line-height: 2em;
+}
 .image {
   max-height: 34vh;
   max-width: 30vw;
