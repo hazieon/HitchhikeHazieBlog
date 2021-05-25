@@ -58,4 +58,7 @@
 
 .blogBody {
   text-align: left;
+  line-height: 2em;
+  line-break: auto;
+  white-space: pre-wrap;
 }

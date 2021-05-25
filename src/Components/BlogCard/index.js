@@ -28,7 +28,7 @@ function BlogCard({
           <h2 className={styles.title}>{title}</h2>
 
           <p>Topics: {topics[0] + ", " + topics[1]}</p>
-          <h5>{summary}</h5>
+          <h5 className={styles.summary}>{summary}</h5>
           <div>
             <Link to="/blogarticle">
               <button id={styles.pageButton} onClick={() => AddArticleId(id)}>
