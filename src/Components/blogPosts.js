@@ -8,7 +8,7 @@ const blogPosts = [
       subtitle: "Top 10 Vegetarian Restaurants in Seoul",
       thumbnail:
         "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-      topics: ["Food", "Korea", "ccc"],
+      topics: ["Food", "Korea"],
       summary:
         "Since 99% of the South Korean population eat meat, vegetarianism is generally unknown. This can make it hard to find vegetarian/vegan friendly restaurants or places to eat with friends. Here are my top 10 restaurant recommendations for Seoul!",
       content: {
@@ -131,69 +131,102 @@ BONUS TIP - Google search/naver search/happy cow search for nearby vegetarian re
       subtitle: "Friendly tips for making local friends abroad",
       thumbnail:
         "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-      topics: ["friends", "social", "fff"],
+      topics: ["friends", "social"],
       summary:
         "Whether you’re an introvert looking for a few close friends, or an extravert searching for the next social hotspot, here are some methods I used when living abroad to make friends!",
       content: {
-        textOne: `Living in a foreign country alone can be overwhelming. Whether you’ve just arrived and have no connections or you’ve been there a while, you might have times when you feel isolated or alone.
-          That’s okay :) Sometimes it can give you space to do your own thing and get a new viewpoint on things But most of us like company some of the time, even introverts: Whether you’re an introvert that just wants a few friends to hang out with, or an extravert searching for the next social hotspot you can flourish in, here are some methods I used when living in Korea, Japan and Austria to make new friends!! Especially to make local friends!`,
-        textTwo: `Language exchange events. 
-         Even if you aren’t actively learning the local language, or if you are a native speaker, language exchanges bring together people to mix with. 
-         Not only that, but language exchange visitors tend to be more internationally minded and open to other cultures and people. 
-         Many people are also focused on making friends and getting to know each other, so it’s the perfect set up!
+        textOne: `Living in a foreign country alone can be overwhelming. 
+Whether you’ve just arrived and have no connections or you’ve been there a while, you might have times when you feel isolated or alone.
+That’s okay :) 
+
+Sometimes it can give you space to do your own thing and time to develop new viewpoints on things. However, most of us like company some of the time, even introverts. 
+
+Whether you’re an introvert that just wants a few friends to hang out with, or an extravert searching for the next social hotspot you can flourish in, here are some methods I used when living in Korea, Japan and Austria to make new friends!! Especially to make local friends!`,
+        textTwo: `      1. Language exchange events! 
+Even if you aren’t actively learning the local language, or if you are a native speaker, language exchanges bring together people to mix with. 
+Not only that, but language exchange visitors tend to be more internationally minded and open to other cultures and people. 
+ Many people are also focused on making friends and getting to know each other, so it’s the perfect set up!
          
-         In my own experience, attending language exchange meetups changed my life in Tokyo and in Seoul!! It meant I made a large number of people outside of my everyday bubble from various backgrounds. 
-         I even met some of my close friends that I speak to today :) 
-         With that success, I started attending language exchange cafes and bars in Seoul as soon as I arrived. It certainly helped me to get my feet grounded in Korea!! Also, I heard of many people who met their partners at language exchange events.. so who knows?! 
-         Good if: you want to meet local people casually 
-         Not so good if: you are tired of hearing the same questions you get all the time as a foreigner 
+In my own experience, attending language exchange meetups changed my life in Tokyo and in Seoul!! It meant I made a large number of people outside of my everyday bubble from various backgrounds. 
+I even met some of my close friends that I speak to today :) 
+
+With that success, I started attending language exchange cafes and bars in Seoul as soon as I arrived. 
+It certainly helped me to get my feet grounded in Korea.
+Also, I heard of many people who met their partners at language exchange events.. so who knows?! I recommend trying them out.
+         
+GOOD WHEN: You want to meet local people in a casual setting.    
+NOT SO GOOD WHEN: you are tired of hearing the same questions you get all the time as a foreigner.
             
          
-         Learn the local language – join a language class and pick up the basics. Learn some popular slang or buzz words and impress native speakers. Learning the local language will help you to connect with the place you are living much better; you can get by in daily situations and natives will be warmer to people they see as making effort to understand their country. 
+      2. Learn the local language! 
+Join a language class and pick up the basics. Learn some popular slang or buzz words and impress native speakers. Learning the local language will help you to connect with the place you are living much better; you can get by in daily situations and natives will be warmer to people they see as making effort to understand their country. 
          
-         My own experience showed that speaking Japanese was an essential tool. When making friends in Japan, and I found I got along with people much better in Korea after I could understand the basics of the language and culture! 
-         There are free classes everywhere and free resources online and so many apps available! 
-         Good if: you are staying in the country for a while, you want close friends. 
-         Not so good if: There are no downsides with learning a new language, but it can be time consuming or can get confusing to learn a lot of languages simultaneously. 
+In my own experience, learning the local language has been essential. 
+When making friends in Japan and Korea, and I found I got along with people much betterafter I could understand the basics of the language and culture. You can understand peoples viewpoints better and reduce the language barrier even with just a little bit of the native language. 
+
+There are free classes everywhere and free resources online and so many apps available if you search! 
+
+GOOD WHEN: You are staying in the country for a while, you want close friends. 
+NOT SO GOOD WHEN: It can be time consuming or can get confusing to learn a new language. But I do believe it is worth the work.
          
-         Step out of the expat bubble ASAP. 
-       Getting out your comfort zone of spending time with other foreigners ia big move. Attending events or meetups alone will help you to network and make friends. It can be a bit nerve wracking turning up to an event alone when others seem to be in friend groups, but it will turn out fine. 
+
+        3. Step out of that foreigner or expat bubble ASAP!
+Getting out your comfort zone of spending time with other foreigners ia big move. Attending events or meetups alone will help you to network and make friends. It can be a bit nerve wracking turning up to an event alone when others seem to be in friend groups, but it will turn out fine. Join activities with local people - meals out, karaoke sessions, festivals, cultural centre events.
        
-       After I attended a simple meetup party alone in Tokyo, I didn’t turn back. I ended up hitchhiking and travelling around Japan alone too, but I met so many people along the way, it often didn’t feel lonely at all. 
-       Good if: you want to get an authentic experience of the country you are living, you want to go beyond being a tourist 
-       Not so good if: you are feeling lonely because you are homesick or feeling alienated`,
-        textThree: `Find friends virtually. 
-          It’s 2021, so if going out alone in the real world still scares you, you can always try finding Facebook groups based on your interests – for example, language exchange groups or a specific interest. 
+After I attended one party alone in Tokyo, I didn’t turn back. 
+I ended up going solo hitchhiking and travelling around Japan too, but I met so many people along the way, it often didn’t feel lonely at all. 
+       
+GOOD WHEN: you want to get an authentic experience of the country you are living, you want to go beyond being a tourist 
+NOT SO GOOD WHEN: you are feeling lonely because you are homesick or feeling alienated`,
+        textThree: `         4. Find friends virtually! 
+It’s 2021, so if going out alone in the real world still scares you, you can always try finding Facebook groups based on your interests – for example, language exchange groups or a specific interest. 
           
-        I joined a group for vegetarians in both Japan and Korea. 
-        I could get information, share information and meet new people. Sometimes these groups hold meetups to attend too. 
-        You can also use language exchange apps such as HelloTalk or Tandem. I met a few friends this way! 
+For example, I joined a group for vegetarians in both Japan and Korea. 
+I could get information and meet new people. Sometimes these groups hold meetups to attend too. 
+You can also use language exchange apps such as HelloTalk or Tandem. I met a few friends this way! 
+
+GOOD WHEN: You just moved to a new place or want to meet friends outside your everyday bubble.
+NOT SO GOOD WHEN: You don't feel safe meeting people from online. 
         
-        Join a club. People can bond with others who share their interests, so clubs or meetups are a perfect way to meet likeminded people. 
-        If you enjoy photography or playing tennis or writing stories, or anything at all, there are clubs for you! And if not, why not start something new altogether?! 
-        If you are a student, try looking within your school or university first.
+        5. Join a club!
+People can bond with others who share their interests, so clubs or meetups are a perfect way to meet likeminded people, breaking down the cultural and language barriers!
+
+If you enjoy photography or playing tennis or writing stories, or anything at all, there are clubs for you! And if not, why not start something new altogether?! 
+If you are a student, try looking within your school or university.
         
-        In my Japanese university, I joined Japanese and English practice clubs, yoga classes, a taekwondo group, and even attended a stray-cat feeding group just for fun. I met a lot of great friends there, both Japanese and other foreigners! 
-        It opened up more opportunities too; to engage in cultural events and visit places together. 
-        Look for posters, leaflets or visit your university’s student centre to get information. Send an email to any events or student departments.
+In my Japanese university, there were loads of 'circles' to join. 
+I joined Japanese and English practice clubs, yoga classes, a taekwondo group, and even attended a stray-cat feeding group just for fun. I met a lot of great friends there, both Japanese and other nationalities!
+
+These groups provide other opportunities too, like the chance to engage in cultural events and visit places together. 
         
-        In Korea, I took the chance to join an adults Taekwondo dojang! It is a South Korean marital art so it seemed like an invaluable chance to engage in something related to the culture. But it also meant I met a lot of new people, Koreans and other foreigners! I also found an art café to doodle at whilst chatting to new friends. I also joined a skateboarding group to try out boarding for the first time, found an Indie music bar with cool events. Good if: you want friends in general, you are looking for something to do and someone to do it with. Try something new! There are groups for just about anything. Even if you are only in the country for a short while! 
-        And if there isn’t a club for your raving new hobby, then that’s also fine: Start a new club or social meetup. 
-        Thanks to the internet, you can use platforms to gather people and advertise events. You can organise an event for your raving new hobby and meet in cafes or outdoors or wherever. Start a Meetup event. Host an event.
-         Create a Facebook group or hold events in an existing group. 
-         Start a university club. 
-         In my UK University, I was the event organiser for the Japanese society for two years, which helped to gather people and make new friends for sure! 
-         Good if: you can’t find an active club for something you’re interested in, if you’re feeling sociable
-         Not so good if: you needn’t make a full on group on Meetup if you’re only visiting for a short while, but that shouldn’t stop you organising an event in an existing group! 
+GOOD WHEN: You want to meet likeminded friends and explore the country, breaking down the language barrier.
+NOT SO GOOD WHEN: You live in a rural area without many events or clubs.
+
+
+      6. Try something new!
+There are groups for just about anything. Even if you are only in the country for a short while. And if there isn’t a club for your raving new hobby, then that’s also fine: Start that new club or social meetup! 
+
+We can easily use internet platforms to gather people and advertise events. You can organise an event for your raving new hobby and meet in cafes or outdoors or wherever. Start a social group. Host an event.
+Other platforms: Facebook groups, Meetup.com, university events.  
+
+GOOD WHEN: you can’t find an active club for something you’re interested in and you will be living there for a long while.
+NOT SO GOOD WHEN: you’re only visiting for a short while, but that shouldn’t put you off organising an event in an existing group! 
          
-         Couchsurfing! Especially for backpackers, Couchsurfing is an amazing tool for finding a place to stay. But it isn’t limited to that. 
-         With hundreds of travellers creating profiles, it can be a great place to make friends in any place. There are also hangout meetups held in some areas (or you can always host one yourself). I made a public post when I arrived in Korea simply searching for friends and I met a few good friends this way who I spent time with all year  You can also try hosting people visiting your area and hang out with them! 
-         Good if: you like travelling a lot, you find some people with similar interests 
-         Not so good if: you are more into luxury or have expensive tastes. 
+
+         7. Couchsurfing! 
+Especially for backpackers, Couchsurfing is an amazing tool for finding a place to stay. But it isn’t limited to that. 
+With hundreds of travellers creating profiles, it can be a great place to make friends in any place. There are also hangout meetups held in some areas (or you can always host one yourself). I made a public post when I arrived in Korea simply searching for friends and I met a few good friends this way who I spent time with all year  You can also try hosting people visiting your area and hang out with them! 
+GOOD WHEN: you like travelling a lot, you find some people with similar interests 
+NOT SO GOOD WHEN: you are more into luxury travel or have expensive tastes. 
          
-         The final tip for making friends abroad is to be proactive. Not just in meeting new people, but in making and keeping connections. Keep in touch with the friends you made at the language exchange events, organise to meetup with your pals from the clubs you joined, host or attend events with people from the Facebook group, etc etc. Why not invite them to that restaurant you want to try, or to that sightseeing place you still haven’t been to yet. It can be hard to make a connection with people from a completely new culture, but if you make the effort to settle in, it can be easy. You can also start by giving. Share a story, show some photos, share some snacks. People will open up to you if you show yourself! Make some time for socialising and try some new things! 
+The final tip for making friends abroad is to be proactive. 
+Not just in meeting new people, but in making and keeping connections. Keep in touch with the friends you made at the language exchange events, organise to meetup with your pals from the clubs you joined, host or attend events with people from the Facebook group, etc etc. Why not invite them to that restaurant you want to try, or to that sightseeing place you still haven’t been to yet. 
+
+It can be hard to make a connection with people from a completely new culture, but if you make the effort to settle in, it can be easy. 
+
+If feeling lost, you can start by giving. Share a story, show photos, share some snacks. People will open up to you if you show yourself! :) 
          
-         Sometimes it only takes meeting one new friend to open up opportunities and to help you find new things to do!`,
+Sometimes it only takes meeting ONE new friend to open up connections and opportunities to so many exciting things!`,
       },
       images: {
         imageOne:
@@ -209,55 +242,88 @@ BONUS TIP - Google search/naver search/happy cow search for nearby vegetarian re
   {
     id: 3,
     data: {
-      title: "Making Friends in a Foreign Country ",
+      title: "How to Hitchhike without Dying ",
       subtitle: "Friendly tips for making friends abroad",
       thumbnail:
         "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-      topics: ["social", "fun", "fff"],
+      topics: ["hitchhike", "travel"],
       summary:
         "I've hitchhiked over 10 countries in over 200 rides and I learnt a lot along the way. Here is my best advice to get a safe ride.",
       content: {
         textOne: `In most countries, if you tell people you plan to hitchhike, the first thing they will say it is too dangerous. Second they will tell you it’s impossible, especially in that specific country, but that’s another topic. 
-          Having hitchhiked in over 10 different countries, I have caught over 200 rides (honestly I have lost count). 
-          [Uk, Belgium, Germany, Austria, Italy, Slovenia, Croatia, bosnia Herzegovina, hungary, japan, korea]
-          And since I’m writing this now, it is clear that I am not dead. 
-          Infact, I haven’t had one single bad experience whilst hitchhiking!
+
+Having hitchhiked in over 10 different countries, I have caught over 200 rides (honestly I have lost count). 
+Uk, Belgium, Germany, Austria, Italy, Slovenia, Croatia, Bosnia Herzegovina, Hungary, Japan, South Korea... even once in India.
+
+And since I’m writing this now, it is clear that I am not dead. 
+Infact, I haven’t had one single dangerous experience whilst hitchhiking!
           `,
-        textTwo: `I believe hitchhiking is generally no more dangerous than other day to day activities (being in a moving car in itself is probably much more dangerous than the strangers who are driving it). 
-          http://bernd.wechner.info/Hitchhiking/CHP/body.html here’s some research findings
-          If you always take care and precautions, you too can hitchhike safely and successfully, instead of ending up like poor HitchBOT (https://www.mirror.co.uk/news/weird-news/friendly-robot-hitchhiking-across-america-6184914) .
-          Here are a few tips on staying safe!:
+        textTwo: `
+I believe hitchhiking is generally no more dangerous than other day to day activities (being in a moving car in itself is probably much more dangerous than the strangers who are driving it). 
+
+Here’re some research findings:
+http://bernd.wechner.info/Hitchhiking/CHP/body.html. 
+
+If you take care and precautions, it's possible hitchhike safely and successfully, instead of ending up like poor HitchBOT: 
+https://www.mirror.co.uk/news/weird-news/friendly-robot-hitchhiking-across-america-6184914.
+
+While I don't recommend hitchhiking for everyone, it would be great to dispel some myths.
+
+
+Here are a few tips on staying safe whilst hitchhiking!:
           
-          1.	Do your research
-          The general safety of the country you are in will largely affect the safety of hitchhiking there. Hitchhiking in Japan is going to be different to hitchhiking in Colombia. Know the road systems and picking up at least basic phrases in the local language can help a lot.
+          1.	Do your research -
+The general safety of the country you are in will largely affect the safety of hitchhiking there. Hitchhiking in Japan is going to be different to hitchhiking in Colombia. Know the road systems and picking up at least basic phrases in the local language can help a lot.
           
-          2.	Read the situation 
-          Follow your instincts from the start. Don’t get in the car if the driver or other passengers don’t immediately seem welcoming. 
-          Solo female hitchhiker and some snarky guys? Just say no. Another car will come. 
-          Some other tips for this are:
-          a.	Ask the driver where they are going first – Some drivers may lie about their destination in order to give you a ride. Sometimes they just genuinely want to help you or talk to you, but it can feel shady…
-          b.	Agree on a destination before setting off. Compare maps and routes. Choose a city, service station or specific point they will drop you at.
+
+2.	Read the situation -
+Follow your instincts from the start. Don’t get in the car if the driver or other passengers don’t immediately seem welcoming. 
+Some snarky guys offering a ride? Just say no. Another car will come. 
+
+Some other tips for this are:
+  a.	Ask the driver where they are going first – Some drivers may lie about their destination in order to give you a ride. Sometimes they just genuinely want to help you or talk to you, but it can feel shady…
+  
+  b.	Agree on a destination before setting off. Compare maps and routes. Choose a city, service station or specific point they will drop you at.
           
-          3.	Control the conversation
-          Once in the car, talk to your driver as much as you can. I’ve read several accounts of long term long distance hitchhikers who CREDIT their safety to the way they interact with the driver. E.g. Thank them for the safe ride, for their kindness; compliment their country & the kindness of the people, ask about their family, etc. Be confident. The driver can sense if you feel anxious.
-          Solo females – If a male driver begins to ask about whether you have a boyfriend, sometimes it is smart to just say yes, even say you are married. Be forward and don’t let them make any advances on you. You don’t owe them anything. 
-          I usually tell a driver I hitchhike alone safely because the country is safe and that I know taekwondo 
-          4.	Track yourself 
-          Have your phone ready. Use GPS and maps if possible. Keep in touch with people who know where you are. You can make your driver aware of this too. If you have chance, take a photo of their car & registration plate. 
-          `,
-        textThree: `5.	Road safety 
-        Not to be forgotten just because you are riding for free! Wear a seatbelt. Don’t walk close to the road. I avoid hitchhiking on corners, on fast road strips or where drivers would need to change lanes in order to pull over. Ask a driver to slow down if you feel unsafe. 
-        6.	Nocturnal hitching 
-        If hitchhiking at night, stand in well lit places. Long distance lorry/trucks may be best at this time. Be more selective in your rides – you don’t want to be stuck at some roadside in the middle of the night. Best to stay at a service station, or get to your exact destination. Same applies for hitchhiking in extreme temperatures or bad weather. 
-        Be sure the driver is not drunk or sleepy!
+
+  3.	Maintain the Conversation - 
+Once in the car, talk to your driver as much as you can. I’ve read several accounts of long term long distance hitchhikers who CREDIT their safety to the way they interact with the driver. 
+E.g. Thank them for the safe ride, for their kindness; compliment their country & the kindness of the people, ask about their family, etc. 
+Be confident. The driver can sense if you feel anxious.
+
+Solo females – If a male driver begins to ask about whether you have a boyfriend, sometimes it is smart to just say yes, even say you are married. Be forward and don’t let anyone make any advances on you. You don’t owe them anything. 
+
+I usually tell a driver I hitchhike alone safely because the country is safe and that I know taekwondo ;)
+
+
+4.	Track your Location -  
+Have your phone on hand. Use GPS and maps to check your route. 
+Keep in touch with people who know where you are. You can make your driver aware of this too. 
+If you get the chance, take a photo of their car & registration plate.`,
+        textThree: `5.	Road Safety -  
+Not to be forgotten just because you are riding for free or in someone else's car! Wear the seatbelt. Don’t stand too close to the road. 
+I also avoid hitchhiking on corners or where drivers would need to change lanes in order to pull over. 
+
+In some countries it is not illegal to walk on the motorway. In these cases, standing by a toll booth or pull in area is better.
+
+
+        6.	Nocturnal Hitchhiking -
+Overnight hitchhiking can be efficient to reach your destination ready for the morning! Infact, it can be easy to hitchhike at night as long distance trips are often made late at night, particularly by lorry drivers!
+
+If hitchhiking at night, stand in well lit places.  Be very selective in your rides – you don’t want to be stuck at some roadside in the middle of the night. Best to stay at a service station, or get to your exact destination. 
+The same applies for hitchhiking in extreme temperatures or bad weather. Apply all the other tips when hitchhiking at night.
         
-        7.	Luggage 
-        I always sit with my backpack beside me. Even if the driver offers to use the boot space or put the bag in the back, I (politely) refuse. Firstly it’s best to keep things near you in case of a quick getaway. Second to have access to your things like your phone, maps and chargers. I also take my bag with me even if making a short stop over. 
-        Don’t forget your hitchhike sign when you get out, too. Losing the sign can create a problem mid-trip as I learnt… twice.
-        8.	Insurance 
-        If something does go wrong.. Insurance can help with both broken devices, and broken bones.  
-        9.	Smile 
-        Being friendly when hitchhiking can go a long way. Just don’t be afraid to stick to your comfort level. Now relax and enjoy hitchhiking safely. Let the next adventure begin! 
+
+        7.	Luggage - 
+I always sit with my backpack beside me. Even if the driver offers to use the boot space or put the bag in the back, I (politely) refuse. Firstly it’s best to keep things near you in case of a quick getaway. Second to have access to your things like your phone, maps and chargers. I also take my bag with me even if making a short stop over.
+
+Don’t forget your hitchhike sign when you get out, too. Losing the sign can create a big problem in the middle of a trip, as I learnt… twice.
+       
+
+       8.	SMILE -
+Being friendly when hitchhiking can go a long way. Don’t be afraid to stick to your comfort level. 
+
+Now relax and enjoy hitchhiking safely. Let the next adventure begin! 
         `,
       },
       images: {
