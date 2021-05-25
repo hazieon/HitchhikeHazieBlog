@@ -29,7 +29,6 @@ function BlogArticle() {
           </button>
         </Link>
       </div>
-      <h1>UNDER CONSTRUCTION</h1>
       <div className={styles.container}>
         <div className={styles.contentBox}>
           {articleData.title && (

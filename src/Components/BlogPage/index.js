@@ -7,8 +7,7 @@ function BlogPage() {
   const [selectedBlog, setSelectedBlog] = useState(0);
   return (
     <div className={styles.blogPageContainer}>
-      <h1>PAGE UNDER CONSTRUCTION </h1>
-      <h1> Adventure Tales {selectedBlog}</h1>
+      <h1> Adventure Tales</h1>
       <div className={styles.blogPageBox}>
         {blogPosts.map((post, index) => {
           return (

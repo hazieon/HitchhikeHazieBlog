@@ -52,8 +52,19 @@
   transition: 0s;
 }
 
+.thumbnail {
+  margin: 2rem;
+  max-width: 62vw;
+  max-height: 42vh;
+  border-radius: 7px;
+  box-shadow: -5px 5px 0px 1px var(--purple);
+}
 .blogImage {
   margin: 2rem;
+  max-width: 55vw;
+  max-height: 40vh;
+  border-radius: 7px;
+  box-shadow: -5px 5px 0px 1px var(--purple);
 }
 
 .blogBody {

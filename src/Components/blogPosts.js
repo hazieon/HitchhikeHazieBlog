@@ -4,10 +4,9 @@ const blogPosts = [
   {
     id: 1,
     data: {
-      title: "Vegetarian in Korea",
+      title: "A Vegetarian in Korea",
       subtitle: "Top 10 Vegetarian Restaurants in Seoul",
-      thumbnail:
-        "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+      thumbnail: "https://i.ibb.co/C9H1kmB/DSC-0811-2.jpg",
       topics: ["Food", "Korea"],
       summary:
         "Since 99% of the South Korean population eat meat, vegetarianism is generally unknown. This can make it hard to find vegetarian/vegan friendly restaurants or places to eat with friends. Here are my top 10 restaurant recommendations for Seoul!",
@@ -20,13 +19,13 @@ Many social events will end with a group dinner (almost certainly a meat feast).
 Restaurant/food options for BOTH meat eaters AND vegetarians to enjoy! `,
         textThree: `How to avoid being an isolated vegetarian in Korea: 
 
-       1. SUBWAY (vegan + vegetarian)
+       1. SUBWAY (vegan + vegetarian) - 
          
 It’s not Korean food, but it’s fairly cheap and it’s a chain so you can find it almost everywhere! There are both vegetarian and vegan options available, and the staff almost always speak English to prepare your order. I often go for the egg mayo, but avocado is also available! 
 Vegans: be sure to specify that you don’t want cheese and avoid the honey bread! 
 
          
-        2. BAKERIES
+        2. BAKERIES - 
 Paris baguette/Tous Les Jours/Hot Bread/Krispy Kreme/Dunkin Donuts/Other bakery [vegetarian] 
          
 Also not Korean food, but has a nice selection for us Europeans. A variety of breads, sweet and savoury. I like the red bean bread, sesame bread, cinnamon rolls and bagels. 
@@ -38,14 +37,14 @@ Never be misled by the word ‘vegetable’ on packaging.
 There are still plenty of things available to grab a nice brunch or lunch or take a nice café break! Also look out for independent, non-chain shops selling croquettes or breads! 
          
 
-         3. LOVING HUT (vegan)
+         3. LOVING HUT (vegan) - 
          
 Although this restaurant is exclusively vegan food, it deserves a mention. This chain restaurant has a few different branches around Seoul, mostly in the Gangnam area. They serve typical Korean dishes, but using soy meat in place of actual meat. This is great because it means you can try out Korean dishes and your carnivorous friends can get some familiar food too. They might not think it tastes the same as meat, but they can still enjoy it. Try out some vegan ‘chicken’, 라면ramyeon noodles or even 불고기 bulgogi ‘beef’. 
 
 http://www.lovinghut.kr/kr/bbs/board.php?bo_table=restaurants_kr_en&lang=_en 
 
          
-         4. BIBIRI Bibimbap 비비리 – (or other bibimbap restaurants) 
+         4. BIBIRI Bibimbap 비비리 – (or other bibimbap restaurants) - 
 
 Bibiri is an all-you-can-eat Bibimbap restaurant.
 There are two branches in Hongdae, Mapo-gu, central Seoul. Here you can eat 비빔빕 bibimbap it build-it-yourself style! What’s more, it’s a free refill buffet! Healthy, big, quick + cheap meal in a good location! It’s also open til 10pm. What more do you need before hitting the bars? 
@@ -66,12 +65,12 @@ NOTE: NONE of the standard sauces are vegetarian or vegan. The sauces contain me
 Extra note: the ‘water’ they add to the dish most likely contains some fish/meat stock, so I usually add water myself... 
            
 
-        6. LOTTERIA – 'Korean McDonald’s'. 
+        6. LOTTERIA – 'Korean McDonald’s' - 
 
 Yes, it serves primarily meat burgers, but you can get potato fries, an apple pie, ice cream, cheese sticks, etc. Or a drink. It’s something, it's cheap, and it provides a place to sit with hungry friends.
 
 
-      7. 죽 JUK Rice porridge. 
+      7. 죽 JUK RICE PORRIDGE - 
       
 Try out 본죽 or 죽이야기 Juk story. 
 There are various chain and independent restaurants and cafes that serve Juk for under 9000won. Plus it's Korean food!
@@ -87,15 +86,11 @@ Vegetarian/vegan options include:
 My favourites are the red bean, vegetable and sweet pumpkin <3 
 I could eat three to myself after an afternoon of taekwondo!
         
-
-      8. DESSERTS 
-Cafes + dessert placesChain and independent cafes are everywhere. Grab a coffee, tea, latte, smoothie, juice, whatever you like without even having to look at meat. Yay. They probably serve cookies, cakes or breads too if you’re peckish. 
-
-
-Vegans should probably ask to make sure their drink doesn’t contain any milk etc. 
+        8. 사찰음식 TRADITIONAL BUDDHIST CUISINE -
+Despite the fact that most young Koreans have never heard of vegetarians, Korea didn't actually serve meat as a staple until recent years. Things have changed. But Buddhist-style restaurants can still be found, particularly near temples and in traditional areas, such as Jongro-3 in Seoul. There are buffet places too. Super healthy and enjoyed by Koreans, vegetarians and vegans.
         
 
-       9. STREET FOOD STALLS
+       9. STREET FOOD STALLS -
        
 when in a hurry, grab some vegetarian street foods.
 계란빵Egg bread, 호떡hotteok pancake – sugar filled; soft or crispy varieties, strawberries with or without chocolate, yakisoba fried noodles, waffles, crepes, tall icecreams, etc.
@@ -111,15 +106,21 @@ Try Mr Pizza for something low cost.
 Dominoes and Pizza Hut branches should also let you customise your order (if you can communicate with the staff).
         
 
-BONUS TIP - Google search/naver search/happy cow search for nearby vegetarian restaurants upon OCCASION.Some listings have vegetarian/vegan options available as well as meat stuff.If you’re getting peckish, check if there’s anything nearby. If your meat-eating friends are hungry, they might be up to try something new or you can find a place with both.`,
+        DESSERTS - 
+Got to finish with something sweet, right? Cafes + dessert places.
+Chain and independent cafes are everywhere. Grab a coffee, tea, latte, smoothie, juice, whatever you like without even having to look at meat. Yay. Also try 설빙 Sulbing for some delicious 빙수 shaved ice!
+Depending on the season, fruits can be fairly affordable too! Try peaches, persimmons and watermelons!
+        
+
+
+      BONUS TIP - 
+Google search/naver search/happy cow search for nearby vegetarian restaurants upon OCCASION.Some listings have vegetarian/vegan options available as well as meat stuff.If you’re getting peckish, check if there’s anything nearby. If your meat-eating friends are hungry, they might be up to try something new or you can find a place with both.`,
       },
+
       images: {
-        imageOne:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-        imageTwo:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-        imageThree:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+        imageOne: "https://i.ibb.co/mSzw1YN/bibimbap.jpg",
+        imageTwo: "https://i.ibb.co/5G6dZ7p/bonjuk.jpg",
+        imageThree: "https://i.ibb.co/RyLcHqT/sulbing.jpg",
       },
       date: "20 June 2019",
     },
@@ -129,8 +130,7 @@ BONUS TIP - Google search/naver search/happy cow search for nearby vegetarian re
     data: {
       title: "Making Friends in a Foreign Country ",
       subtitle: "Friendly tips for making local friends abroad",
-      thumbnail:
-        "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+      thumbnail: "https://i.ibb.co/5MVbkkp/DSC-0640.jpg",
       topics: ["friends", "social"],
       summary:
         "Whether you’re an introvert looking for a few close friends, or an extravert searching for the next social hotspot, here are some methods I used when living abroad to make friends!",
@@ -228,13 +228,12 @@ If feeling lost, you can start by giving. Share a story, show photos, share some
          
 Sometimes it only takes meeting ONE new friend to open up connections and opportunities to so many exciting things!`,
       },
+
       images: {
-        imageOne:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+        imageOne: "https://i.ibb.co/FxgLmCC/takao.jpg",
         imageTwo:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-        imageThree:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+          "https://i.ibb.co/MfgbyJy/12286097-476339559217758-1640379455-n.jpg",
+        imageThree: "https://i.ibb.co/jwLz5Fx/red-crew.jpg",
       },
       date: "20 May 2020",
     },
@@ -244,8 +243,7 @@ Sometimes it only takes meeting ONE new friend to open up connections and opport
     data: {
       title: "How to Hitchhike without Dying ",
       subtitle: "Friendly tips for making friends abroad",
-      thumbnail:
-        "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+      thumbnail: "https://i.ibb.co/R41d4Sw/IMG-20190523-173829-2.jpg",
       topics: ["hitchhike", "travel"],
       summary:
         "I've hitchhiked over 10 countries in over 200 rides and I learnt a lot along the way. Here is my best advice to get a safe ride.",
@@ -327,12 +325,9 @@ Now relax and enjoy hitchhiking safely. Let the next adventure begin!
         `,
       },
       images: {
-        imageOne:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-        imageTwo:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
-        imageThree:
-          "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg",
+        imageOne: "https://i.ibb.co/99yxGgz/IMG-20170827-WA0001.jpg",
+        imageTwo: "https://i.ibb.co/JH8HZtZ/trio.jpg",
+        imageThree: "https://i.ibb.co/925Th70/sapporo.jpg",
       },
       date: "20 May 2020",
     },
