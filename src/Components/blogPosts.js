@@ -9,15 +9,16 @@ const blogPosts = [
       thumbnail: "https://i.ibb.co/C9H1kmB/DSC-0811-2.jpg",
       topics: ["Food", "Korea"],
       summary:
-        "Since 99% of the South Korean population eat meat, vegetarianism is generally unknown. This can make it hard to find vegetarian/vegan friendly restaurants or places to eat with friends. Here are my top 10 restaurant recommendations for Seoul!",
+        "Top Ten: Since 99% of the South Korean population eat meat, vegetarianism is generally unknown. This can make it hard to find vegetarian/vegan friendly restaurants or places to eat with friends. Here are my top 10 restaurant recommendations for Seoul!",
       content: {
         textOne: `The hardest part of being vegetarian in Korea isn’t about the food… It’s the missing social life. Friends will often want to meet up for BBQ 삼겹살 or celebrate an event with a round of ‘chicken and beer’ 치맥. Since 99% of the South Korean population eat meat, vegetarianism is generally unknown. 
 
 Many social events will end with a group dinner (almost certainly a meat feast). And, when even kimchi has fish in it, it can be hard avoid meat AND have a social life… (friends and restaurant staff often don’t even know what is suitable for vegetarians/vegans). `,
         textTwo: `So, I did all the researching and testing for you. Here I present to you a selection of places you can visit with your carnivorous friends, and still find plenty to eat for yourself. 
           
-Restaurant/food options for BOTH meat eaters AND vegetarians to enjoy! `,
-        textThree: `How to avoid being an isolated vegetarian in Korea: 
+Restaurant/food options for BOTH meat eaters AND vegetarians to enjoy! 
+
+How to avoid being an isolated vegetarian in Korea: 
 
        1. SUBWAY (vegan + vegetarian) - 
          
@@ -34,9 +35,8 @@ Doughnuts can be a nice treat, too. Many vegetarian options, but check the label
 
 Never be misled by the word ‘vegetable’ on packaging. 
 
-There are still plenty of things available to grab a nice brunch or lunch or take a nice café break! Also look out for independent, non-chain shops selling croquettes or breads! 
-         
-
+There are still plenty of things available to grab a nice brunch or lunch or take a nice café break! Also look out for independent, non-chain shops selling croquettes or breads! `,
+        textThree: `
          3. LOVING HUT (vegan) - 
          
 Although this restaurant is exclusively vegan food, it deserves a mention. This chain restaurant has a few different branches around Seoul, mostly in the Gangnam area. They serve typical Korean dishes, but using soy meat in place of actual meat. This is great because it means you can try out Korean dishes and your carnivorous friends can get some familiar food too. They might not think it tastes the same as meat, but they can still enjoy it. Try out some vegan ‘chicken’, 라면ramyeon noodles or even 불고기 bulgogi ‘beef’. 
@@ -122,7 +122,7 @@ Google search/naver search/happy cow search for nearby vegetarian restaurants up
         imageTwo: "https://i.ibb.co/5G6dZ7p/bonjuk.jpg",
         imageThree: "https://i.ibb.co/RyLcHqT/sulbing.jpg",
       },
-      date: "20 June 2019",
+      date: "10 March 2021",
     },
   },
   {
@@ -133,7 +133,7 @@ Google search/naver search/happy cow search for nearby vegetarian restaurants up
       thumbnail: "https://i.ibb.co/5MVbkkp/DSC-0640.jpg",
       topics: ["friends", "social"],
       summary:
-        "Whether you’re an introvert looking for a few close friends, or an extravert searching for the next social hotspot, here are some methods I used when living abroad to make friends!",
+        "Top Tips: Whether you’re an introvert looking for a few close friends, or an extravert searching for the next social hotspot, here are some methods I used when living abroad to make friends!",
       content: {
         textOne: `Living in a foreign country alone can be overwhelming. 
 Whether you’ve just arrived and have no connections or you’ve been there a while, you might have times when you feel isolated or alone.
@@ -235,7 +235,7 @@ Sometimes it only takes meeting ONE new friend to open up connections and opport
           "https://i.ibb.co/MfgbyJy/12286097-476339559217758-1640379455-n.jpg",
         imageThree: "https://i.ibb.co/jwLz5Fx/red-crew.jpg",
       },
-      date: "20 May 2020",
+      date: "7 April 2021",
     },
   },
   {
@@ -246,7 +246,7 @@ Sometimes it only takes meeting ONE new friend to open up connections and opport
       thumbnail: "https://i.ibb.co/R41d4Sw/IMG-20190523-173829-2.jpg",
       topics: ["hitchhike", "travel"],
       summary:
-        "I've hitchhiked over 10 countries in over 200 rides and I learnt a lot along the way. Here is my best advice to get a safe ride.",
+        "Top tips: I've hitchhiked over 10 countries in over 200 rides and I learnt a lot along the way. Here is my best advice to get a safe ride.",
       content: {
         textOne: `In most countries, if you tell people you plan to hitchhike, the first thing they will say it is too dangerous. Second they will tell you it’s impossible, especially in that specific country, but that’s another topic. 
 
@@ -329,7 +329,87 @@ Now relax and enjoy hitchhiking safely. Let the next adventure begin!
         imageTwo: "https://i.ibb.co/JH8HZtZ/trio.jpg",
         imageThree: "https://i.ibb.co/925Th70/sapporo.jpg",
       },
-      date: "20 May 2020",
+      date: "20 May 2021",
+    },
+  },
+  {
+    id: 4,
+    data: {
+      title: "Cat Island Adventure ",
+      subtitle: "Storytime: Camping on Cat Island in winter",
+      thumbnail: "https://i.ibb.co/XY3CN27/DSC-1123-2.jpg",
+      topics: ["camping", "adventure"],
+      summary:
+        "Storytime: My first solo hitchhiking-camping trip in Japan I took a visit to Cat Island which had an unexpected dark side. Not to mention that it was very, very cold! The definition of adventure!",
+      content: {
+        textOne: `Hitchhiking across Japan SAVED me a lot of money. 
+But overnight accommodation could make backpacking expenses add up quickly.
+So instead I decided on camping. Or, more specifically, wild camping
+I realised that by avoiding these costs, I could afford more and longer travel
+
+So, I bought the cheapest tent I could find ($10 imported from amazon us), borrowed a sleeping bag and roll mat from my university’s mountaineering society, and set off from my Tokyo base in the first week of the February spring holiday.
+I do remember Googling the minimum temperature to survive winter camping with summer camping gear. I was definitely not equipped, but that only adds to the adventure!
+
+I planned to visit Tashirojima Island.
+But Tashirojima isn’t just any old island, it’s one of Japan’s ‘Cat islands’.
+On this cat island, there are more cat residents than human residents!
+
+My adventure on this island became one of my most prominent memories of my travels in Japan… For both good and not-so-good reasons… 
+
+
+When the boat arrived in Cat Island’s harbour, I felt the same thrill I felt the first time I managed to hitchhike alone.
+‘I made it to Cat Island and I am going to camp here!’
+I decided to spend the rest of the afternoon playing with the cats and finding a spot to camp
+Most the island’s cats are stray, but friendly cats followed me around and accompanied me as I explored.
+
+I discovered collapsed shrines (damaged in the 2011 tsunami), several abandoned houses and various cat ornaments.
+It was like exploring a deserted treasure island.          `,
+        textTwo: `At one end of the island I came across stripey cat shaped houses right on cliff with a view off the island.
+Well, it was immediately clear that this was where I was to set up camp for the night!
+I chilled with my new feline friends and took photos.
+“This is the life”, I thought
+
+Soon it was nightfall and it became pitch black with no street lamps or nearby buildings. I took a night walk down by the harbour, wandering through the town’s little roads. 
+I soaked in the starry sky and cold fresh air, a rarity as I had been living in Tokyo for 6 months!
+
+However, the trek back to my little camp in the darkness didn’t quite have the same feeling
+I took wrong turns and found it hard to recognise the right paths.
+And to make it spookier, cats were still following me!
+A glimpse of reflective eyes staring at me. 
+Cat shaped shadows darting past me.
+Shrieking meows from all directions.
+`,
+        textThree: `Finally escaping the demon cat dimension, I arrived back safely at my camp. 
+I had to shoo a cat from beneath my tent before I could crawl into my tent!
+It was cold
+SO cold.
+
+In my sleeping bag, I wore my coat, jacket, two pairs of trousers, thick socks, a second pair socks, a scarf and hat. And I was still freezing. Shivering.
+
+Okay, so maybe it wasn’t the best idea to start my camping expedition in winter.
+But added with a chorus of cats wailing and thrashing about outside my tent, the whole situation really seemed like imminent doom.
+ “These rabid cats are gonna eat me,” I thought, shivering.
+“If I don’t freeze to death first...”
+Finally as the sun rose and the air got warmer, I managed to get to sleep and survived the night.
+
+By morning, the monster cats had returned to their usual docile forms.
+I packaged up my tent and spent the afternoon hiking across the island back to the harbour.
+I passed more abandoned buildings – an abandoned school and an old tourist centre.
+
+The most magical place I discovered on the island was a cat shrine. It was decorated with cat ornaments and little gifts as offerings. 
+It really feels enchanting to visit shrines tucked away in forests.
+Next time, I’ll take something special to leave there too.
+
+I said goodbye to cats at the harbour and rode the boat back to the main island with a grin and some amazing memories.
+The first camp of my hitchhike was complete,
+And the adventures were just beginning.`,
+      },
+      images: {
+        imageOne: "https://i.ibb.co/Fs9PnWS/DSC-0948-2.jpg",
+        imageTwo: "https://i.ibb.co/bPGpgH8/received-2410668502491874.jpg",
+        imageThree: "https://i.ibb.co/TcFWVcY/DSC-0984.jpg",
+      },
+      date: "23 March 2021",
     },
   },
   //   {

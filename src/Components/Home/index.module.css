@@ -1,7 +1,7 @@
 .heroImage {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("https://i.ibb.co/q5sQc5X/DSC-1123.jpg");
+    url("https://i.ibb.co/XY3CN27/DSC-1123-2.jpg");
 
   height: 75vh;
 
@@ -111,17 +111,17 @@ button {
 }
 
 #explainImageOne:hover {
-  background-image: url("https://i.ibb.co/M7LPcCr/DSC-0007.jpg");
+  background-image: url("https://i.ibb.co/vmp3nCr/DSC-0007.jpg");
   transform: scale(110%);
 }
 
 #explainImageTwo:hover {
-  background-image: url("https://i.ibb.co/KNJ5pv8/taekwondo2.jpg");
+  background-image: url("https://i.ibb.co/HVtmkfm/20190430-183437-105.jpg");
   transform: scale(110%);
 }
 
 #explainImageThree:hover {
-  background-image: url("https://i.ibb.co/25VPrTV/DSC-0666-2.jpg");
+  background-image: url("https://i.ibb.co/20zgrQq/DSC-0666-2.jpg");
   transform: scale(110%);
 }
 
