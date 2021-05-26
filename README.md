@@ -2,12 +2,14 @@
 
 ## Take the scenic route.
 
+# Take a look: <a href="https://hitchhikehazie.netlify.app">Hitchhike Hazie</a>
+
 **Hitchhike Hazie** is a travel blog and project portfolio.  
 This MVP of the site is a work in progress, built with Create-react-app.  
 I previously built this site on WordPress, but am glad to build it myself from scratch with code this time.  
 Lots of photos and information!
 
-# Take a look: <a href="https://hitchhikehazie.netlify.app">Hitchhike Hazie</a>
+
 
 ## Content
 
