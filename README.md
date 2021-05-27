@@ -21,3 +21,4 @@ Lots of photos and information!
 **/Dragon** - About a fantasy manga comic I drew & self published  
 **/Codeprojects** - A page describing my various code projects with links  
 **/Contact** - Find links to my profiles on other platforms and leave a message!
+**/Blog** - Read top tips and adventure stories from my travels
