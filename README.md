@@ -20,5 +20,5 @@ Lots of photos and information!
 **/Moongirl** - About a picturebook I wrote, illustrated & self published. Including a sample to read!  
 **/Dragon** - About a fantasy manga comic I drew & self published  
 **/Codeprojects** - A page describing my various code projects with links  
-**/Contact** - Find links to my profiles on other platforms and leave a message!
+**/Contact** - Find links to my profiles on other platforms and leave a message!     
 **/Blog** - Read top tips and adventure stories from my travels
