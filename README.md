@@ -7,7 +7,11 @@ This MVP of the site is a work in progress, built with Create-react-app.
 I previously built this site on WordPress, but am glad to build it myself from scratch with code this time.  
 Lots of photos and information!
 
+
 # Take a look: <a href="https://hitchhikehazie.netlify.app">Hitchhike Hazie</a>
+
+
+
 
 ## Content
 
@@ -16,4 +20,5 @@ Lots of photos and information!
 **/Moongirl** - About a picturebook I wrote, illustrated & self published. Including a sample to read!  
 **/Dragon** - About a fantasy manga comic I drew & self published  
 **/Codeprojects** - A page describing my various code projects with links  
-**/Contact** - Find links to my profiles on other platforms and leave a message!
+**/Contact** - Find links to my profiles on other platforms and leave a message!     
+**/Blog** - Read top tips and adventure stories from my travels
