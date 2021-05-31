@@ -71,3 +71,8 @@
   box-shadow: 0px 0px 1px 1px var(--white);
   transition: 0s;
 }
+@media screen and (max-width: 880px) {
+  .card {
+    max-width: 75vw;
+  }
+}
