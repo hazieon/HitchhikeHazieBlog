@@ -20,19 +20,19 @@ function Lifestyle() {
         <List
           image={"https://i.ibb.co/4VkKMjm/IMGP6773.jpg"}
           listOne={[
-            "Alternative travel",
+            "Travel Life",
             "Hitchhiking",
             "Couchsurfing",
             "Off the beaten track",
-            "Abandoned buildings",
+            "Scenic Route",
             "Low budget travel",
           ]}
           listTwo={[
             "Vanlife",
-            "Tiny house living",
+            "Tiny House Living",
             "Sustainability",
-            "Vegetarian",
-            "Yoga & taekwondo",
+            "Vegetarianism",
+            "Yoga & Taekwondo",
             "Digital nomad",
           ]}
         />
@@ -40,18 +40,23 @@ function Lifestyle() {
         <div className={styles.textBox}>
           <h1>About</h1>
           <p>
-            Why - Life is short. It doesn't make sense to me to spend my time
-            focusing on a 9-5 job. Especially in my younger years, I dream of
-            exploring the world. Not only iconic tourist sites, but also smaller
-            towns off the beaten track. To really broaden my horizons and
-            develop a global perspective. Adapting to new cultures and seeing
-            new scenery every day is an adventure.
+            What is the motivation behind ‘travel life’? In summary, because
+            life is short. I dream of touring the world more than climbing a
+            corporate career ladder. To see the world with my own eyes while I
+            have the energy to do so. To not only visit iconic tourist sites,
+            but also smaller towns and go off the beaten track. I want to really
+            broaden my horizons and develop a global perspective. Adapting to
+            new cultures and seeing new scenery every day is an adventure.
           </p>
           <p>
-            Adventure is... 'no plan' travel! Pack my backpack with my sleeping
-            bag and other necessities, and set out. I've camped in all sorts of
-            places and faced all kinds of weather. Islands, mountains, beaches,
-            forests.
+            Another way to get that sense of adventure is from 'no plan' travel!
+            Imagine: Packing a backpack with a sleeping bag and other
+            necessities, and just setting out. I've camped in all sorts of
+            places - Islands, mountains, beaches, forests - and faced all kinds
+            of weather. Without a structured plan, unexpected things happen, and
+            those unexpected things can be the most amazing. Sometimes there
+            were tough days, but the memories are fun to look back on! What is
+            the craziest place you ever camped?
           </p>
           <div className={styles.memoryImageBox}>
             <img
@@ -61,30 +66,34 @@ function Lifestyle() {
             />
           </div>
           <p>
-            Couchsurfing provides much needed rest and sanctuary along the way.
-            A roof, a bed, a shower - luxury! These things are taken for
-            granted. Couchsurfing is a blessing for those on the road. Staying
-            at the home of a local person can build unique connections and
-            lifelong friendships.
-          </p>
-
-          <p>
             Hitchhiking is the deep end of 'no plan' travel. Flexible schedule?
-            Flexible destination? Then hitchhiking is perfect! Many of my best
-            travel experiences started from hitchhiking - discovering
-            undocumented beauty spots, sightseeing tours from friendly drivers,
-            and insightful conversations with people I might otherwise never
-            speak to. For example, Japanese strawberry farmers, Korean
+            Flexible destination? Then hitchhiking is perfect! Many of my the
+            travel experiences can start from hitchhiking - discovering hidden
+            beauty spots, sightseeing tours from friendly drivers, and
+            insightful conversations with people you might otherwise never speak
+            to. For example, I encountered Japanese strawberry farmers, Korean
             fishermen, Tibetan monks, and everyday people from diverse
-            backgrounds! Hitchhiking inspires me to travel more! It is
-            challenging and rewarding!
+            backgrounds. Hitchhiking is challenging, but infinitely rewarding! I
+            don’t recommend everyone should try it, but it can be a great way of
+            exploring.
           </p>
 
           <p>
-            Deeper travel - Travel, but slow travel. I aim to connect with the
-            countries and towns I visit, learning the local language and
-            spending time with people in the community. Of course, couchsurfing
-            and hitchhiking really help with these goals!
+            Couchsurfing can provide much needed rest and sanctuary along the
+            way. A roof, a bed, a shower - luxury! These things are often taken
+            for Granted, but Couchsurfing is a blessing for those on the road.
+            Not to mention, staying at the home of a local person can form
+            unique connections and lifelong friendships. How great is it that
+            you can visit a foreign country for the first time and being able to
+            find open minded people to explore with.
+          </p>
+
+          <p>
+            Take the scenic route. What does that mean? It’s about slow travel
+            to connect more deeply with each destination. Like through learning
+            the local language and spending time with people in the community.
+            Of course, couchsurfing and hitchhiking really help with these
+            goals!
           </p>
           <div className={styles.memoryImageBox}>
             <img
@@ -94,21 +103,25 @@ function Lifestyle() {
             />
           </div>
           <p>
-            Sustainable Lifestyle - Vanlife and tiny house living . In the long
-            term, I dream of travelling and living in a campervan. Vanlife! And
-            beyond that I am determined to create and live in my own tiny house
-            - a low impact and sustainable housing plan. This provides greater
-            financial freedom and literal freedom to change locations.
+            Alternative Lifestyle - Vanlife and tiny house living. In the long
+            term, I dream of travelling and/or living in a campervan. And One
+            day, I am determined to create and live in my own tiny house.
+            Imagine designing, building and living in a house that is customised
+            to what you need. I’m excited to join the movement of low impact and
+            sustainable housing which provides greater freedom, plus the ability
+            to change locations freely.
           </p>
           <p>
-            Vegetarian - I haven't eaten meat for more than 10 years. A big
-            motivation behind that now is climate change. The core of the
-            problem is NOT being dealt with, and the responsibility of changing
-            our modern lifestyles shouldn't be thrown on individuals while
-            governments and big companies still throw money at fossil fuels and
-            farming that involves deforestation. But social change needs to come
-            first. I don't want to contribute to the demand for these disastrous
-            industries. As much as possible, I want to reduce my footprint.
+            Sustainable diet - I haven't eaten meat for more than 10 years. A
+            big motivation behind that now is climate change. I hope to see a
+            future where the economy and society does not depend on intensive
+            animal farming, using up a lot of land and resources. So I don’t
+            want to contribute to the demand for the exploitation of animals and
+            deforestation. Another factor is low-waste by avoiding plastic
+            packaging as much as possible. I know that recycling is not as
+            effective as the government would like us to believe. Someday, I’d
+            like to be a part of a circular economy! Have you noticed any
+            changes in the climate in your country?
           </p>
           <div className={styles.memoryImageBox}>
             <img
@@ -118,18 +131,17 @@ function Lifestyle() {
             />
           </div>
           <p>
-            Yoga - Whilst living in India, I enjoyed practising yoga routines
-            and poses. A great way to stretch, exercise and relax.
-            Unfortunately, the pandemic hit just when I was planning to complete
-            my yoga teacher training course in Mumbai. Yoga is a great
-            combination of physical and mental exercise.
+            On a lighter note, staying active is another priority of mine! And
+            whilst travelling, opportunities arise to get engaged with different
+            sports and activities. In India, Yoga was a great way to stretch,
+            exercise and relax for both physical and mental exercise. I really
+            enjoyed the experience of yoga retreats!
           </p>
           <p>
-            Taekwondo - Another sport activity I enjoy is the Korean martial
-            art, taekwondo 태권도. I practised for 2 hours every day during my
-            time in Korea, totally immersing myself into the sport in my free
-            time. Martial arts are another example of an activity combining
-            physical and mental strength.
+            In Korea, I took the chance to practice Taekwondo 태권도. I totally
+            immersed myself in the sport and trained every day. Taekwondo is
+            great for stress release and building up fitness. Not to mention
+            that joining sports clubs are a great way to meet people!
           </p>
           <div className={styles.memoryImageBox}>
             <img
@@ -140,22 +152,22 @@ function Lifestyle() {
           </div>
           <p>
             Low budget life - I mention this last as, although it is a high
-            priority, it still comes below all the other awesome perks of
-            hitchhiking, couchsurfing, camping, cycling, downsizing, living
-            tiny, reducing waste. Lower expenses demands less need for income.
-            Less stress for constant work. Freedom. So wherever I go, I try to
-            live on ~£5 a day. I can walk and camp, or even hitchhike or
-            couchsurf if I need to.
+            priority, it still comes below hitchhiking, couchsurfing, camping,
+            cycling, downsizing, living tiny, etc. Wherever I go solo
+            travelling, I try to live on about £5 a day. I can walk and camp, or
+            sometimes hitchhike or couchsurf when I need to. Lower expenses
+            demand less need for income. More freedom.
           </p>
           <p>
-            Summary - I try to look at life from a bird's eye perspective. To
-            prioritise things that are actually important to me and live a
-            fulfilling life that I won't regret. Gaining skills and experience
-            from the various paths I take along the way, I feel I am becoming a
-            well rounded person with a load of adventure tales to tell. These
-            tales I am trying my best to document and share on this site, so
-            you'd like to uncover some of my stories, just flick around this
-            site! So...
+            Summary - I try to look at life from a bird's eye perspective whilst
+            aiming to prioritise things that are actually important to me and
+            live a fulfilling life that I won't regret. Gaining skills and
+            experience from the various paths I take along the way, I feel I am
+            becoming a well rounded person with so many adventure tales to tell.
+            These tales I hope to share here on this site, so if you would like
+            to get some top tips for travelling on a low budget or read about
+            experiences in different countries, just flick around this site!
+            So...
           </p>
           <h2 className={styles.title}> Thanks for visiting!</h2>
           <div className={styles.memoryImageBox}>
