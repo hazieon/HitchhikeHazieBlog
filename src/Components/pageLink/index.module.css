@@ -1,0 +1,53 @@
+.blogLink {
+  text-align: center;
+  line-height: 1.8em;
+  cursor: pointer;
+  background-color: var(--panel-mid-shade);
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 2rem;
+  align-items: center;
+  width: fit-content;
+  padding: 10px 10px;
+  border-radius: 8px;
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--purple);
+}
+
+.link:hover {
+  color: cornflowerblue;
+}
+
+/* 
+  .blogLink:hover {
+    box-shadow: 0px 3px 1px 1px var(--purple);
+  } */
+.textBoxButton {
+  box-shadow: -5px 5px 0px 0px var(--purple);
+  transition: 0.2s ease-in;
+  touch-action: manipulation;
+  padding: 14px 26px;
+  text-decoration: none;
+  display: flex;
+  margin: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: var(--white);
+  align-items: center;
+}
+
+.textBoxButton:hover {
+  box-shadow: 0px 3px 1px 1px var(--purple);
+}
+
+.textBoxButton:active {
+  box-shadow: 0px 0px 1px 1px var(--white);
+  transition: 0s;
+}

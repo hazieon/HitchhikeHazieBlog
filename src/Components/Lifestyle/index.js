@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import List from "../List";
 import { Link } from "react-router-dom";
+import PageLink from "../pageLink";
 // import lifestyleImage from "../../images/IMGP6773.JPG";
 // import image1 from "../../images/DSC_1297 2.jpg";
 // import image2 from "../../images/trio.jpg";
@@ -171,14 +172,19 @@ function Lifestyle() {
             So...
           </p>
           <h2 className={styles.title}> Thanks for visiting!</h2>
-          <h3 className={styles.blogLink}>
+          {/* <h3 className={styles.blogLink}>
             Read adventure tales on the
             <button className={styles.textBoxButton}>
               <Link to="/blogpage" className={styles.link}>
                 BLOG
               </Link>
             </button>
-          </h3>
+          </h3> */}
+          <PageLink
+            link="/blogpage"
+            text="Read adventure tales on the"
+            pageName="BLOG"
+          />
           <div className={styles.finalMemoryImageBox}>
             <img
               className={styles.memoryImage}
