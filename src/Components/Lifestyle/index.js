@@ -179,7 +179,7 @@ function Lifestyle() {
               </Link>
             </button>
           </h3>
-          <div className={styles.memoryImageBox}>
+          <div className={styles.finalMemoryImageBox}>
             <img
               className={styles.memoryImage}
               src={"https://i.ibb.co/FnY03wp/IMGP7293.jpg"}
