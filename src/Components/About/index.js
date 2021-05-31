@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
+import PageLink from "../pageLink";
 // import githubImage from "../../images/hazie r3.png";
 // import githubLogo from "../../images/githublogo.png";
 // import hazieImage from "../../images/DSC_0817 4.jpg";
@@ -66,6 +67,11 @@ function About() {
           logoTwo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
         />
       </div>
+      <PageLink
+        link="/blogpage"
+        text="Read adventure tales on the"
+        pageName="BLOG"
+      />
       <Slider />
     </>
   );

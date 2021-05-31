@@ -65,13 +65,15 @@
   box-shadow: -4px 4px 0px 0px var(--purple);
   border-radius: 5px;
 }
+
 .finalMemoryImageBox {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 6rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
+
 .memoryImageBox {
   display: flex;
   align-items: center;
@@ -94,6 +96,7 @@
   flex-direction: row;
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   align-items: center;
   width: fit-content;
   padding: 10px 10px;

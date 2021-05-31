@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import MyGallery from "../Gallery";
 import Text from "../Text";
+import PageLink from "../pageLink";
 // import studyAbroad from "../../images/DSC_0410.JPG";
 // import europeTrip from "../../images/DSC_1006.JPG";
 // import koreaYear from "../../images/DSC_0291 2.jpg";
@@ -124,6 +125,12 @@ function TravelPage() {
       </div>
       <h2 className={styles.subheading}>Campervan trip pictures -</h2>
       <MyGallery photosArray={vanlifePhotosArray} />
+      <PageLink
+        link="/blogpage"
+        text="Read adventure tales on the"
+        pageName="BLOG"
+      />
+      <h1> </h1>
     </>
   );
 }
