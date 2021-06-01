@@ -6,7 +6,6 @@ import { useForm, Controller } from "react-hook-form";
 import styles from "./index.module.css";
 const { v4: uuidv4 } = require("uuid");
 var dateFormat = require("dateformat");
-// var now = new Date();
 
 const useStyles = makeStyles((theme) => ({
   root: {

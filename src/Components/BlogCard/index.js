@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
-//"https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
 import { UseBlogContext } from "../blogContext";
-import { blogPosts } from "../blogPosts";
 
 function BlogCard({
   id,
   image,
   title,
   summary,
-  subtitle,
   topics,
   textArr,
   imagesArr,

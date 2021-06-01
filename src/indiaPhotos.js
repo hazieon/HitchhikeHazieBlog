@@ -13,10 +13,6 @@ const indiaPhotosArray = [
   "https://i.ibb.co/30t5hj3/DSC-0917-2.png",
   "https://i.ibb.co/kMqqWvc/nalanda.jpg",
   "https://i.ibb.co/2YVsZCs/DSC-0003.jpg",
-  //   image5,
-  //   image6,
-  //   image7,
-  //   image8,
 ];
 
 export { indiaPhotosArray };

@@ -9,8 +9,6 @@ function BlogArticle() {
   const [articleData, setArticleData] = useState({});
   console.log(articleData);
   useEffect(() => {
-    // setArticle(blogPosts.find((blog) => blog.id === articleId).data);
-    // console.log(article, "article");
     if (articleId != null && articleId >= 0) {
       const blogIndex = blogPosts.findIndex((blog) => blog.id === articleId);
       setArticleData(blogPosts[blogIndex].data);

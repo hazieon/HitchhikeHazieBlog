@@ -2,13 +2,6 @@ import React from "react";
 import styles from "./index.module.css";
 import Panel from "../Panel";
 import Text from "../Text";
-import Comments from "../Comments";
-// import moongirlProject from "../../images/moongirlgame.jpg";
-// import hazieProject from "../../images/boseong.jpg";
-// import purelyProject from "../../images/product image FROM INSTA.jpg";
-// import polyhedraProject from "../../images/polyhedra.jpg";
-// import nandokuProject from "../../images/nandoku.jpg";
-// import vancationProject from "../../images/vancation.jpg";
 
 const githubImage = "https://i.ibb.co/xhgh4TL/hazie-r3.png";
 const githubLogo = "https://i.ibb.co/qpQ5gPJ/githublogo.png";
@@ -104,8 +97,6 @@ function CodeProjects() {
           link="https://github.com/hazieon/HitchhikeHazieBlog"
           buttonText="View on GitHub!"
         />
-        {/* 
-        <Comments /> */}
       </div>
     </div>
   );

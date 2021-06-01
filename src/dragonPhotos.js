@@ -7,7 +7,6 @@
 // import image7 from "./images/dragonmoon.jpg";
 // import image8 from "./images/comic.jpg";
 // import image9 from "./images/dragonProgress.png";
-
 // import image4 from "./images/IMGP7207.JPG";
 
 const dragonPhotosArray = [

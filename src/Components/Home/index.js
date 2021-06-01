@@ -2,8 +2,6 @@ import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import Panel from "../Panel";
 import MyTypist from "../Typist";
-// import githubImage from "https://i.ibb.co/xhgh4TL/hazie-r3.png";
-// import githubLogo from "../../images/githublogo.png";
 
 function Homepage() {
   return (

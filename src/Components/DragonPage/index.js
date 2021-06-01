@@ -1,9 +1,7 @@
 import React from "react";
 import MyGallery from "../Gallery";
 import styles from "./index.module.css";
-// import logo from "../../images/amazon.png";
 import { Link } from "react-router-dom";
-// import cover from "../../images/Cover design layout.png";
 import { dragonPhotosArray } from "../../dragonPhotos";
 
 const logo = "https://i.ibb.co/5rx9mqv/amazon.png";

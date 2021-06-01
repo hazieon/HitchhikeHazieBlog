@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Project from "../Project";
-// import Moongirl from "../../images/front cover thumb.png";
-// import DragonHearts from "../../images/Cover design layout THUMB.png";
 
 const projectsArray = [
   {
@@ -10,8 +8,7 @@ const projectsArray = [
     alt: "The Lonely Moongirl cover",
     title: "The Lonely Moongirl",
     link: "/moongirl",
-    text:
-      "An illustrated poem picturebook. I drew the artworks digitally and wrote the poem whilst living in India.",
+    text: "An illustrated poem picturebook. I drew the artworks digitally and wrote the poem whilst living in India.",
     textTwo: "",
     buttonText: "Find out more!",
     logo: "",
@@ -21,8 +18,7 @@ const projectsArray = [
     alt: "Dragon Hearts cover",
     title: "Dragon Hearts manga",
     link: "/dragon",
-    text:
-      "A fantasy adventure comic set in Tokyo, Japan. I drew this one-shot manga whilst living in India, loosely based on my experiences in Japan.",
+    text: "A fantasy adventure comic set in Tokyo, Japan. I drew this one-shot manga whilst living in India, loosely based on my experiences in Japan.",
     textTwo: "",
     buttonText: "Take a look!",
     logo: "",

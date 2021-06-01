@@ -24,7 +24,6 @@ const url = process.env.REACT_APP_URL;
 
 function App() {
   const [presetData, setPresetData] = useState([]);
-  // const [articleId, setArticleId] = useState(1);
 
   async function fetchPresets() {
     let res = await fetch(url);
@@ -45,25 +44,6 @@ function App() {
     });
   }
 
-  // async function handleArticleSelection(id) {
-  //   setArticleId(id);
-  // }
-
-  // if (
-  //   newComment.name &&
-  //   newComment.email &&
-  //   newComment.country &&
-  //   newComment.comment
-  // ) {
-  //   const res = await fetch(url, {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify(newComment),
-  //   });
-  // } else {
-  //   console.log("error with comment");
-  // }
-
   async function removeComment(id) {
     const res = await fetch(`${url}${id}`, {
       method: "DELETE",
@@ -83,9 +63,6 @@ function App() {
                   </div>
                 </Link>
               </li>
-              {/* <li className="pages" id="cart">
-                <Link to="/checkout">🛒</Link>
-              </li> */}
               <li className="pages" id="creative">
                 <CustomisedMenus />
               </li>

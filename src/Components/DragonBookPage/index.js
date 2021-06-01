@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-// import logo from "../../images/amazon.png";
 import styles from "./index.module.css";
-// import image1 from "../../images/chapter one cover1.png";
-// import image2 from "../../images/DH page 1.png";
-// import image3 from "../../images/DH page 2 2.png";
-// import image4 from "../../images/DH page 3.png";
-// import image5 from "../../images/DH page 4.png";
-// import image6 from "../../images/DH page 5.png";
-// import image7 from "../../images/DH page 6.png";
-// import image8 from "../../images/DH page 7.png";
-// import image9 from "../../images/DH page 8.png";
 import { Link } from "react-router-dom";
 
 const logo = "https://i.ibb.co/5rx9mqv/amazon.png";
