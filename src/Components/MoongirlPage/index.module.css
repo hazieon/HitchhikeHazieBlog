@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
     url("https://i.ibb.co/GCxcgTG/ebook-cover-image.png");
 
-  height: 90vh;
+  height: 85vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position-y: 80%;
@@ -192,6 +192,11 @@ button {
     max-width: 86vw;
     word-break: keep-all;
     margin-bottom: 1rem;
+  }
+  .redirectButton {
+    left: 8%;
+    top: 94%;
+    padding: 3px 8px 5px;
   }
 }
 

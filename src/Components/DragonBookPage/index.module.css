@@ -69,13 +69,23 @@ button {
 
 @media screen and (max-width: 780px) {
   .bookBox {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   .bookPage {
-    max-height: 90vh;
-    max-width: 85vw;
+    max-height: 80vh;
+    max-width: 80vw;
     border-radius: 12px;
     box-shadow: -2px 2px 4px 2px var(--purple);
+  }
+  .title {
+    margin-top: 6rem;
+  }
+  .redirectButton {
+    position: absolute;
+    left: 8%;
+    top: 13%;
+    min-width: max-content;
+    padding: 3px 7px 4px;
   }
 }

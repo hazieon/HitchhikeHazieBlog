@@ -49,7 +49,10 @@ function Comic() {
           </button>
         </Link>
       </div>
-
+      <h1 className={styles.title}>Dragon Hearts </h1>
+      <h4 className={styles.subtitle}>
+        Press 'next' to turn the page and wait for it to load.
+      </h4>
       <div className={styles.bookBox}>
         <img
           className={styles.bookPage}

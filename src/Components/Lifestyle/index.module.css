@@ -141,3 +141,10 @@
   box-shadow: 0px 0px 1px 1px var(--white);
   transition: 0s;
 }
+
+@media screen and (max-width: 780px) {
+  .textBox {
+    max-width: 82vw;
+    line-height: 2rem;
+  }
+}

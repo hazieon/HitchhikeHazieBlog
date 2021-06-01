@@ -14,7 +14,7 @@ function Comments({ comments, postNewComment, removeComment }) {
         {comments.map((comment) => {
           return (
             <div className={styles.commentsBox}>
-              <p
+              {/* <p
                 className={styles.delete}
                 onClick={() => {
                   removeComment(comment.uuid);
@@ -25,7 +25,7 @@ function Comments({ comments, postNewComment, removeComment }) {
                 }}
               >
                 Delete ✂
-              </p>
+              </p> */}
               <div className={styles.commentsDetails}>
                 <h3 className={styles.commentsName}>
                   From: {comment.name ? comment.name : ""}

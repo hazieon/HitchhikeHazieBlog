@@ -74,9 +74,9 @@ function BlogArticle() {
           )}
         </div>
       </div>
-      <div>
+      <div className={styles.redirectButtonBox}>
         <Link to="/blogpage">
-          <button className={styles.backButton} id={styles.pageButton}>
+          <button className={styles.redirectButton} id={styles.pageButton}>
             ← Back to Blog
           </button>
         </Link>

@@ -28,12 +28,6 @@
   padding: 7px 13px 9px;
 }
 
-.backButton {
-  margin: 2rem;
-  min-width: max-content;
-  padding: 7px 13px 9px;
-}
-
 #pageButton {
   box-shadow: -5px 5px 0px 0px var(--purple);
   transition: 0.2s ease-in;
@@ -72,4 +66,14 @@
   line-height: 2em;
   line-break: auto;
   white-space: pre-wrap;
+}
+
+@media screen and (max-width: 780px) {
+  .redirectButton {
+    position: absolute;
+    left: 8%;
+    top: 11%;
+    min-width: max-content;
+    padding: 3px 7px 4px;
+  }
 }

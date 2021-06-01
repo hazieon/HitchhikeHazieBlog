@@ -35,6 +35,7 @@ function TravelPage() {
           One year in Tokyo & hitchhiking Japan opened my eyes to the 'travel
           life'
         </h4>
+
         <div className={styles.memoryImageBox}>
           <img
             className={styles.memoryImage}
@@ -43,6 +44,7 @@ function TravelPage() {
           />
         </div>
         <h2 className={styles.subheading}>Memories from Japan -</h2>
+        <h5 className={styles.subheading}>Click on a photo to enlarge it.</h5>
         <MyGallery photosArray={japanPhotosArray} />
 
         <h1 className={styles.subheading}>Hitchhike trip in Europe</h1>

@@ -13,3 +13,12 @@
   width: 100%;
   position: absolute;
 }
+
+@media screen and (max-width: 780px) {
+  .videoResponsive iframe {
+    left: 3%;
+    margin-top: 3.5rem;
+    width: 95%;
+    margin: auto;
+  }
+}

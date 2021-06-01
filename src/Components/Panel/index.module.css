@@ -20,7 +20,8 @@
 
 .panelImage {
   border-radius: 100px;
-  height: 30vh;
+  max-height: 30vh;
+  max-width: 55vw;
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
@@ -87,5 +88,11 @@ p {
   }
   .panelBoxLeft {
     text-align: center;
+  }
+  .panelImage {
+    border-radius: 100px;
+    max-height: 34vh;
+    max-width: 58vw;
+    box-shadow: -4px 4px 0px 0px var(--purple);
   }
 }
