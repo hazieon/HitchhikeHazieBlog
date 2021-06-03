@@ -16,7 +16,7 @@ function Homepage() {
         </div>
       </div>
       <MyTypist
-        textOne="Welcome to Hazie's travel & lifestyle site!"
+        textOne="Welcome to Hazie's travel and code portfolio!"
         textTwo="こんにちは！冒険好きのヘイジーです。"
         textThree="안녕하세요! 모험 좋아하는 헤이지에요."
         textFour="你好! Willkommen! नमस्ते"

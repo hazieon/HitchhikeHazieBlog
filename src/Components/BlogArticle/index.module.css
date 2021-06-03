@@ -18,8 +18,10 @@
 
 .redirectButtonBox {
   margin-top: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
+
 .redirectButton {
   position: absolute;
   left: 10%;
@@ -53,6 +55,7 @@
   border-radius: 7px;
   box-shadow: -5px 5px 0px 1px var(--purple);
 }
+
 .blogImage {
   margin: 2rem;
   max-width: 55vw;
