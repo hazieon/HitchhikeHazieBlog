@@ -63,9 +63,9 @@ function App() {
                   </div>
                 </Link>
               </li>
-              <li className="pages" id="creative">
-                <CustomisedMenus />
-              </li>
+              {/* <li className="pages" id="creative">    </li> */}
+              <CustomisedMenus />
+
               <Link to="/creativity">
                 <li className="pages" id="creative">
                   Creativity
