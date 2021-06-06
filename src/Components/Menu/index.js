@@ -10,6 +10,7 @@ const StyledMenu = withStyles({
     border: "1px solid  var(--purple)",
     boxShadow: " 0px 3px 1px 0px var(--purple)",
     backgroundColor: "#d6c4ff",
+    padding: "5px",
   },
 })((props) => (
   <Menu
@@ -55,7 +56,8 @@ export default function CustomisedMenus() {
         aria-controls="customized-menu"
         aria-haspopup="true"
         variant="contained"
-        className={styles.menuButton}
+        className={styles.pages}
+        id={styles.creative}
         onClick={handleClick}
       >
         Menu ▽
