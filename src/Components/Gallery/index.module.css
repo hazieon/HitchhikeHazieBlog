@@ -6,15 +6,16 @@
 .thumbnail {
   height: 200px;
   border: 3px solid var(--light-shade);
-  margin: 0.2rem;
+  margin: 0.3rem;
   border-radius: 4px;
-  transition: 0.3s ease;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
   user-select: none;
 }
 
 .thumbnail:hover {
-  height: 210px;
+  /* height: 210px; */
+  transform: scale(1.1);
   filter: saturate(1.25);
 }
 
