@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import { withStyles } from "@material-ui/core/styles";
 import Menu from "@material-ui/core/Menu";
@@ -50,8 +50,26 @@ export default function CustomisedMenus() {
     setAnchorEl(null);
   };
 
+  //use a reference to the menu to get a location target.
+  //use event.target to check against that on click
+  //want to close the menu only if clicked outside the menu
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handleEvent = (event) => {
+      if (!menuRef.current.contains(event.target)) {
+        handleClose();
+      }
+    };
+    document.addEventListener("mousedown", handleEvent);
+
+    document.addEventListener("wheel", handleEvent);
+
+    return () => document.removeEventListener("mousedown", handleEvent);
+  });
+
   return (
-    <div>
+    <div ref={menuRef}>
       <button
         aria-controls="customized-menu"
         aria-haspopup="true"
