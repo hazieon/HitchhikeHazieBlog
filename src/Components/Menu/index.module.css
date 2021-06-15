@@ -8,6 +8,7 @@
   background-color: var(--white);
   border-radius: 15px;
   padding: 0px 3px 0px;
+  color: black;
 }
 
 .menuButton:hover {
@@ -29,6 +30,16 @@
     sans-serif;
 }
 
+a {
+  color: var(--purple);
+}
+a:hover {
+  color: var(--secondary-shade);
+}
+
+a:visited {
+  color: var(--blue);
+}
 #creative {
   background-color: var(--white);
   box-shadow: -5px 5px 0px 0px var(--red);
