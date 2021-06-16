@@ -11,6 +11,8 @@ body {
   align-items: center;
   z-index: 4;
   width: 100%;
+  height: fit-content;
+  padding-bottom: 0.25rem;
   top: 0;
   box-shadow: 0px 6px 7px 1px #9893e65b;
 }
