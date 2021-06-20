@@ -6,7 +6,7 @@ function CustomSlider() {
   const settings = {
     autoplay: true,
     autoplayScroll: 1,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 8000,
     centerPadding: 30,
     dots: true,
     pauseOnHover: true,
