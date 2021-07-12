@@ -38,8 +38,13 @@ a:hover {
 }
 
 a:visited {
-  color: var(--blue);
+  color: var(--red);
 }
+
+a:visited:hover {
+  color: var(--secondary-shade);
+}
+
 #creative {
   background-color: var(--white);
   box-shadow: -5px 5px 0px 0px var(--red);
