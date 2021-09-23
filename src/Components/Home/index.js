@@ -16,12 +16,12 @@ function Homepage() {
         </div>
       </div>
       <MyTypist
-        textOne="Welcome to Hazie's travel and project portfolio!"
+        textOne="Hi I'm Hazie & this is my travel & portfolio site!"
         textTwo="こんにちは！冒険好きのヘイジーです。"
         textThree="안녕하세요! 모험 좋아하는 헤이지에요."
         textFour="你好! Willkommen! नमस्ते"
-        countOne={44}
-        countTwo={25}
+        countOne={52}
+        countTwo={30}
         countThree={22}
         countFour={24}
       />

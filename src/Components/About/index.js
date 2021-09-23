@@ -14,7 +14,7 @@ function About() {
           alt="Hazie the vampire"
           title="Hey, I'm Hazie!"
           text={
-            "Since studying abroad in Japan, I haven't stopped exploring! I lived in Japan, South Korea, Austria & India. I also spent some months hitchhiking around Europe."
+            "Since studying abroad in Japan, I haven't stopped exploring! I lived in Japan, South Korea, Austria & India as well as some months hitchhiking around Europe."
           }
           textTwo="In my free time, I like creating picturebooks, photobooks and recently I am learning to code! Check out my projects and more around this site. Thanks so much for visiting! :)"
           logo={"https://i.ibb.co/qpQ5gPJ/githublogo.png"}
@@ -30,7 +30,7 @@ function About() {
           }
           alt="it's me"
           subheading="Background 🌎"
-          textOne="I studied Psychology at university and spent one year studying abroad in Japan. This exchange year awakened my calling to adventure, so since graduating I have been living and exploring different countries. I travel on a very low budget and enjoy most meeting new people and learning the local language. I can speak Japanese, Korean and I'm learning traditional Chinese!"
+          textOne="I studied Psychology at university and spent one year studying abroad in Japan. This exchange year awakened my calling to adventure, so since graduating I have been living and exploring different countries. I travel on a very low budget and most enjoy meeting new people and learning new languages. Currently, I can speak Japanese, Korean and I'm learning traditional Chinese."
           textTwo="Everyday can be an adventure! This is why I love hitchhiking and couchsurfing. I've also spent time volunteering, as an au pair, and teaching English to children and adults. I'm dreaming of vanlife and building a tiny house! "
         />
 

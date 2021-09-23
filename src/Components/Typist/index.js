@@ -21,13 +21,13 @@ function MyTypist({
   return (
     <div className={styles.TypistBox}>
       {count ? (
-        <Typist avgTypingDelay={100} onTypingDone={() => setCount(0)}>
+        <Typist avgTypingDelay={120} onTypingDone={() => setCount(0)}>
           <span className={styles.TypistText}>{textOne}</span>
-          <Typist.Backspace count={countOne} delay={1800} />
+          <Typist.Backspace count={countOne} delay={1900} />
           <span className={styles.TypistText}>{textTwo}</span>
-          <Typist.Backspace count={countTwo} delay={1800} />
+          <Typist.Backspace count={countTwo} delay={1900} />
           <span className={styles.TypistText}>{textThree}</span>
-          <Typist.Backspace count={countThree} delay={1800} />
+          <Typist.Backspace count={countThree} delay={1900} />
           <span className={styles.TypistText}> {textFour}</span>
           <Typist.Backspace count={countFour} delay={800} />
           <span> </span>
