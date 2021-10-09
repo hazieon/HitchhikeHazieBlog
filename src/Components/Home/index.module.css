@@ -106,7 +106,7 @@ button {
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 #explainImageThree {
-  background-image: url("https://i.ibb.co/DQrcZxD/received-2396607630564628.jpg");
+  background-image: url("https://i.ibb.co/20zgrQq/DSC-0666-2.jpg");
   box-shadow: -4px 4px 0px 0px var(--purple);
 }
 
@@ -121,7 +121,7 @@ button {
 }
 
 #explainImageThree:hover {
-  background-image: url("https://i.ibb.co/20zgrQq/DSC-0666-2.jpg");
+  background-image: url("https://i.ibb.co/DQrcZxD/received-2396607630564628.jpg");
   transform: scale(110%);
 }
 

@@ -33,7 +33,7 @@ function MyGallery({ photosArray }) {
           return (
             <img
               src={photo}
-              alt="gallery"
+              alt="Loading... Travel gallery"
               className={styles.thumbnail}
               onClick={() => displayPhoto(index)}
             />

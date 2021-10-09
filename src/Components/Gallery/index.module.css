@@ -5,6 +5,7 @@
 
 .thumbnail {
   height: 200px;
+  min-width: 100px;
   border: 3px solid var(--light-shade);
   margin: 0.3rem;
   border-radius: 4px;
